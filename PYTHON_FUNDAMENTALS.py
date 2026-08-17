@@ -48,10 +48,11 @@
                       #  <------------VARIABLES---------------->
 
 
-
-# Variables are used to store and name data.
-# Variables python mai ek container ki tarah kaam karte hai jisme hum data ko store kar sakte hai
-# aur uska naam de sakte hai.Or time ke sath hum us data ko change bhi kar sakte hai.
+# Python variables are used to store/refer to data (objects) so we can use that data later in a 
+# program.
+# Python mein variable ek naam hota hai jo kisi object ya value ko refer karta hai. Python mein 
+# variable banane ke liye var, let ya const jaisa koi keyword use nahi hota, hum simply 
+# name = value likhte hain.
 
 # PYTHON mai JS ki tarah variable declare karne ke liye 'var','let' ya 'const' ka use nhi karte.
 
@@ -62,6 +63,6 @@
 # name = "Tayyab"
 # print(name)
 
-# name is the variable.
-# = mtlb store the value in the variable.
+# name is the variable name.
+# = mtlb assign the value in the variable.
 # "Tayyab" is the value of that variable.
