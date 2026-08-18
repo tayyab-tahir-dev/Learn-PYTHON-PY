@@ -16,6 +16,8 @@
 
 
                    # <--------INTERPRETER IN PYTHON----------->
+
+
 # A Python interpreter is a program that reads and executes Python code so your computer can run 
 # it.
 
@@ -34,6 +36,8 @@
 
 
                     # <--------NAMING RULE IN PYTHON----------->
+
+
 
 # NAMING RULE mtlb ki hum variable ka naam kaise rakh sakte hai.Inkay kuch rules hai jo hume 
 # follow karnay parta hai.
@@ -72,6 +76,11 @@
                             #  <-----------DATA TYPES-------------->
 
 
+# INTERVIEW STYLE DEFINATION:
+# A DATATYPE defines the type of value and determines what operations can be performed on that 
+# value.
+
+
 # A data type defines the type of value and determines what operations can be performed on that 
 # value.
 
@@ -81,6 +90,11 @@
 
 
                              # <----------DYNAMIC TYPING---------->
+
+
+# INTERVIEW STYLE DEFINATION:
+# DYNAMIC TYPING means that in Python, you don't need to declare the data type of a variable 
+# explicitly; Python determines the type at runtime.
 
 # Python mein variable ka data type permanently fixed nahi hota. Jo value variable ko di jati 
 # hai, Python runtime par us value ka type determine karta hai.Hum baar baar variable ki value 
@@ -107,6 +121,11 @@
                 # <----------------MEMORY IN PYTHON----------------->
 
 
+
+# INTERVIEW STYLE DEFINATION:
+# Memory (RAM) is the part of a computer where data and objects are temporarily stored while a 
+# program is running.
+
 # Memory (RAM) computer ki woh jagah hai jahan program ke run hone ke waqt data aur objects 
 # temporarily store hote hain.                
 
@@ -127,8 +146,13 @@
 
                       # <---------------REFERENCE IN PYTHON--------------->
 
-# Reference name aur object ke darmiyan connection hota hai, jiski wajah se name us object ko 
-# access kar sakta hai.
+
+# INTERVIEW STYLE DEFINATION:
+# A REFERENCE is a connection between a variable name and an object in memory, allowing the 
+# variable to access that object.
+
+# Reference variable name aur object ke darmiyan connection hota hai, jiski wajah se name us 
+# object ko access kar sakta hai.
 
 # Jab hum variable ko kisi value say assign karte hain, Python us value ke liye memory mein ek 
 # object create karta hai aur variable name ko us object ka reference assign karta hai. 
