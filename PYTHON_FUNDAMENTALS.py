@@ -124,3 +124,29 @@
 # hai or us object ki value ko print krta hai.
 
 
+
+                      # <---------------REFERENCE IN PYTHON--------------->
+
+# Reference name aur object ke darmiyan connection hota hai, jiski wajah se name us object ko 
+# access kar sakta hai.
+
+# Jab hum variable ko kisi value say assign karte hain, Python us value ke liye memory mein ek 
+# object create karta hai aur variable name ko us object ka reference assign karta hai. 
+
+# Multiple names can reffer to same object.
+
+# x = 10
+
+# Python 10 ka object memory mein create karta hai.
+# 10 wala object memory mein exist karta hai.
+# Python x naam ko us 10 object ke saath associate karta hai.
+# Ab x 10 ko refer karta hai
+
+# Jub Hum.
+
+# print(x)
+
+# likhtay hai, Python x ke through 10 object ko access karta hai aur 10 result milta hai.
+
+
+
