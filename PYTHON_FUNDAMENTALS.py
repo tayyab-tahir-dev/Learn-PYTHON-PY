@@ -48,8 +48,8 @@
                       #  <------------VARIABLES---------------->
 
 
-# Python variables are used to store/refer to data (objects) so we can use that data later in a 
-# program.
+# Python variables are used to store/refer data (objects) so we can use that data later in a program.
+
 # Python mein variable ek naam hota hai jo kisi object ya value ko refer karta hai. Python mein 
 # variable banane ke liye var, let ya const jaisa koi keyword use nahi hota, hum simply 
 # name = value likhte hain.
@@ -66,3 +66,17 @@
 # name is the variable name.
 # = mtlb assign the value in the variable.
 # "Tayyab" is the value of that variable.
+
+
+ 
+                            #  <-----------DATA TYPES-------------->
+
+
+# A data type defines the type of value and determines what operations can be performed on that 
+# value.
+
+
+# USE OF TYPE() FUNCTION:
+# A TYPE() Function is used to check DATATYPE of values.
+
+
