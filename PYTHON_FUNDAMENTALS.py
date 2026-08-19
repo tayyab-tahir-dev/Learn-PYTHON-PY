@@ -23,9 +23,9 @@
 
 # print("Hello World")
 
-# Python interpreter is code ko bytecode mein convert karta hai.
-# Python Virtual Machine (PVM) bytecode ko read karti hai.
-# PVM is bytecode ki instructions ko execute karwati hai.
+# Python code ko read krti hai
+# code ko bytecode mein convert karti hai.
+# Python Virtual Machine (PVM) us bytecode ko execute karti hai.
 # Aakhir mein CPU task perform karta hai or result show krvata hai.
 
 # CPU khud screen par result show nahi karta. CPU calculation/operations karta hai, phir 
@@ -82,13 +82,13 @@
 
                              # <----------DYNAMIC TYPING---------->
 
-#  Python mein variable ka data type permanently fixed nahi hota. Jo value variable ko di jati 
+# Python mein variable ka data type permanently fixed nahi hota. Jo value variable ko di jati 
 # hai, Python runtime par us value ka type determine karta hai.Hum baar baar variable ki value 
 # change kr sktay hai or uska DATATYPE bi change ho jata hai.Isko DYNAMIC TYPING kehtay hai.
 
 # EXAMPLE:
 
-# Yha pr 1 he variable hai 'a' but uski value or datatype chage ho rhi hai.
+# Yha pr aik he variable hai 'a' but uski value or datatype change ho rhi hai.
 
 # a = 10
 # print(a)
@@ -101,3 +101,26 @@
 # a = True
 # print(a)
 # print(type(a))
+
+
+
+                # <----------------MEMORY IN PYTHON----------------->
+
+
+# Memory (RAM) computer ki woh jagah hai jahan program ke run hone ke waqt data aur objects 
+# temporarily store hote hain.                
+
+# Python program run hota hai to Python ko apne objects ke liye computer ki memory use karni 
+# parti hai.
+
+# EXAMPLE:
+
+# x = 10
+# Is code ko run karne par Python 10 ko memory mein ek object ke taur par rakhta hai.or x us object
+# ko reffer krta hai.
+
+# print(x)
+# Or jub hum yha x ki value print kartay hai to python memory may ja ke x ka refference find krta 
+# hai or us object ki value ko print krta hai.
+
+
