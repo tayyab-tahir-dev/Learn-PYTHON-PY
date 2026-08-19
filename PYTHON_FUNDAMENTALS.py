@@ -11,7 +11,7 @@
 
 # SIMPLE EXAMPLE OF REPL IS:
 # REPL mai hum apna code line-by-line likhte hai aur uska output immediately dekhta hai.For 
-# texting
+# testing
 
 
 
@@ -79,11 +79,6 @@
 # INTERVIEW STYLE DEFINATION:
 # A DATATYPE defines the type of value and determines what operations can be performed on that 
 # value.
-
-
-# A data type defines the type of value and determines what operations can be performed on that 
-# value.
-
 
 # USE OF TYPE() FUNCTION:
 # A TYPE() Function is used to check DATATYPE of values.
