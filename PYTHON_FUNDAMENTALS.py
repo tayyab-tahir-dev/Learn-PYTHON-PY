@@ -169,3 +169,30 @@
 
 
 
+                     # <--------BYTECODE IN PYTHON----------->
+
+
+#  BYTECODE is an intermediate form of our code that is executed by the Python Virtual Machine 
+# (PVM).
+
+# BYTECODE mein conceptually instructions hoti hain:
+
+# 10 ko load karo
+# x mein store karo
+# x ki value lao
+# print karo
+
+# PHIR KAAM (PVM) KARTA HAI:
+# Phir PVM in bytecode instructions ko one by one execute karti hai.
+
+
+ 
+                    # <--------PYTHON VIRTUAL MACHINE (PVM)----------->
+
+
+# PVM (Python Virtual Machine) Python ke andar ek execution engine hoti hai jo bytecode ko 
+# execute karti hai.
+# Yani PVM ka main kaam hai:
+# Bytecode ki instructions ko read karna aur unko execute karna.
+
+
