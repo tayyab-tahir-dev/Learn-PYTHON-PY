@@ -80,3 +80,24 @@
 # A TYPE() Function is used to check DATATYPE of values.
 
 
+                             # <----------DYNAMIC TYPING---------->
+
+#  Python mein variable ka data type permanently fixed nahi hota. Jo value variable ko di jati 
+# hai, Python runtime par us value ka type determine karta hai.Hum baar baar variable ki value 
+# change kr sktay hai or uska DATATYPE bi change ho jata hai.Isko DYNAMIC TYPING kehtay hai.
+
+# EXAMPLE:
+
+# Yha pr 1 he variable hai 'a' but uski value or datatype chage ho rhi hai.
+
+# a = 10
+# print(a)
+# print(type(a))
+
+# a = "Tayyab"
+# print(a)
+# print(type(a))
+
+# a = True
+# print(a)
+# print(type(a))
