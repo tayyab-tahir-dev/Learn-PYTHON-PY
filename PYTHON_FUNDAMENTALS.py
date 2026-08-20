@@ -196,3 +196,29 @@
 # Bytecode ki instructions ko read karna aur unko execute karna.
 
 
+
+                # <--------------MUTABLE VS IMMUTABLE----------->
+
+
+# MUTABLE:
+# INTERVIEW STYLE DEFINATION: 
+# Mutability is the ability of an object to be modified after it has been created.
+
+# Mutability ka matlab hai: kisi existing object ko create hone ke baad modify kar sakna.
+
+# EXAMPLE OF MUTABLE OBJECTS:
+# List, Set, Dictionary
+
+
+# IMMUTABLE:
+# INTERVIEW STYLE DEFINATION:
+# Immutability means that an object cannot be modified after it has been created.
+
+# Immutability ka matlab hai: kisi existing object ko create hone ke baad uski value modify nahi 
+# kar sakte.Balkay new object create kr kay refer kr sktay hai.
+
+# EXAMPLE OF IMMUTABLE OBJECTS:
+# String, Tuple, Integer, Float, Boolean
+
+
+
