@@ -257,7 +257,6 @@
 #4) Logical Operators
 #5) Identity Operators
 #6) Membership Operators
-#7) Exponentiation Operators
 
 
 #1) Arithmetic Operators:
@@ -409,3 +408,59 @@
 # a **= 5
 # print(a) # Output: 100000
 
+
+# 4) LOGICAL OPERATORS:
+# INERVIEW STYLE DEFINATION:
+
+# Logical operators are used to combine or manipulate Boolean conditions.
+
+# SIMPLE UNDERSTANDING:
+
+# Logical operators Boolean conditions ko combine ya reverse karne ke liye use hote hain.
+
+# TYPES OF LOGICAL OPERATORS:
+# 1) LOGICAL AND
+# 2) LOGICAL OR
+# 3) LOGICAL NOT 
+
+# 1) LOGICAL AND:
+# TUB TRUE DETA HAI JUB DONO CONDITONS TRUE HO.
+
+# a = 10
+# b = 20
+# print(a > 5 and b < 30)
+
+
+# 2) LOGICAL OR:
+# TUB TRUE DETA HAI JUB KAM AZ KAM 1 CONDITION TRUE HO:
+
+# a = 10
+# b = 20
+# print(a > 5 or b < 10)
+
+
+# 3) LOGICAL NOT:
+# RESULT KO REVERSE (TRUE KO FALSE OR FALSE KO TRUE) KR DETA HAI:
+
+# a = 10
+# print(not (a > 5))
+
+
+
+# SIMPLE:
+
+# and → dono conditions True honi chahiye
+# or  → kam az kam ek condition True honi chahiye
+# not → result ko reverse karta hai
+
+
+# IMPORTANT:
+
+# True and True   → True
+# True and False  → False
+
+# True or False   → True
+# False or False  → False
+
+# not True        → False
+# not False       → True
