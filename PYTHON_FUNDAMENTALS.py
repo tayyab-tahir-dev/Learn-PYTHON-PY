@@ -464,3 +464,8 @@
 
 # not True        → False
 # not False       → True
+
+# Use kahan hota hai?
+
+# Logical operators tab useful hote hain jab program mein ek se zyada conditions ko check karna 
+# ho. 
