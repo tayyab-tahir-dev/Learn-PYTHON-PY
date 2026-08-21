@@ -28,10 +28,11 @@
 # Python code ko read krti hai
 # code ko bytecode mein convert karti hai.
 # Python Virtual Machine (PVM) us bytecode ko execute karti hai.
-# Aakhir mein CPU task perform karta hai or result show krvata hai.
+# Aakhir mein CPU task perform karta hai 
+# operating system + terminal result show krvata hai.
 
 # CPU khud screen par result show nahi karta. CPU calculation/operations karta hai, phir 
-# operating system + terminal/display system result ko screen par show karte hain.
+# /display system result ko screen par show karte hain.
 
 
 
@@ -79,6 +80,20 @@
 # INTERVIEW STYLE DEFINATION:
 # A DATATYPE defines the type of value and determines what operations can be performed on that 
 # value.
+
+# TYPES of DATATPES in PYTHON:
+# 1) Numeric Data Types:
+#     a) Integer               
+#     b) Float                 
+#     c) Complex               
+# 2) Sequence Data Types:
+#     a) String 
+#     b) List
+#     c) Tuple
+# 3) Set Data Types:
+#     a) Set
+# 4) Mapping Data Types:
+#     a) Dictionary
 
 # USE OF TYPE() FUNCTION:
 # A TYPE() Function is used to check DATATYPE of values.
@@ -221,4 +236,176 @@
 # String, Tuple, Integer, Float, Boolean
 
 
+
+               # <-----------------OPERATORS----------------->
+
+
+# INTERVIEW STYLE DEFINATION:
+
+# An OPERATOR is a symbol or keyword used to perform an operation on values or objects.
+
+# SIMPLE  UNDERSTANDING:
+# OPERATOR ek special symbol ya keyword hota hai jo Python mein values/objects par koi operation 
+# perform karne ke liye use hota hai.
+
+
+# TYPES OF OPERATORS:
+
+#1) Arithmetic Operators
+#2) Comparison Operators
+#3) Assignment Operators
+#4) Logical Operators
+#5) Identity Operators
+#6) Membership Operators
+#7) Exponentiation Operators
+
+
+#1) Arithmetic Operators:
+# INTERVIEW STYLE DEFINATION:
+
+# Arithmetic Operators are used to perform mathematical operations like addition, subtraction,
+# multiplication, division, etc. on numeric values.
+
+# TYPES OF ARITHMETIC OPERATORS:
+# 1) Addition (+)
+
+# a = 10
+# b = 5
+# print(a + b) # Output: 15
+
+
+# 2) Subtraction (-)
+
+# print(a - b) # Output: 5
+
+
+# 3) Multiplication (*)
+
+# print(a * b) # Output: 50
+
+
+# 4) Division (/)
+
+# print(a / b) # Output: 2.0
+
+
+# 5) Floor Division (//)
+
+# print(a // b) # Output: 2
+
+
+# 6) Modulus (%)
+
+# print(a % b) # Output: 0
+
+
+# 7) Exponentiation (**)
+
+# print(a ** b) # Output: 100000
+
+
+
+# 2) Comparison Operators:
+# INTERVIEW STYLE DEFINATION:
+
+# Comparison Operators are used to compare two values and return a Boolean result (True or False).
+
+# SIMPLE UNDERSTANDING:
+# Comparison operators ka kaam do values ko compare karna hota hai.
+
+# TYPES OF COMPARISON OPERATORS:
+
+# 1) Equal to (==)
+
+# a = 10
+# b = 5
+# print(a == b) # Output: False
+
+
+# 2) Not equal to (!=)
+
+# print(a != b) # Output: True
+
+
+# 3) Greater than (>)
+
+# print(a > b) # Output: True
+
+
+# 4) Less than (<)
+
+# print(a < b) # Output: False
+
+
+# 5) Greater than or equal to (>=)
+
+# print(a >= b) # Output: True
+
+
+# 6) Less than or equal to (<=)
+
+# print(a <= b) # Output: False
+
+
+
+# 3) Assignment Operators:
+# INTERVIEW STYLE DEFINATION:
+
+# Assignment Operators are used to assign values to variables.
+
+# SIMPLE UNDERSTANDING:
+# Assignment operators ka kaam variable ko value assign karna hota hai.
+
+# TYPES OF ASSIGNMENT OPERATORS:
+
+# 1) Assignment (=)
+# a = 10
+
+# 2) Add and assign (+=)
+
+# a = 10
+# a += 5 
+# print(a) # Output: 15
+
+
+# 3) Subtract and assign (-=)
+
+# a = 10
+# a -= 5
+# print(a) # Output: 5
+
+
+# 4) Multiply and assign (*=)
+
+# a = 10
+# a *= 5
+# print(a) # Output: 50
+
+
+# 5) Divide and assign (/=)
+
+# a = 10
+# a /= 5
+# print(a) # Output: 2.0
+
+
+# 6) Floor divide and assign (//=)
+
+# a = 10
+# a //= 5
+# print(a) # Output: 2
+
+
+# 7) Modulus and assign (%=)
+
+# a = 10
+# a %= 5
+# print(a) # Output: 0
+
+
+# 8) Exponentiate and assign (**=)
+
+# a = 10
+# a **= 5
+# print(a) # Output: 100000
 
