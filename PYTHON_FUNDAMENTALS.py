@@ -603,3 +603,54 @@
 # print(f"My Name Is {name}")
 # print(f"My Age Is {age}")
 # print(f"Next Year I Will Be {age + 1}")
+
+
+
+
+                        # <----------NUMBERS---------->
+# Python mein numbers represent karne ke liye different numeric data types available hain.
+
+# TYPES:
+# 1) int
+# 2) float 
+# 3) complex
+
+
+# 1) int
+
+# INTERVIEW STYLE DEFINATION:
+# int represents whole numbers without a decimal point.
+# NEGATIVE numbers bi int hai.
+
+# EXAMPLE:
+
+# a = 20
+# print(type(a))
+
+
+# temperature = -5
+# print(type(temperature))
+
+
+# 2) float:
+# float represents numbers with a decimal point.
+# yha bi NEGATIVE NUMBERS float may atay hai.
+
+# EXAMPLE:
+
+# a = 5.9
+# print(type(a))
+
+
+# temperature = -2.3
+# print(type(temperature))
+
+
+# 3) COMPLEX:
+# complex represents numbers with real and imaginary parts.
+# Python mein j imaginary part ko represent karta hai:
+
+# EXAMPLE:
+
+# z = 2 + 5J
+# print(type(z))
