@@ -654,3 +654,9 @@
 
 # z = 2 + 5J
 # print(type(z))
+
+
+# z = 3 + 4j
+
+# print(z.real)
+# print(z.imag)
