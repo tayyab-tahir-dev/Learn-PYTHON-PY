@@ -539,3 +539,32 @@
 
 # numbers = [10, 20, 30]
 # print(10 not in numbers)
+
+
+
+                     # <----------STRING DATATYPE---------->
+
+
+# INTERVIEW STYLE DEFINATION:
+# A string is a sequence of characters used to represent text in Python.
+
+# SIMPLE UNDERSTANDING:
+# String characters ka sequence hota hai jo Python mein text represent karne ke liye use hota hai.
+
+# Har vo chiz jo (' ') ya double (" ") quotes ke andar ho, woh string hota hai. 
+
+# EXAMPLE:
+
+# a = "Tayyab"
+# print(type(a))
+
+
+# int value hai but jub quotes may likh to yeh bi string ban gyi.
+
+# b = "10"
+# print(type(b))
+
+# Asay he koi bi type ka data ho usko double ya single quotes may likh  do vo string ban jay gi.
+
+
+
