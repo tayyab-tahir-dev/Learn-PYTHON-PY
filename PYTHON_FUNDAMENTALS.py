@@ -568,3 +568,38 @@
 
 
 
+                        # <----------F-STRING---------->
+
+
+
+# INTERVIEW STYLE DEFINATION:
+# An f-string is a string that allows variables and expressions to be embedded directly inside 
+# it using curly braces {}.
+
+# SIMPLE:
+# f-string aisi string hoti hai jisme hum variables ya expressions ki values directly text ke 
+# andar insert kar sakte hain.
+
+# SOME EXAMPLES:
+
+# name = "TAYYAB"
+# print(f"My Name is {name}")
+
+
+# my_name = "Tayyab"
+# my_age = 18
+# print(f"My Name Is {my_name} And I'm {my_age} Years Old")
+
+
+# a = 10
+# b = 20
+# total = (f"Total is {a + b}")
+# print(total)
+
+
+# name = "Tayyab"
+# age = 18
+
+# print(f"My Name Is {name}")
+# print(f"My Age Is {age}")
+# print(f"Next Year I Will Be {age + 1}")
