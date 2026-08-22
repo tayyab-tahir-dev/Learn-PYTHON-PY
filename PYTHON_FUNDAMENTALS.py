@@ -469,3 +469,73 @@
 
 # Logical operators tab useful hote hain jab program mein ek se zyada conditions ko check karna 
 # ho. 
+
+
+
+                # <-----------IDENTITY OPERATOR----------->
+
+# INTERVIEW STYLE DEFINATION:
+# IDENTITY OPERATORS are used to check whether two variables refer to the same object.
+
+# SIMPLE UNDERSTAND:
+# IDENTITY OPERATORS check karte hain ke do variables same object ko refer kar rahe hain ya nahi.
+# Memory location same hai ya nhi.
+
+# TYPES OF IDENTITY OPERATORS:
+# 1) is
+# 2) is not 
+
+# 1) is
+# The operator is used to compare whether two objects are same or not.It returns TRUE when memory
+# location of two are same else it returns false.
+
+# EXAMPLE:
+# a = 10
+# b = 10
+# print(a is b)
+
+
+# 2) is not
+# This operator is works in reverse manner for is operator.
+# It returns true if memory location of two objects are not same and if they are same it returns 
+# false.
+
+# EXAMPLE:
+
+# a = 10
+# b = 20 
+# print(a is not b)
+
+
+
+
+                   # <----------MEMBERSHIP OPERATOR---------->
+
+
+# INTERVIEW STYLE DEFINATION:
+# Membership operators are used to check whether a value exists in a sequence or collection.
+
+# SIMPLE UNDERSTANDING:
+# Membership operators check karte hain ke koi value kisi collection ya sequence ke andar
+# موجود hai ya nahi.
+
+# TYPES OF MEMBERSHIP OPERATOR:
+# 1) in
+# 2) not in
+
+# 1) in
+# Check krta hai Kya ye value is collection ke andar موجود hai?
+
+# EXAMPLE:
+
+# numbers = [10, 20, 30]
+# print(10 in numbers)
+
+
+# 2) not in
+# Check krta hai Kya ye value collection ke andar موجود nahi hai?
+
+# EXAMPLE:
+
+# numbers = [10, 20, 30]
+# print(10 not in numbers)
