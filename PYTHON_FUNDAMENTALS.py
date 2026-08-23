@@ -660,3 +660,142 @@
 
 # print(z.real)
 # print(z.imag)
+
+
+
+                            # <----------BOOLEAN---------->
+
+
+
+# BOOLEAN is a data type with two possible values: True and False.
+
+# EXAMPLE:
+
+# is_logged_in = True
+# is_admin = False
+
+# print(is_logged_in)
+# print(is_admin)
+
+# print(type(is_logged_in))
+# print(type(is_admin))
+
+# MORE EXAMPLE:
+
+
+# age = 18
+
+# print(age >= 18)
+# print(age < 18)
+
+
+                               # <----------NONE---------->
+
+
+# INTERVIEW STYLE DEFINATION:
+# None is a special value used to represent the absence of a value.
+
+# None Python mein ek special value hai jo represent karti hai ke currently koi value nahi hai 
+# / no value.
+
+# SOME EXAMPLES:
+
+# name = None
+
+# print(name)
+# print(type(name))
+# print(name is None)
+
+
+# result = None
+
+# if result is None:
+#     print("No result available")
+
+
+# phone_number = None
+# print(phone_number)
+
+
+# SOME IMPORTANT QUESTIONS:
+
+# Q1: Is None a data type in Python?
+
+# Correct answer:
+
+# No. None is a special singleton value, and its data type is NoneType.
+
+# Q2: What is None used for?
+
+# None is used to represent the absence of a value or the lack of a meaningful result.
+
+# Q3: What is the type of None?
+
+# The type of None is NoneType.
+
+# Q4: Why do we use is None instead of == None?
+
+# Because None is a singleton object, and is None checks whether the variable refers to that 
+# exact None object.
+
+
+
+                       # <----------TYPE-CONVERSION---------->
+
+
+# INTERVIEW STYLE DEFINATION:
+# Type conversion is the process of converting a value from one data type to another using 
+# functions such as int(), float(), str(), and bool().
+
+# SIMPLE:
+# Type conversion is the process of converting a value from one data type to another.
+
+# SOME EXAMPLES:
+
+# yha pr 10 string tha usay int may convert kr dia. str()
+
+# a = "10"
+
+# print(type(a))
+# a = int(a)
+
+
+# yha pr 10 int tha usay string may convert kr dia. int()
+
+# b = 10
+
+# b = str(b)
+# print(type(b))
+
+
+# yha pr float may convert kr dia. float()
+
+# price = "9999"
+
+# price = float(price)
+# print(type(price))
+
+# yha pr boolean may convert kr dia. bool()
+
+# a = 10
+
+# a = bool(a)
+# print(a)
+
+
+# IMPORTANT EXAMPLES:
+
+# 1)
+
+# price = "99.99"
+
+# price = float(price)
+# print(type(price))
+# print(price + 10)
+
+# 2)
+
+# age = 18
+
+# age = int(age)
+# print(age + 5)
