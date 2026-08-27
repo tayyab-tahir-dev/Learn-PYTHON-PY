@@ -31,6 +31,13 @@
 
 # - ORDERED
 # List mein elements jis order mein add kiye jaate hain, wohi order maintain rehta.
+# Iska matlab hai items ek specific sequence/position mein stored hote hain.
+
+# item1      → 0
+# item2      → 1
+# item3      → 2
+
+# Python mein indexing 0 se start hoti hai.
 
 
 # - MUTABLE:
@@ -45,3 +52,17 @@
 
 
 # yaha pr index [1] pr "ALI" ki jagha "SUBHAN" add kr dia:
+
+
+# ALLOW DUPLICATES:
+# List mein same value multiple times aa sakti hai.
+
+# numbers = [10, 20, 30, 10, 20, 30,]
+# print(numbers)
+
+
+# THEY CAN STORE DIFFERENT DATATYPES:
+
+# data_types = ["TAYYAB", 18, 3.90, True]
+# print(data_types)
+
