@@ -802,3 +802,85 @@
 
 # age = int(age)
 # print(age + 5)
+
+
+                    # <----------OPERATOR PRCEDENCE---------->
+
+# INTERVIEW STYLE QUESTION:
+# Operator precedence is the set of rules that determines the order in which operators 
+# are evaluated in an expression.                   
+
+# ROMAN URDU MAI:
+# Operator precedence rules ka woh set hai jo decide karta hai ke expression mein multiple 
+# operators mein se kis operator ko pehle evaluate kiya jayega.
+
+# SIMPLE UNDERSTANDING:
+# Jab ek expression mein multiple operators hon, to operator precedence decide karti hai ke 
+# Python kis operator ko pehle calculate karega.
+
+
+
+# IMPORTANT:
+# OPERATOR PRECEDENCE KO SMJNAY KAY LYE BODMAS/PEMDAS RULE PYTHON FOLLOW KRTI HAI:
+# JO KUCH IS TARAH WORK KRTI HAI:
+
+# BODMAS:
+
+# B → Brackets            ()
+# O → Orders (powers)     **
+# D → Division            /
+# M → Multiplication      *
+# A → Addition            +
+# S → Subtraction         -
+
+
+
+# SOME EXAMPLES:
+
+# print((10 + 5) * 2)
+# print(2 ** 3 + 5)
+# print(20 / 5 + 3)
+# print(10 + 5 * 2)
+# print(10 + 5 - 3)
+# print(20 - 5 + 2)
+
+
+
+# FULLY EXPLAINED EXAMPLE USING BODMAS RULE:
+
+
+# Visual Example BreakdownConsider 
+
+# This Python expression:
+
+# result = 5 + 3 * 2 ** 2 / (1 + 1)
+
+# Python breaks it down step-by-step:
+
+# 1) Parentheses first: (1 + 1) becomes 2
+# Expression: 5 + 3 * 2 ** 2 / 2
+
+# 2) Exponent next: 2 ** 2 becomes 4
+# Expression: 5 + 3 * 4 / 2
+
+# 3) Multiplication/Division (Left to Right): 3 * 4 happens first, becoming 12
+# Expression: 5 + 12 / 2
+
+# 4) Division next: 12 / 2 becomes 6.0
+# Expression: 5 + 6.0
+
+# 5) Addition last: 5 + 6.0 becomes 11.0
+
+
+
+# print(5 + 3 * 2 ** 2 / (1 + 1))
+
+
+# Expression in Python
+# An expression is a combination of values, variables, operators, and function calls that 
+# evaluates to a value.
+
+# Roman Urdu:
+
+# Expression values, variables, operators ya function calls ka combination hota hai jo evaluate 
+# hokar ek value produce karta hai.
