@@ -95,9 +95,16 @@
 # print(students[2])
 
 # NEGATIVE INDEXING:
+# Negative may indexing -1 say start hoti hai.
 
 # students = ["TAYYAB", "ALI", "AHMAD"]
 
 # print(students[-1])
 # print(students[-2])
 # print(students[-3])
+
+# TAYYAB      → -3
+# ALI         → -2
+# AHMAD       → -1
+
+
