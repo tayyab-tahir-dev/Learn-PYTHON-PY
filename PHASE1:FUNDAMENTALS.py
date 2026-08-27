@@ -806,6 +806,8 @@
 
                     # <----------OPERATOR PRCEDENCE---------->
 
+
+
 # INTERVIEW STYLE QUESTION:
 # Operator precedence is the set of rules that determines the order in which operators 
 # are evaluated in an expression.                   
@@ -885,83 +887,77 @@
 # Expression values, variables, operators ya function calls ka combination hota hai jo evaluate 
 # hokar ek value produce karta hai.
 
-                    # <----------OPERATOR PRCEDENCE---------->
 
-# INTERVIEW STYLE QUESTION:
-# Operator precedence is the set of rules that determines the order in which operators 
-# are evaluated in an expression.                   
+                  # <----------SHORT-CIRCUIT EVALUATION----------->
 
-# ROMAN URDU MAI:
-# Operator precedence rules ka woh set hai jo decide karta hai ke expression mein multiple 
-# operators mein se kis operator ko pehle evaluate kiya jayega.
+
+# INTERVIEW STYLE DEFINATION: 
+# It is a behavior where Python stops evaluating a logical expression as soon as its final result
+# is known.
 
 # SIMPLE UNDERSTANDING:
-# Jab ek expression mein multiple operators hon, to operator precedence decide karti hai ke 
-# Python kis operator ko pehle calculate karega.
+# Yeh aik behavior hai jha:
+# Jab Python ko logical expression ka final result pehle hi pata chal jaye, to woh baqi 
+# expression ko evaluate nahi karta.
+
+# IMPOORTANT:
+# Yeh mainly 
+
+# and
+# or 
+
+# operators ke saath Short-Circuit Evaluation hoti hai.
+# Short-Circuit Evaluation khud operator nahi hai; ye and : or ka behavior hai.
+# Yeh sirf boolean output nhi deta:
 
 
+# 1) and 
+# and mai short circuit:
 
-# IMPORTANT:
-# OPERATOR PRECEDENCE KO SMJNAY KAY LYE BODMAS/PEMDAS RULE PYTHON FOLLOW KRTI HAI:
-# JO KUCH IS TARAH WORK KRTI HAI:
+# Rule:
+# and mein agar left side Falsy ho, Python right side ko evaluate nahi karta.
 
-# BODMAS:
-
-# B → Brackets            ()
-# O → Orders (powers)     **
-# D → Division            /
-# M → Multiplication      *
-# A → Addition            +
-# S → Subtraction         -
+# EXAMPLES:
 
 
+# user = None
 
-# SOME EXAMPLES:
-
-# print((10 + 5) * 2)
-# print(2 ** 3 + 5)
-# print(20 / 5 + 3)
-# print(10 + 5 * 2)
-# print(10 + 5 - 3)
-# print(20 - 5 + 2)
+# if user is not None and user.is_active:
+#     print("Process User")
 
 
+# Explains what happens here exactly:
 
-# FULLY EXPLAINED EXAMPLE USING BODMAS RULE:
+# YAHA
+# user is not None → False
 
+# PYTHON KO ALREADY PTA HAI;
+# False and anything → False
 
-# Visual Example BreakdownConsider 
-
-# This Python expression:
-
-# result = 5 + 3 * 2 ** 2 / (1 + 1)
-
-# Python breaks it down step-by-step:
-
-# 1) Parentheses first: (1 + 1) becomes 2
-# Expression: 5 + 3 * 2 ** 2 / 2
-
-# 2) Exponent next: 2 ** 2 becomes 4
-# Expression: 5 + 3 * 4 / 2
-
-# 3) Multiplication/Division (Left to Right): 3 * 4 happens first, becoming 12
-# Expression: 5 + 12 / 2
-
-# 4) Division next: 12 / 2 becomes 6.0
-# Expression: 5 + 6.0
-
-# 5) Addition last: 5 + 6.0 becomes 11.0
+# IS LIYAY
+# user.is_active 
+# Evaluate he nhi hota:
 
 
+# 2) or 
+# or mai short circuit:
 
-# print(5 + 3 * 2 ** 2 / (1 + 1))
+# Rule:
+# or mein agar left side Truthy ho, Python right side ko evaluate nahi karta.
+# or aghar left falsy ho to right evaluate hoti hai.
+
+# EXAMPLE:
+# Yha or ko left side truthy mil gyi is lye right side evaluate nhi hui:
+
+# user_name = "Tayyab"
+
+# result = user_name or "Guest"
+# print(result)
 
 
-# Expression in Python
-# An expression is a combination of values, variables, operators, and function calls that 
-# evaluates to a value.
+# Yha pr left side falsy ho gyi but or ki vaja say right side evaluate ho gyi:
 
-# Roman Urdu:
+# user_name = ""
 
-# Expression values, variables, operators ya function calls ka combination hota hai jo evaluate 
-# hokar ek value produce karta hai.
+# result = user_name or "Guest"
+# print(result)
