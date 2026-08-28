@@ -156,9 +156,10 @@
 # - del --->
 # - clear --->
 
+
 # LIST — REMOVING ITEMS
 
-# 1. remove()
+# 1. - remove()--->
 # - Removes an item by VALUE.
 # - Removes only the first matching value.
 # - Returns None.
@@ -170,7 +171,7 @@
 # # [20, 10, 30]
 
 
-# 2. pop()
+# 2. - pop()--->
 # - Removes an item by INDEX.
 # - Returns the removed item.
 # - Without an index, removes the last item.
@@ -182,7 +183,7 @@
 # # numbers = [10, 30]
 
 
-# 3. del
+# 3. - del--->
 # - Deletes item(s) by index or slice.
 # - Can also delete the entire list variable.
 # - Does not return the removed item.
@@ -193,7 +194,7 @@
 # # [10, 30]
 
 
-# 4. clear()
+# 4. - clear()--->
 # - Removes ALL items from the list.
 # - The list itself remains.
 # - Result is an empty list.
