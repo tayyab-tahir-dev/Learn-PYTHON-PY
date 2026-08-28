@@ -154,7 +154,7 @@
 # - remove()--->
 # - pop()--->
 # - del --->
-# - clear --->
+# - clear() --->
 
 
 # LIST — REMOVING ITEMS
