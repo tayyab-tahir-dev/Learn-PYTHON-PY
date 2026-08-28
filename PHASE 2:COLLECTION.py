@@ -286,7 +286,7 @@
 # numbers.clear()
 
 # OUTPUT:
-# # []
+# []
 
 
 # QUICK MEMORY:
