@@ -159,7 +159,7 @@
 
 # LIST — REMOVING ITEMS
 
-# 1. - remove()--->
+# 1) - remove()--->
 # - Removes an item by VALUE.
 # - Removes only the first matching value.
 # - Returns None.
@@ -174,20 +174,56 @@
 # OUTPUT:
 # [20, 10, 30]
 
+# EXAMPLES:
+# students = ["Ali", "Ahmed", "Tayyab"]
 
-# 2. - pop()--->
-# - Removes an item by INDEX.
+# students.remove("Ahmed")
+# print(students)
+
+# OUTPUT:
+# ["ALI", "TAYYAB"]
+
+
+# 2) - pop()--->
+# - Removes an item by SPECIFIC INDEX.
 # - Returns the removed item.
 # - Without an index, removes the last item.
 
 # Example:
 # numbers = [10, 20, 30]
-# x = numbers.pop(1)
-# # x = 20
-# # numbers = [10, 30]
+
+# numbers.pop(1) 
+# print(numbers)
+
+# OUTPUT:
+# [10, 30]
+
+# EXAMPLE:
+# students = ["Ali", "Ahmed", "Tayyab"]
+
+# students.pop(1)
+# print(students)
+
+# OUTPUT:
+# ["Ali", "Tayyab"]
 
 
-# 3. - del--->
+# RETURNS THE REMOVED ITEM:
+# students = ["Ali", "Ahmed", "Tayyab"]
+
+# removed_student = students.pop(1)
+# print(removed_student)
+# print(students)
+
+# Agar index nahi doge to last item remove hoga.
+
+# students = ["Ali", "Ahmed", "Tayyab"]
+
+# students.pop()
+# print(students)
+
+
+# 3) - del--->
 # - Deletes item(s) by index or slice.
 # - Can also delete the entire list variable.
 # - Does not return the removed item.
@@ -198,7 +234,7 @@
 # # [10, 30]
 
 
-# 4. - clear()--->
+# 4) - clear()--->
 # - Removes ALL items from the list.
 # - The list itself remains.
 # - Result is an empty list.
