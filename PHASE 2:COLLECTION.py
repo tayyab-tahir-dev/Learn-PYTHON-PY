@@ -3,8 +3,9 @@
 
 # LIST
 
-# Definition:
-# A list is an ordered and mutable collection used to store multiple items.
+# INTERVIEW STYLE DEFINATION:
+# A Python list is an ordered, mutable collection that can store multiple items, including 
+# duplicates and different data types.
 
 # SIMPLE UNDERSTANDING:
 # List Python mein ek ordered aur mutable collection hai jo multiple items ko store karti hai.
@@ -19,8 +20,8 @@
 # - Supports indexing
 # - Supports negative indexing
 
-# Important:
-# lis()     → checks length of list
+# Important: LIST ADDITION METHODS:
+# len()     → checks length of list
 # append()  → adds one item at the end
 # insert()  → adds an item at a specific index
 # extend()  → adds multiple items
@@ -107,4 +108,41 @@
 # ALI         → -2
 # AHMAD       → -1
 
+
+# - append()--->
+# List kay last may aik item add krvana.
+
+# menu = ["FRIES", "BURGER"]
+
+# menu.append("PIZZA")
+# print(menu)
+
+
+# - insert()--->
+# Kisi specific index par item add karta hai.
+
+# menu1 = ["FRIES", "BURGER"]
+
+# menu1.insert(0, "PIZZA")
+# print(menu1)
+
+
+# - extend()--->
+# ek list mein multiple items add karne ke liye use hota hai.
+
+# IMPORTANT:
+
+
+# menu2 = ["FRIES", "BURGER"]
+
+# menu2.extend(["PIZZA", "PASTA"])
+# print(menu2)
+
+
+# IMPORTANT:
+# poori ["PIZZA", "PASTA"] ko one item samjhega.
+# menu2.extend("PIZZA", "PASTA")
+
+# ko separately add karega.
+# menu2.extend(["PIZZA", "PASTA"])
 
