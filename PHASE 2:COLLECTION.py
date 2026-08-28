@@ -103,3 +103,8 @@
 # print(students[-2])
 # print(students[-3])
 
+# TAYYAB      → -3
+# ALI         → -2
+# AHMAD       → -1
+
+
