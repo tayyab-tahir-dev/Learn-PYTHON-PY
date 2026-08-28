@@ -295,3 +295,11 @@
 # pop()    → INDEX
 # del      → DELETE
 # clear()  → ALL
+
+
+
+
+                           # <----------TUPLE---------->
+
+
+                           
