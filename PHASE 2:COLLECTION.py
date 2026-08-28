@@ -302,4 +302,12 @@
                            # <----------TUPLE---------->
 
 
-                           
+# INTERVIEW STYLE DEFINATION:
+# In PYTON A TUPLE is an ordered and immutable collection used to store multiple items.
+
+# SIMPLE UNDERSTANDING:
+# TUPLE PYTHON mai aik ordered aur immutable collection hai jo multiple items ko store karti hai.
+
+# SYNTAX:
+# my_tuple = ("item1", "item2", "item3")
+
