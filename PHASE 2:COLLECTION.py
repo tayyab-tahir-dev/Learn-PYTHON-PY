@@ -146,3 +146,66 @@
 # ko separately add karega.
 # menu2.extend(["PIZZA", "PASTA"])
 
+
+
+# LIST REMOVAL METHODS:
+# Python mein List se items remove karne ke 4 important ways hain.
+
+# - remove()--->
+# - pop()--->
+# - del --->
+# - clear --->
+
+# LIST — REMOVING ITEMS
+
+# 1. remove()
+# - Removes an item by VALUE.
+# - Removes only the first matching value.
+# - Returns None.
+# - Raises ValueError if value doesn't exist.
+
+# Example:
+# numbers = [10, 20, 10, 30]
+# numbers.remove(10)
+# # [20, 10, 30]
+
+
+# 2. pop()
+# - Removes an item by INDEX.
+# - Returns the removed item.
+# - Without an index, removes the last item.
+
+# Example:
+# numbers = [10, 20, 30]
+# x = numbers.pop(1)
+# # x = 20
+# # numbers = [10, 30]
+
+
+# 3. del
+# - Deletes item(s) by index or slice.
+# - Can also delete the entire list variable.
+# - Does not return the removed item.
+
+# Example:
+# numbers = [10, 20, 30]
+# del numbers[1]
+# # [10, 30]
+
+
+# 4. clear()
+# - Removes ALL items from the list.
+# - The list itself remains.
+# - Result is an empty list.
+
+# Example:
+# numbers = [10, 20, 30]
+# numbers.clear()
+# # []
+
+
+# QUICK MEMORY:
+# remove() → VALUE
+# pop()    → INDEX
+# del      → DELETE
+# clear()  → ALL
