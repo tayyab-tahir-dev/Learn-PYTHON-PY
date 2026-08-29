@@ -167,8 +167,12 @@
 
 # Example:
 # numbers = [10, 20, 10, 30]
+
 # numbers.remove(10)
-# # [20, 10, 30]
+# print(numbers)
+
+# OUTPUT:
+# [20, 10, 30]
 
 
 # 2. - pop()--->
