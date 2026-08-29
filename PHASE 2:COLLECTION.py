@@ -394,5 +394,67 @@
 # TUPLE mein different data types bhi store ho sakte hain:
 
 # EXAMPLE:
-data = ("Tayyab", 3.23, 10, True)
-print(data)
+# data = ("Tayyab", 3.23, 10, True)
+# print(data)
+
+# OUTPUT:
+# ("Tayyab", 3.23, 10, True)
+
+
+# - POSITIVE INDEXING--->:
+# TUPLE may items indexing say access kr sktay hai.
+
+# EXAMPLE:
+# data = ("Ali", "Ahmad", "Tayyab")
+
+# print(data[0])
+# print(data[1])
+# print(data[2])
+
+# OUTPUT:
+# Ali
+# Ahmad
+# Tayyab
+
+
+# - NEGATIVE INDEXING--->:
+# NEGATIVE INDEXING -1 say start hoti hai.
+
+# EXAMPLE:
+# data1 = ("Ali", "Ahmad", "Tayyab")
+
+# print(data1[-1])
+# print(data1[-2])
+# print(data1[-3])
+
+# OUTPUT:
+# Tayyab
+# Ahmad
+# Ali
+
+
+# - SLICING--->:
+# TUPLE may slicing differrnt hai yeh hamay vo items retun krti hai na kay list ki tarah delete.
+
+# SYNTAX:
+# tuple[start:stop]
+# stop index include nahi hota.
+
+# EXAMPLE:
+# items = ("Laptop", "KeyBoard", "Mouse", "Mobile", "Usb", "LCD")
+
+# print(items[1:3])
+
+# OUTPUT:
+# ('KeyBoard', 'Mouse')
+
+
+
+# numbers = (10, 20, 30, 40, 50)
+
+# print(numbers[1:4])
+
+# OUTPUT:
+# (20, 30, 40)
+
+
