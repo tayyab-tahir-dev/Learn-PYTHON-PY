@@ -458,3 +458,28 @@
 # (20, 30, 40)
 
 
+# - TUPLE MAY 2 MAIN BUILT-IN METHODS HAI--->:
+
+# 1) count() → VALUE KITNI BAAR AYI HAI.
+# 2) index() → VALUE KA FIRST INDEX.
+
+# 1) count()
+# BTATA HAI KAY VALUE KITNI BAAR AYI HAI TUPLE MAY.
+
+# EXAMPLE:
+# numbers = (10, 20, 30, 40, 10, 50, 10)
+
+# print(numbers.count(10))
+
+# OUTPUT:
+# 3
+
+
+# 2) index()
+# BTATA HAI KAY VALUE KA FIRST INDEX KYA HAI.
+
+# EXAMPLE:
+
+# numbers1 = (10, 20, 30, 40, 10, 50, 10)
+
+# print(numbers1.index(10))
