@@ -231,7 +231,49 @@
 # Example:
 # numbers = [10, 20, 30]
 # del numbers[1]
+
+# OUTPUT:
 # # [10, 30]
+
+
+# students = ["Ali", "Ahmed", "Tayyab"]
+
+# del students[1]
+# print(students)
+
+# OUTPUT:
+# ["Ali", "Tayyab"]
+
+
+# SLICING KAY SAT MULTIPLE ITEMS REMOVE:
+# numbers = [10, 20, 30, 40, 50, 60]
+
+# del numbers[1:4]
+# print(numbers)
+
+# OUTPUT:
+# [10, 50, 60]
+
+
+# students = ["Ali", "Ahmed", "Tayyab"]
+
+# del students[1:2]
+# print(students)
+
+# OUTPUT:
+# ["Ali", "Tayyab"]
+
+
+# Puri list ka variable bhi delete kar sakte hai:
+
+# numbers = [10, 20, 30]
+
+# del numbers
+
+# Ab numbers variable exist nahi karega.
+
+# Important difference
+# del removed item ko return nahi karta.
 
 
 # 4) - clear()--->
@@ -242,6 +284,8 @@
 # Example:
 # numbers = [10, 20, 30]
 # numbers.clear()
+
+# OUTPUT:
 # # []
 
 
