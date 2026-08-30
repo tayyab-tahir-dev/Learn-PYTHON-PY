@@ -311,3 +311,88 @@
 # SYNTAX:
 # my_tuple = ("item1", "item2", "item3")
 
+
+# Properties:
+# - Ordered
+# - Immutable
+# - Allows duplicates
+# - Can store different data types
+# - Supports indexing
+# - Supports negative indexing
+# - Supports slicing
+# - Uses ()
+
+# Important Methods:
+# count() → counts occurrences of a value
+# index() → returns first index of a value
+
+# Single-item tuple:
+# (10,) → tuple
+# (10)  → int
+
+# Tuple Packing:
+# x = 10, 20, 30
+
+# Tuple Unpacking:
+# a, b, c = (10, 20, 30)
+
+# Important:
+# Tuple cannot be directly modified,
+# added to, or have items removed.
+
+# Use Tuple:
+# When data is ordered and should remain unchanged.
+
+
+
+# - ORDERED--->:
+# LIST ki tarah TUPLE bi ORDERED hoti hai.
+
+# EXAMPLE:
+# colors = ("Red", "Orange", "Purple")
+
+# print(colors[0])
+
+# OUTPUT:
+# RED
+
+
+# red    → 0
+# green  → 1
+# blue   → 2
+
+
+# - IMMUTABLE--->:
+# Yeh TUPLE ka sabse important concept hai.
+
+# Immutable ka matlab:
+
+# Tuple create hone kay baad uskay elements ko directly change, add ya remove nhi kar saktay.
+
+# EXAMPLE:
+
+# colors = ("red", "green", "blue")
+
+# colors[0] = "yellow"
+# print(colors)
+
+
+# Yha error a jay ga q kay TUPLE IMMUTABLE hai.
+# COMPARE TO LIST: LIST may error nhi aya ga q kay vo MUTABLE hai.
+
+
+# - ALLOW DUPLICATES--->:
+# TUPLE mein same value multiple times aa sakti hai.
+
+# EXAMPLE:
+
+# numbers = (10, 20, 10, 20, 30, 40, 50, 30)
+# print(numbers)
+
+
+# - They can store different DATATYPES--->:
+# TUPLE mein different data types bhi store ho sakte hain:
+
+# EXAMPLE:
+data = ("Tayyab", 3.23, 10, True)
+print(data)
