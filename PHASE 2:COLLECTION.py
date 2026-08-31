@@ -650,3 +650,28 @@
 
 # Important:
 # Set does not support indexing or slicing.
+
+# Set automatically stores only unique elements.
+# Isi wajah se Set real programming mein bohot useful hai.
+
+
+# - Set ka sabse important feature--->:
+# Unique Values:
+
+# Set duplicates ko allow nahi karta.
+
+# numbers = {10, 20, 30, 10, 20, 30, 40, 50}
+# print(numbers)
+
+# OUTPUT:
+# {50, 20, 40, 10, 30}
+
+
+# - Set unordered hota hai--->;
+
+# numbers = {10, 20, 20}
+# print[numbers[0]]
+
+# Yeh nhi kr sktay q kay set unordered hai.
+# Set indexing aur slicing support nahi karta.
+
