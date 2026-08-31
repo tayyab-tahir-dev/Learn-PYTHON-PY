@@ -487,7 +487,8 @@
 
 
 # - SINGLE-ITEM TUPLE--->:
-# Python mein SINGLE-ITEM TUPLE ka main use yeh hota hai ke hum sirf ek value ko tuple ke form mein store kar saken.
+# Python mein SINGLE-ITEM TUPLE ka main use yeh hota hai ke hum sirf ek value ko tuple ke form 
+# mein store kar saken.
 
 # IMPORTANT:
 # SINGLE-ITEM TUPLE banane ke liye comma zaroori hai:
@@ -503,3 +504,28 @@
 # COMMA (,) kay sat
 # x = (10,)
 # print(type(x))
+
+
+# - TUPLE WITHOUT PARENTHESES--->:
+# Python mein parentheses technically mandatory nahi hain.
+# Hum PARENTHESES kay bahgar bi code likh sktay hai lekin tuple kay case may comma ( , ) 
+# important hai.
+
+# EXAMPLE:
+
+# numbers = 10, 20, 30
+# print(numbers)
+# print(type(numbers))
+
+
+# MORE EXAMPLE:
+
+# string = "TAHA", "ALI", "AHMAD"
+# print(string)
+# print(type(string))
+
+# GOLDEN POINT:-
+# Parentheses tuple banane ke liye optional ho sakte hain, lekin Python tuple ko display karte 
+# waqt parentheses use karta hai.
+# Mtlb output mai parentheses ata hai.
+
