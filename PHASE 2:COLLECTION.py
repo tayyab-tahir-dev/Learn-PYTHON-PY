@@ -529,3 +529,16 @@
 # waqt parentheses use karta hai.
 # Mtlb output mai parentheses ata hai.
 
+
+# TUPLE PACKING:
+# Multiple values ko tuple mei group/pack karna:
+
+# EXAMPLE:
+
+# a = 10, "Tayyab", True, 20
+
+# print(a)
+
+# Yha pr multiple values ko aik single tuple mai pack kr dia.
+
+
