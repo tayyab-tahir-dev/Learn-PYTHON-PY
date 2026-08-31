@@ -483,3 +483,23 @@
 # numbers1 = (10, 20, 30, 40, 10, 50, 10)
 
 # print(numbers1.index(10))
+
+
+
+# - SINGLE-ITEM TUPLE--->:
+# Python mein SINGLE-ITEM TUPLE ka main use yeh hota hai ke hum sirf ek value ko tuple ke form mein store kar saken.
+
+# IMPORTANT:
+# SINGLE-ITEM TUPLE banane ke liye comma zaroori hai:
+# EXAMPLE:
+
+# Bagar comma (,) kay yeh simple integer hai:
+# Python isko simply integer samjhega.
+# x = (10)
+# print(type(x))
+
+
+# Yeh real way hai single-item tuple create krnay ka:
+# COMMA (,) kay sat
+# x = (10,)
+# print(type(x))
