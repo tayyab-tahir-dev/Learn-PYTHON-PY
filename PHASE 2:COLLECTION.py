@@ -530,7 +530,7 @@
 # Mtlb output mai parentheses ata hai.
 
 
-# TUPLE PACKING:
+# - TUPLE PACKING--->:
 # Multiple values ko tuple mei group/pack karna:
 
 # EXAMPLE:
@@ -541,4 +541,45 @@
 
 # Yha pr multiple values ko aik single tuple mai pack kr dia.
 
+
+
+# - TUPLE UNPACKING--->:
+# Ek tuple ke multiple values ko ek hi waqt mein multiple variables mein assign karna.
+
+# EXAMPLE:
+# user_id = ("TAYYAB", 18, "PAKISTAN")
+
+# user, age, country = user_id
+
+# print(user)
+# print(age)
+# print(country)
+
+# OUTPUT:
+# TAYYAB
+# 18
+# PAKISTAN
+
+# YHA PR UNPACK HO KR USER MULTIPLE VARIABLES MAY ASSIGN KR DIA:
+
+
+
+# -TUPLE KA REAL-WORLD USE CASE:
+# Tuple tab useful hoti hai jab data ka structure fixed ho aur tum nahi chahte ke values 
+# accidentally modify ho jayein.
+
+# Example:
+# location = (31.5204, 74.3587)
+
+# Latitude aur longitude ka fixed pair.
+
+# Ya:
+
+# rgb = (255, 128, 0)
+
+# RGB values ka fixed set.
+
+# Ya database se kisi record ka fixed structure:
+
+# user = (101, "Ali", "ali@example.com")
 
