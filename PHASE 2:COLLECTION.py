@@ -10,6 +10,9 @@
 # SIMPLE UNDERSTANDING:
 # List Python mein ek ordered aur mutable collection hai jo multiple items ko store karti hai.
 
+# SYNTAX:
+# my_list = ["item1", "item2", "item3"]
+
 
 # Properties:
 # - Ordered
@@ -583,3 +586,67 @@
 
 # user = (101, "Ali", "ali@example.com")
 
+
+ 
+                              # <--------SET-------->
+
+
+# - SET--->:
+
+# INTERVIEW STYLE Definition:
+# A set is an unordered, mutable collection of unique elements/multiple items.
+
+# SIMPLE UNDERSTANDING:
+# et Python mein ek unordered aur mutable collection hai jo sirf unique elements/multiple items
+# ko store karta hai.
+
+# SYNTAX:
+
+# my_set = {"item1", "item2", "item3"}
+
+
+
+# Properties:
+# - Unordered
+# - Mutable
+# - Does NOT allow duplicates
+# - No indexing
+# - No slicing
+# - Supports membership testing
+# - Elements must be hashable
+
+# Syntax:
+# my_set = {1, 2, 3}
+
+# Empty Set:
+# set() → empty set
+# {}    → empty dictionary
+
+# Adding:
+# add()    → adds one element
+# update() → adds multiple elements
+
+# Removing:
+# remove()  → removes specified element
+#              missing element → KeyError
+
+# discard() → removes specified element
+#              missing element → no error
+
+# pop()     → removes and returns an arbitrary element
+
+# clear()   → removes all elements
+
+# Set Operations:
+# |  → Union
+# &  → Intersection
+# -  → Difference
+# ^  → Symmetric Difference
+
+# Other:
+# issubset()    → checks subset
+# issuperset()  → checks superset
+# isdisjoint() → checks no common elements
+
+# Important:
+# Set does not support indexing or slicing.
