@@ -594,11 +594,11 @@
 # - SET--->:
 
 # INTERVIEW STYLE Definition:
-# A set is an unordered, mutable collection of unique elements/multiple items.
+# A set is an unordered, mutable collection of unique elements.
 
 # SIMPLE UNDERSTANDING:
-# et Python mein ek unordered aur mutable collection hai jo sirf unique elements/multiple items
-# ko store karta hai.
+# Set Python mein ek unordered aur mutable collection hai jo sirf unique elements ko store karta
+# hai.
 
 # SYNTAX:
 
@@ -675,3 +675,76 @@
 # Yeh nhi kr sktay q kay set unordered hai.
 # Set indexing aur slicing support nahi karta.
 
+# Kyukay?
+# Kyuke Set ka purpose position-based access nahi hai.
+
+# Set ka main focus hai:
+# Uniqueness + fast membership checking.
+
+
+# - Important modern Python point--->:
+
+# Set ka output kabhi kisi particular order mein appear ho sakta hai, lekin us order par depend 
+# nahi karna chahiye.
+
+
+# - SET mutable hota hai--->:
+
+# Set ke elements ko individually index ke through modify nahi kar sakte, lekin Set ke contents ko 
+# change kar sakte ho.
+
+# - EMPTY SET--->:
+
+# data = set()
+# print(type(data))
+
+# SIMPLE:
+# set() → empty set
+# {}    → empty dictionary
+
+
+# - METHODS IN SET--->:
+
+# - ADDING METHOD--->:
+# 1) add()
+
+# Set mein item add karna.
+# AIk item add karne ke liye.
+
+# EXAMPLE:
+
+# fruits = {"Apple", "Mango", "Orange"}
+
+# fruits.add("Banana")
+# print(fruits)
+
+# OUTPUT:
+# {'Orange', 'Apple', 'Mango', 'Banana'}
+
+
+# 2) update()
+# Multiple items add krnay kay liyay:
+
+# numbers = {10, 20, 30,}
+
+# numbers.update([40, 50, 60])
+# print(numbers)
+
+# OUTPUT:
+# {40, 10, 50, 20, 60, 30}
+
+
+# - REMOVING METHOD--->:
+
+# 1) remove()
+# Set se specific value remove karne ke liye. 
+
+# EXAMPLE:
+
+# users = {"Tayyab", "Taha", "Ali"}
+
+# users.remove("Tayyab")
+# print(users)
+
+# OUTPUT:
+# {'Taha', 'Ali'} 
