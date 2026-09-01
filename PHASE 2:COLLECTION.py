@@ -748,3 +748,50 @@
 
 # OUTPUT:
 # {'Taha', 'Ali'} 
+
+# AGHAR VALUE EXIST NHI KRTI TOH ERROR AAYEGA:
+
+# 2) discard()
+# Set se specific value remove karne ke liye.
+
+# EXMAPLE:
+
+# numbers = {10, 20, 30, 40, 50}
+
+# numbers.discard(40) 
+# print(numbers)
+
+#OUPUT: 
+# {50, 20, 10, 30}
+
+# AGHAR VALUE EXIST NHI KRTI TOH BHI ERROR NHI AAYEGA:
+
+
+# 3) pop()
+# Set se random value remove karne ke liye.
+# OR us value ko return karne ke liye.  
+
+# EXAMPLE:
+
+# values = {10, 20, 30, 40, 50}
+
+# removed_value = values.pop()
+
+# print(removed_value)
+
+# print(values)
+
+
+# 4) clear()
+# Set se saari values remove karne ke liye.
+
+# EXAMPLE:
+
+# users = {"Tayyab", "Taha", "Ali"}
+
+# users.clear()
+# print(users)
+
+# OUTPUT:
+# set()
+
