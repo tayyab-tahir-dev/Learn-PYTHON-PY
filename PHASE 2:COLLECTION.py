@@ -795,3 +795,146 @@
 # OUTPUT:
 # set()
 
+
+
+# - Set Operations--->:
+
+# SET KA SUB SAY POWERFUL FEATURE HAI.
+# Sets mathematical set operations support karte hain:
+
+# |  → Union         → Do sets ke all unique elements combine karta hai.
+# &  → Intersection  → Dono sets mein jo elements common hain:
+# -  → Difference    → Pehle Set mein jo hain, lekin doosre Set mein nahi:
+# ^  → Symmetric Difference → Jo elements dono mein hain unko hata kar sirf non-common elements:
+
+# IS TARAH BI KR SKTAY HAI:
+# A.union(B)
+# A.intersection(B)
+# A.difference(B)
+# A.symmetric_difference(B)
+
+# OR 
+
+# IS TARAH BHI:
+# A | B
+# A & B
+# A - B
+# A ^ B
+
+
+# 1) Union → |
+# Do sets ke all unique elements combine karta hai:
+
+# EXAMPLE:
+
+# a = {1, 2, 3}
+# b = {3, 4, 5}
+
+# print(a | b)
+
+# OUTPUT:
+# {1, 2, 3, 4, 5}
+
+
+
+# 2) INTESECTION → &
+# Dono sets mein jo elements common hain:
+
+# EXAMPLE:
+
+# a = {1, 2, 3}
+# b = {2, 3, 4}
+
+# print(a & b)
+
+# OUTPUT:
+# {2, 3}
+
+
+
+# 3) DIFFERRENCE → -
+# Pehle Set mein jo hain, lekin doosre Set mein nahi:
+
+# EXAMPLE:
+
+# a = {1, 2, 3}
+# b = {2, 3, 4}
+
+# print(a - b)
+
+# OUTPUT:
+# {1}
+
+
+
+# 4) SYMMETRIC DIFFERRENCE → ^
+# Jo elements dono mein hain unko hata kar sirf non-common elements.
+# NON-COMON MTLB:
+# Jo elements dono sets mein same nahi hai, yani sirf ek set mein present hain.
+# JASAY.
+
+# EXMAPLE:
+
+# a = {1, 2, 3}
+# b = {2, 3, 4}
+
+# print(a ^ b)
+
+# OUTPUT:
+# {1, 4}
+
+
+# - SET COMPARISON--->:
+# Set comparison mein 3 important methods hain:
+
+# 1) issubset() → checks subset
+# 2) issuperset() → checks superset
+# 3) isdisjoint() → checks no common elements
+
+# 1) issubset() → checks subset
+# Agar set A ka saara data set B mein exist karta hai to A, B ka subset hai.
+# Agar A ka saara data B mein exist nahi karta to A, B ka subset nahi hai.
+
+# EXAMPLE:
+
+# a = {1, 2, 3}
+# b = {1, 2, 3, 4, 5}
+
+# print(a.issubset(b))
+
+# OUTPUT:
+# True
+
+
+# 2) issuperset() → checks superset
+# Aghar set b ka saara data set A mein exist karta hai to A, B ka superset hai.
+# Agar B ka saara data A mein exist nahi karta to A, B ka superset nahi hai.
+
+# EXAMPLE:
+
+# a = {1, 2, 3, 4, 5}
+# b = {1, 2, 3}
+
+# print(a.issuperset(b))
+
+# OUTPUT:
+# True
+
+
+# 3) isdisjoint() → checks no common elements
+# Agar dono sets mein koi common element nahi hai to True return karega.
+# Agar dono sets mein koi common element hai to False return karega.
+
+# EXAMPLE:
+
+# a = {1, 2}
+# b = {3, 4}
+
+# print(a.isdisjoint(b))
+
+# OUTPUT:
+# True
+
+# SET KUB USE KRNA CHAHIYE:
+# Set tab use karo jab hamay unique values chahiye hon ya membership checking karni ho or hamay
+# index-based access ki zarurat na ho.
