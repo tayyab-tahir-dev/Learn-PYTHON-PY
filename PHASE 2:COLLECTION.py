@@ -996,3 +996,70 @@
 
 # EMPTY DICTIONARY:
 # my_dict = {}
+
+
+# - Dictionary Properties--->:
+
+# 1) Key-value based
+# 2) Mutable
+# 3) Keys unique hoti hain
+# 4) Values duplicate ho sakti hain
+# 5) Insertion order preserve hota hai
+# 6) Indexing nahi hoti
+# 7) Keys hashable honi chahiye
+# 8) Different data types ki values store kar sakti hai
+
+
+# 1) 🔑 Key-Value Based:
+# Dictionary data ko key-value pairs mein store karti hai.
+
+# EXAMPLE:
+# student = {
+#     "name": "Tayyab",
+#     "age": 18,
+#     "department":"IT"
+# }
+
+
+# 2) 🔄 Mutable:
+# Dictionary ko banane ke baad uske data ko change kar sakte hain.
+
+# EXAMPLE:
+# student = {
+#     "name": "Tayyab",
+#     "age": 18,
+#     "department":"IT"
+# }
+
+# student["age"] = 19
+# print(student)
+
+
+# 3) 🔐 Keys Unique Hoti Hain:
+# Same key ko multiple times store nahi kar sakte.
+
+
+# 4) 📦 Values Duplicate Ho Sakti Hain:
+
+# EXAMPLE:
+# students = {
+#     "student1": "Ali",
+#     "student2": "Ali"
+# }
+
+
+# 5) 📌 Insertion Order Preserve Hota Hai:
+# Modern Python mein dictionary items jis order mein add kiye jate hain, iteration mein woh 
+# order preserve hota hai.
+
+# EXAMPLE:
+# data = {
+#     "name": "Ali",
+#     "age": 20,
+#     "city": "Lahore"
+# }
+
+# name
+# age
+# city
+
