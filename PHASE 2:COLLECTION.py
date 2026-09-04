@@ -981,3 +981,18 @@
 
 # Dictionary mein data ko index se nahi, key se identify/access kiya jata hai.
 
+
+# - SYNTAX--->:
+# my_dict = {
+#     "key1": "value1",
+#     "key2": "value2",
+#     "key3": "value3"
+# }
+
+
+# { }   → dictionary ko represent karte hain
+# :     → key aur value ko separate karta hai
+# ,     → multiple pairs ko separate karta hai
+
+# EMPTY DICTIONARY:
+# my_dict = {}
