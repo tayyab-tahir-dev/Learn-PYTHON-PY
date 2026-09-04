@@ -1128,3 +1128,30 @@
 
 # user_id["email"] = "tayyab@haha.com"
 # print(user_id)
+
+
+# - update() METHOD--->:
+# update() method ka use dictionary mein multiple key-value pairs add ya existing values update 
+# karne ke liye hota hai.
+
+# SYNTAX:
+# dictionary.update({
+#     "key1": "value1",
+#     "key2": "value2"
+# })
+
+# EXAMPLE:
+
+# student = {
+#     "name": "Tayyab",
+#     "email": "haha@example.com"
+# }
+
+# student.update({
+#     "email": "tayyab@example.com",
+#     "phone": 1234774920,
+#     "address": "Lahore"
+# })
+
+# print(student)
+
