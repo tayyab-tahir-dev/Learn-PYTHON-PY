@@ -938,3 +938,46 @@
 # SET KUB USE KRNA CHAHIYE:
 # Set tab use karo jab hamay unique values chahiye hon ya membership checking karni ho or hamay
 # index-based access ki zarurat na ho.
+
+
+
+                              # <-----DICTIONARY----->
+
+# - WHAT IS DICTIONARY--->:
+
+# INTERVIEW STYLE DEFINATION:
+# A dictionary is a unordered/mutable collection of key-value pairs where each key is unique and used to 
+# access its corresponding value.
+
+# SIMPLE UNDERSTANDING:
+# Dictionary ek unordered/mutable collection hai jo key-value pairs store karti hai, jahan har key unique 
+# hoti hai aur us key ke through value access ki jati hai.
+
+# EXMAPLE:
+
+# user = {
+#     "name": "Tayyab",
+#     "age": 18,
+#     "course": "Python"
+# }
+
+# print(user["name"])
+# print(user["age"])
+# print(user["course"])
+
+# OUPUT:
+# Tayyab
+# 18
+# Python
+
+# REASON:
+
+# "name"    → key
+# "Tayyab"  → value
+# "age"     → key
+# 18        → value
+# "course"  → key
+# "Python"  → value
+
+# Dictionary mein data ko index se nahi, key se identify/access kiya jata hai.
+
