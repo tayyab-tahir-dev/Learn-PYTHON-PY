@@ -1063,3 +1063,68 @@
 # age
 # city
 
+
+
+# - get() METHOD--->:
+# get() is a dictionary method used to safely access a value by key without raising a KeyError 
+# when the key is missing.
+
+# EXAMPLE:
+
+# student = {
+#     "name": "Tayyab",
+#     "age": 18
+# }
+
+# print(student.get("name"))
+
+
+
+# Yha get() error nahi deta, agar key missing ho.
+# NONE DEGA:
+
+
+# student = {
+#     "name": "Tayyab",
+#     "age": 18
+# }
+
+# print(student.get("work"))
+
+
+# Default Value
+# Hum get() ko default value bhi de sakte hai:
+
+# student = {
+#     "name": "Tayyab",
+#     "age": 18
+# }
+
+# print(student.get("city", "Not Available"))
+
+
+
+# - Dictionary Mai New Item Add Karna--->:
+# Dictionary mein new key-value pair add karne ke liye simply.
+# dictionary[key] = value
+
+# EXAMPLE:
+
+# user_id = {
+#     "name": "Tayyab",
+#     "email": "tayyab@example.com"
+# }
+
+# user_id["phone"] = "123456789037"
+# print(user_id)
+
+# Agar key already exist karti hai, to new item add nahi hota — existing value update hoti hai.
+# EXAMPLE:
+
+# user_id = {
+#     "name": "Tayyab",
+#     "email": "tayyab@example.com"
+# }
+
+# user_id["email"] = "tayyab@haha.com"
+# print(user_id)
