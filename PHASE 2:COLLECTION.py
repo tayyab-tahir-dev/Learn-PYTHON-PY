@@ -1155,3 +1155,88 @@
 
 # print(student)
 
+
+
+# - Items Remove Karna--->:
+# Dictionary se items remove karne ke 4 important ways hain:
+
+
+# | Method          | Kya remove karta hai? | Return karta hai? |
+# | --------------- | --------------------- | ----------------- |
+# |  pop(key)       | Specific key          | Removed value     |
+# |  popitem()      | Last inserted pair    |  (key, value)     |
+# |  del dict[key]  | Specific key          | Kuch return nahi  |
+# |  clear()        |   All items           | Kuch return nahi  |
+
+
+# 1)  pop()
+# 2) popitem()
+# 3) del
+# 4) clear()
+
+
+# 1) pop()
+# Specific key ko remove karta hai aur us key ki value return karta hai.
+# EXAMPLE:
+
+# student = {
+#     "name": "Tayyab",
+#     "age" : 18,
+#   "course": "Python"
+# }
+
+# removed = student.pop("age")
+# print(student)
+# print(removed)
+
+# YHA
+# "age" remove ho gayi
+# uski value 18 return ho gayi
+
+# AgHar key exist na kare:
+# key error.
+
+
+# 2) popitem()
+# Dictionary ka last inserted key-value pair remove karta hai aur us pair ko return karta hai.
+# EXAMPLE:
+
+# student = {
+#     "name": "Tayyab",
+#     "age" : 18,
+#   "course": "Python"
+# }
+
+# removed_pair = student.popitem()
+# print(student)
+# print(removed_pair)
+
+
+# del
+# Specific key ko delete karne ke liye use kar sakte hain.removed value return nahi karta.Agar 
+# key exist na kare to KeyError aa sakta hai.
+# EXAMPLE:
+
+# student = {
+#     "name": "Tayyab",
+#     "age" : 18,
+#   "course": "Python"
+# }
+
+# del student["age"]
+# print(student)
+
+
+
+# clear()
+# Dictionary ke saare items remove kar deta hai.
+# EXAMPLE:
+
+# student = {
+#     "name": "Tayyab",
+#     "age" : 18,
+#   "course": "Python"
+# }
+
+# student.clear()
+# print(student)
