@@ -1240,3 +1240,6 @@
 
 # student.clear()
 # print(student)
+
+# IMPORTANT:
+# Dictionary variable exist karta hai, bas uske andar koi item nahi rehta.
