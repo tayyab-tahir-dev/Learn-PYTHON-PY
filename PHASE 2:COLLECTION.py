@@ -1243,3 +1243,103 @@
 
 # IMPORTANT:
 # Dictionary variable exist karta hai, bas uske andar koi item nahi rehta.
+
+
+# - Important Dictionary Methods--->:
+# 1) key()        → Returns a view of all keys in the dictionary.
+# 2) values()     → Returns a view of all values in the dictionary. 
+# 3) items()      → Returns a view of all key-value pairs in the dictionary. 
+# 4) copy()       → Returns a shallow copy of the dictionary.
+# 5) setdefault() → Returns the value of a key if it exists, otherwise inserts the key with a 
+# specified value.  
+
+# 1) keys()
+# dictionary ki saari keys return karta hai.
+# EXAMPLE:
+
+# student = {
+#     "name": "Tayyab",
+#     "age" : 18,
+#   "course": "Python"
+# }
+
+# print(student.keys())
+
+# Agar list chahiye:
+
+# print(list(student.keys()))
+
+
+# 2) values()
+# dictionary ki saari values return karta hai.
+# EXAMPLE:
+
+# student = {
+#     "name": "Tayyab",
+#     "age" : 18,
+#   "course": "Python"
+# }
+
+# print(student.values())
+
+# List mein convert karna ho:
+
+# print(list(student.values()))
+
+
+# 3) items()
+# dictionary ke key-value pairs return karta hai.
+# EXAMPLE:
+
+# student = {
+#     "name": "Tayyab",
+#     "age": 18,
+#     "course": "Python"
+# }
+
+# print(student.items())
+
+# Har pair ek tuple ki form mein hota hai:
+
+# 4) copy()
+# dictionary ki shallow copy banata hai.
+# EXAMPLE:
+
+# student = {
+#     "name": "Tayyab",
+#     "age": 18
+# }
+
+# new_student = student.copy()
+
+# print(student)
+# print(new_student)
+
+
+# 5) setdefault()
+# Agar key exist nahi karti to key-value pair add karta hai. Agar key already exist karti hai to 
+# existing value ko change nahi karta.
+# EXAMPLE:
+
+# student = {
+#     "name": "Tayyab",
+#     "age": 18
+# }
+
+# student.setdefault("city", "Lahore")
+
+# print(student)
+
+# city pehle nahi thi, isliye add ho gayi.
+
+# student = {
+#     "name": "Tayyab",
+#     "age": 18
+# }
+
+# student.setdefault("age", 25)
+
+# print(student)
+
+# age already exist karti thi, isliye 18 ko 25 se replace nahi kiya.
+
