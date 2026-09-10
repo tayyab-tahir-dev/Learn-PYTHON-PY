@@ -1725,3 +1725,13 @@
 # | Key-value data            | **Dictionary** |
 
 
+                #    <------HASHABLE CONCEPT IN PYTHON------>
+
+# ABHI ITNA SMJNA IMPORTANT HAI BS:
+# JASAY JS JavaScript May "const" ka work hai iska bi vohi kaam hai.
+
+# YEH SIRF AIK CONCEPT HAI.
+# Hashable object woh object hai jiska hash value uski lifetime ke dauran change nahi hota.
+
+# MAINLY IN PR WORK KRTA HAI.
+# To allow an object to be used as a dictionary key or a set element.
