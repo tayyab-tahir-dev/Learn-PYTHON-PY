@@ -1343,3 +1343,139 @@
 
 # age already exist karti thi, isliye 18 ko 25 se replace nahi kiya.
 
+
+
+# - Nested Dictionary--->:
+# Nested Dictionary ka matlab hai ek dictionary ke andar doosri dictionary hona.
+# EXAMPLE:
+
+# students = {
+#     "student1" : {
+#           "name" : "Tayyab",
+#           "age"  : 18,
+#         "course" : "Python"
+#       },
+#       "student2" : {
+#             "name" : "Ali",
+#             "age"  : 19,
+#           "course" : "JavaScript"
+#       }
+#     }
+
+# --Nested values ko access karna:
+# --Pehle outer key:
+# print (students["student1"])
+
+# --value, jo khud ek dictionary hai, un may say kuch chahiye:
+# print(students["student1"]["name"])
+
+# Samajhne ka simple rule ⭐
+
+# Isko left se right read karo:
+
+# students → main dictionary
+# ["student1"] → student1 ki dictionary
+# ["name"] → us dictionary ki name value
+
+
+# - Nested Dictionary mein value update--->:
+# EXAMPLE:
+
+
+# students = {
+#     "student1" : {
+#           "name" : "Tayyab",
+#           "age"  : 18,
+#         "course" : "Python"
+#       },
+#       "student2" : {
+#             "name" : "Ali",
+#             "age"  : 19,
+#           "course" : "JavaScript"
+#       }
+#     }
+
+# students["student1"]["age"] = 22
+# print(students["student1"]["age"])
+
+
+# - Nested Dictionary mein new value add--->:
+# EXAMPLE:
+
+# students = {
+    # "student1" : {
+    #       "name" : "Tayyab",
+    #       "age"  : 18,
+    #     "course" : "Python"
+    #   },
+    #   "student2" : {
+    #         "name" : "Ali",
+    #         "age"  : 19,
+    #       "course" : "JavaScript"
+    #   }
+    # }
+
+# students["student1"]["id"] = 1039284408280 
+# print(students["student1"])
+
+# ---Important Points---
+# Dictionary ke andar dictionary ho sakti hai.
+# Nested dictionary ko multiple levels tak nest kiya ja sakta hai.
+# Access karne ke liye multiple keys use hoti hain.
+# Nested dictionary mein bhi dictionary mutable hoti hai.
+
+
+# - Reference & Copy--->:
+# Ye concept important hai kyunki Python mein dictionary ko doosre variable ko assign karne aur copy
+# banane mein difference hota hai.
+
+# 1) Reference kya hota hai?
+# EXAMPLE:
+
+# person = {
+#     "name" : "Tayyab",
+#     "age"  : "18"
+# }
+
+# new_person = person
+# print(new_person)
+
+
+# To new_person ne new dictionary nahi banayi.
+# Dono variables same dictionary object ko refer kar rahe hain.
+
+# new_person["age"] = 19
+# print(person)
+
+
+# 2) copy() kya karta hai?
+# EXAMPLE:
+
+# student = {
+#     "name": "Tayyab",
+#     "age": 18
+# }
+
+# new_student = student.copy()
+
+# new_student["age"] = 19
+
+# print(student)
+# print(new_student)
+
+# To copy() ek separate dictionary object banata hai.
+
+
+
+# List vs Tuple vs Set vs Dictionary:
+# List, Tuple, Set aur Dictionary ka aik sat comparison.
+
+# | Feature      | List       | Tuple            | Set          | Dictionary       |
+# | ------------ | ---------- | ---------------- | ------------ | ---------------- |
+# | Syntax       | `[]`       | `()`             | `{}`         | `{key: value}`   |
+# | Ordered      | ✅          | ✅                | ❌            | ✅*           |
+# | Mutable      | ✅          | ❌                | ✅            | ✅            |
+# | Duplicates   | ✅          | ✅                | ❌            | Keys ❌, Values ✅ |
+# | Indexing     | ✅          | ✅                | ❌            | ❌             |
+# | Key-Value    | ❌          | ❌                | ❌            | ✅             |
+# | Main purpose | Collection | Fixed collection | Unique items | Key-value data     |
