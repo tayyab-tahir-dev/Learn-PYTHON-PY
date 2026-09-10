@@ -302,6 +302,61 @@
 
 
 
+                          #<-----WHEN TO USE LIST----->
+
+
+# When to Use List
+# Ab hum ye samjhenge ke real Python programming mein List ko kab choose karna chahiye.
+# Main Rule ⭐
+
+# List tab use karo jab tumhe multiple items ko ordered form mein store karna ho aur un items
+# ko baad mein change, add ya remove bhi karna ho.
+
+# EXAMPLE:
+
+# shopping_cart = ["Mouse", "Keyboard", "Laptop", "HeadPhones"]
+
+# Agar user cart mein item add kare:
+
+# shopping_cart.append("Usb Cable")
+
+# Agar user cart mein item remove kare:
+
+# shopping_cart.remove("Mouse")
+# List yahan suitable hai kyunki cart ke items change ho sakte hain:
+
+
+# List use karne ki common situations:
+# 1) Ordered data
+
+# Jab items ka order important ho.
+
+# tasks = ["Login", "Process Payment", "Send Email"]
+
+#2) Data frequently change ho. 
+
+# students = ["Tayyab", "Ali", "Ahmad"]
+# students.append("Chand")
+
+# 3) Duplicate values allowed ho.
+
+# scores = [80, 30, 20, 80, 30]
+
+# 4) Index se item access karna ho.
+
+# fruits = ["Apple", "Mango", "Orange", "Banana"]
+# print(fruits[2])
+
+
+                         # Simple Decision Rule 🧠
+
+# Agar requirement hai:
+# "Mujhe items ka ordered collection chahiye jo change bhi ho sakta hai."
+
+# ➡️ List choose karo.
+
+
+
                            # <----------TUPLE---------->
 
 
@@ -587,6 +642,11 @@
 # user = (101, "Ali", "ali@example.com")
 
 
+
+                         # <------WHEN TO USE TUPLE------>
+
+
+                         
  
                               # <--------SET-------->
 
@@ -1479,3 +1539,6 @@
 # | Indexing     | ✅          | ✅                | ❌            | ❌             |
 # | Key-Value    | ❌          | ❌                | ❌            | ✅             |
 # | Main purpose | Collection | Fixed collection | Unique items | Key-value data     |
+
+
+
