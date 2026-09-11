@@ -645,8 +645,36 @@
 
                          # <------WHEN TO USE TUPLE------>
 
+# When to Use Tuple
+# Main Rule ⭐
 
-                         
+# Tuple tab use karni chaniye jab hamay multiple values ko ordered form mein store karna ho, 
+# lekin un values ko baad mein change nahi karna ho.
+
+# Yani:
+# Ordered + Immutable data = Tuple
+
+# 1) Fixed Data:
+# Jab data fixed ho aur program ke dauran change nahi hona.
+
+# coordinates = (31.5204, 74.3587)
+
+# 2) Related Values ka Fixed Group.
+
+# rgb = (463, 392, 248)
+
+# 3) Function se Multiple Values Return Karna.
+
+# def get_user():
+#     return ("Tayyab", 18)
+
+# 4) Dictionary ki Key ke Taur Par.
+
+# locations = {
+#     (31.5204, 74.3587): "Lahore"
+# }
+
+               
  
                               # <--------SET-------->
 
