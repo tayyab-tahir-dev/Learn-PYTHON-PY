@@ -155,3 +155,49 @@
 #     print(sum(numbers))
 
 # total(10, 20, 40)
+
+
+                  # <----------POSITIONAL ARGUMENTS---------->
+
+# DFINATION:
+# Positional arguments: Arguments are passed to a function based on their position or order.
+
+# SIMPLE UNDERSTAND:
+# Positional arguments mein values jis order mein pass hoti hain, woh usi order mein function ke 
+# parameters ko assign hoti hain.
+# EXAMPLE:
+
+# 1).
+# def student(name, age):
+#     print(name)
+#     print(age)
+
+# student("Tayyab", 18)
+
+# ---EXPLANATION---
+
+# "Tayyab" → name
+# 18       → age
+
+# Kyun?
+
+# Kyun ke "Tayyab" first position par hai aur name bhi first parameter hai.
+# 18 second position par hai aur age second parameter hai.
+
+# 2).
+# ORDER CHANGE:
+
+# def student(name, age):
+#     print(name)
+#     print(age)
+
+# student(18, "Tayyab")
+
+# 3).
+
+# def introduce(name, age, course):
+#     print("name:", name)
+#     print("age:", age)
+#     print("course:", course)
+
+# introduce("Tayyab", 18, "Python")
