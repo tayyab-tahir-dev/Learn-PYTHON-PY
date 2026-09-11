@@ -1598,15 +1598,130 @@
 # List vs Tuple vs Set vs Dictionary:
 # List, Tuple, Set aur Dictionary ka aik sat comparison.
 
-# | Feature      | List       | Tuple            | Set          | Dictionary       |
-# | ------------ | ---------- | ---------------- | ------------ | ---------------- |
-# | Syntax       | `[]`       | `()`             | `{}`         | `{key: value}`   |
-# | Ordered      | ✅          | ✅                | ❌            | ✅*           |
-# | Mutable      | ✅          | ❌                | ✅            | ✅            |
-# | Duplicates   | ✅          | ✅                | ❌            | Keys ❌, Values ✅ |
-# | Indexing     | ✅          | ✅                | ❌            | ❌             |
-# | Key-Value    | ❌          | ❌                | ❌            | ✅             |
-# | Main purpose | Collection | Fixed collection | Unique items | Key-value data     |
+# | Feature      | List       | Tuple              | Set           | Dictionary       |
+# | ------------ | ---------- | -------------------|---------------| ---------------- |
+# | Syntax       | `[]`       | `()`               | `{}`          | `{key: value}`   |
+# | Ordered      | ✅          | ✅                | ❌            | ✅*              |
+# | Mutable      | ✅          | ❌                | ✅            | ✅               |
+# | Duplicates   | ✅          | ✅                | ❌            | Keys ❌, Values ✅|
+# | Indexing     | ✅          | ✅                | ❌            | ❌               |
+# | Key-Value    | ❌          | ❌                | ❌            | ✅               |
+# | Main purpose | Collection  | Fixed collection  | Unique items  | Key-value data   |
 
+
+
+                      # <-----When to Use Dictionary----->
+
+
+# - When to Use Dictionary--->
+# Main Rule ⭐
+
+# Dictionary tab use karni chahiye jab data ko key → value relationship mein store karna
+# ho aur value ko ek meaningful key kay through access karna ho.
+
+# 1) Data ki properties ho.
+
+# products = {
+#     "name" :  "Laptop",
+#    "price" :  22000,
+#    "stock" :  15
+# }
+
+# name, price, stock meaningful keys hain
+
+# 2) Kisi value ko naam se access karna ho.
+
+# user["email"]
+
+# Yahan "email" se directly required information mil rahi hai
+
+# 3) Different types ka related data ho.
+
+# employee = {
+#     "name" : "Tayyab",
+#      "age" : 18,
+#   "salery" : 100000,
+#   "active" : True
+# }
+
+# Ek hi entity ki different information store ho rahi hai
+
+
+
+
+                        # <-------COMPANY LEVEL USE-CASE------->
+
+
+# Real companies mein List, Tuple, Set aur Dictionary ka use-case.
+
+# 1) E-commerce Company 🛒
+# Online store mein product ka data.
+
+# product = {
+#     "id" : 101,
+#   "name" : "Gaming Keyboard",
+#  "price" : 10000,
+#  "stock" : 36
+# }
+
+# ➡️ Dictionary — product ki properties store karne ke liye
+
+# SHOPPING CART.
+
+# cart = ["Laptop", "TV", "Bag"]
+
+# ➡️ List — products ki collection ke liye.
+
+
+# 2) User Management System 👤.
+
+# user = {
+#       "user_id"  : 101,
+#     "user_name"  : "Tayyab",
+#     "user_email" : "example@hhh.com",
+#         "status" : "active"
+# }
+
+# ➡️ Dictionary
+# Har user ki information meaningful keys ke saath store ki ja sakti hai
+
+# 3) AI / API Applications 🤖.
+# AI application ko API response mil sakta hai
+
+# response = {
+#     "status" : "success",
+#      "model" : "AI-Model",
+#     "tokens" : 10038
+# }
+
+# ➡️ Dictionary
+# API data ko key-value form mein handle karna bohat common hai.
+
+
+# 4) Unique Data.
+# Company ke system mein unique IDs maintain karni hon
+
+# user_ids = {101, 108, 172, 102}
+
+# ➡️ Set
+# Set duplicate IDs ko allow nahi karta
+
+
+# 5) Fixed Data.
+# Kisi application mein fixed coordinates/configuration values
+
+# location = (31.3741, 38.3294)
+
+# ➡️ Tuple
+# Kyunkay values ka fixed group represent ho raha hai.
+
+
+
+# | Requirement               | Collection     |
+# | ------------------------- | -------------- |
+# | Ordered + changeable data | **List**       |
+# | Ordered + fixed data      | **Tuple**      |
+# | Unique data               | **Set**        |
+# | Key-value data            | **Dictionary** |
 
 
