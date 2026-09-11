@@ -108,3 +108,50 @@
 #     print("course:", course )
 
 # student_info("Tayyab", "Python")
+
+
+                           # <----------*args---------->
+
+# Definition
+# *args: *args allows a function to accept any number of positional arguments.
+
+# SIMPLE UNDERSTAND:
+# *args function ko allow karta hai ke woh jitni bhi positional values receive kar sake.
+
+# Important:
+# * he batata hai ke function multiple positional arguments accept karega. args sirf 
+# variable ka naam hai.
+
+# *args kay andar jo multiple positional arguments aate hain, function ke andar woh tuple ki form mein 
+# milte hain.
+
+# EXAMPLE:
+# 1).
+
+# def add(*args):
+#     print(numbers)
+
+# add(10, 20, 40, 30, 40)
+
+# 2).
+
+# 0 argument bi de sktay hai.
+
+# def show(*args):
+#     print(args)
+
+# show()
+
+# 3).
+
+# def show(*args):
+#     print(args)
+
+# show("Tayyab", "Ali", "Ahmad")
+
+# 4).
+
+# def total(*numbers):
+#     print(sum(numbers))
+
+# total(10, 20, 40)
