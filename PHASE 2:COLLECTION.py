@@ -1,5 +1,17 @@
                   # <----------PHASE 2: COLLECTION:---------->
 
+# WHAT WE WILL COVER IN THIS SECTION:
+
+# 1) List
+# 2) When to use list
+# 3) Tuple
+# 4) When to use tuple
+# 5) Set
+# 6) When to use set
+# 7) Dictionary
+# 8) When to use dict
+# 9) Company use-cases
+
 
 # LIST
 
