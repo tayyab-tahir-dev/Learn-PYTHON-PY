@@ -1,4 +1,4 @@
-                        # <--------FUNCTIONS-------->
+                        # <--------PHASE 3: FUNCTIONS-------->
 
 # WHAT WE WILL COVER IN THIS SECTION:
 
