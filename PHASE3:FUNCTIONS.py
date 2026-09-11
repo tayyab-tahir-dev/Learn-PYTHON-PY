@@ -224,5 +224,5 @@
 # student(rollnum=2293, name="Tayyab", age=18)
 
 # EXPLANATION:
-# Yha pr position/order matter nhi krta because ython parameter ke naam dekh kar value assign 
+# Yha pr position/order matter nhi krta because Python parameter ke naam dekh kar value assign 
 # karta hai, position nahi.
