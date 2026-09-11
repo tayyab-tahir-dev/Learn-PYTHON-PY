@@ -1028,6 +1028,46 @@
 # index-based access ki zarurat na ho.
 
 
+                           # <-----When to Use Set----->
+# Main Rule ⭐
+
+# Set tab use karni chahiye jab hamay unique values store karni hon aur duplicate values nahi 
+# chahiye.
+
+# Yani:
+
+# Unique data = Set
+
+# 1) Duplicate Values Remove Karni Hon.
+
+# user_ids = {103, 482, 2383, 103, 482}
+# print(user_ids)
+
+# 2) Membership Check Karna Ho
+# Agar check karna ho ke koi item exist karta hai.
+
+# skills = {"Python", "AI", "SQL", "JavaScript"}
+# print("AI" in skills)
+
+
+# 3) Common / Non-Common Data Find Karna Ho.
+
+# python_students = {"Ali", "Tayyab", "Ahmed"}
+# ai_students = {"Tayyab", "Ahmed", "Hamza"}  
+
+# print(python_students.intersection(ai_students))
+
+
+# 4) Unique Items Track Karna.
+
+# visited_pages = {
+#     "home",
+#     "products",
+#     "about"
+# }
+
+# visited_pages.add("home")
+
 
                               # <-----DICTIONARY----->
 
