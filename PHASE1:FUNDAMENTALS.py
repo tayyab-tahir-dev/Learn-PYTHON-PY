@@ -1,3 +1,31 @@
+                  # <-----PHASE 1: PYTHON FUNDAMENTALS-----> 
+
+# IMPORTANT (STRONG FOUNDATION) ON IT.
+
+# WHAT WE WILL COVER IN THIS SECTION:
+# Goal: Deep understanding of Python language. 
+
+# 1) Python installation
+# 2) What is PYTHON
+# 3) REPL
+# 4) Interpreter
+# 5) Variables
+# 6) Data Types
+# 7) Dynamic Typing
+# 8) Memory
+# 9) References
+# 10) Mutability/Immutability
+# 11) Operators
+# 12) Strings
+# 13) f-string
+# 14) Numbers
+# 15) Boolean
+# 16) None
+# 17) Type Conversion
+# 18) Operator Precedence
+# 19) Short-Circuit Evaluation
+
+
 # What is PYTHON?
 # PYTHON is a high-level programming language used to give instructions to computers and build 
 # different types of applications, and softwares etc.  
