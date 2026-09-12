@@ -229,7 +229,7 @@
 # 1).
 
 # def student(name, age, rollnum):
-#     print("Name:", name)
+#     print(" name)
 #     print("Age:", age)
 #     print("Roll Num:", rollnum)
 
@@ -238,3 +238,52 @@
 # EXPLANATION:
 # Yha pr position/order matter nhi krta because Python parameter ke naam dekh kar value assign 
 # karta hai, position nahi.
+
+
+                             # <----------**kwarg---------->
+
+                            
+# DEFINATION:
+# **kwargs allows a function to accept any number of keyword arguments.
+
+# SIMPLE UNDERSTAND:
+# **kwargs function ko kisi bhi number mein keyword arguments receive karne ki ability deta hai.
+
+# Function name ke andar saari values dictionary ki form mein aati hain.
+
+# EXAMPLE:
+# 1).
+
+# def details(**kwargs):
+#     print(kwargs)
+
+# details(name="Tayyab", age=18, course="Python")
+
+
+# | `*args`              | `**kwargs`              |
+# | -------------------- | ----------------------- |
+# | Positional arguments | Keyword arguments       |
+# | Tuple mein collect   | Dictionary mein collect |
+# | `10, 20, 30`         | `name="Tayyab", age=18` |
+
+
+# IMPORTANT:
+# **kwargs ke andar jo data collect hota hai, woh dictionary hi hota hai. Isliye dictionary ke 
+# methods/operations use kar sakte hai.
+
+# **kwargs khud dictionary nahi, balki keyword arguments ko dictionary mein collect karta hai.
+
+# JASAY YEH SUB OPERATIONS:
+# def student(**info):
+#     print(info["name"])       # access
+#     print(info.keys())        # keys
+#     print(info.values())      # values
+#     print(info.items())       # key-value pairs
+
+# 2). VALUES KO ACCESS KRNA DICTIONARY KI TARAH:
+
+# def profile(**info):
+#     print(info["name"])
+#     print(info["user_name"])
+
+# profile(name="Tayyab", user_name="tayya9439b")
