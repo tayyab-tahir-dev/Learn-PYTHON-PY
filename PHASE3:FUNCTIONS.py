@@ -30,6 +30,7 @@
 # def greet():
 #     print("Hello World")
 
+# greet()
 
 # def     → function banane ka keyword
 # greet   → function ka naam
@@ -66,3 +67,44 @@
 # welcome()
 # welcome()
 # welcome()
+
+
+                         # <----------PARAMETERS---------->
+
+# DEFINATION:
+# Parameter: A parameter is a variable defined inside a function's parentheses that receives a 
+# value when the function is called.
+
+# SIMPLE UNDERSTAND:
+# Parameter function ke () ke andar banaya gaya variable hota hai jo function call hone par value 
+# receive karta hai.
+
+# EXAMPLE:
+
+# 1)-
+
+# def greet(name):
+#     print("Hello", name)
+
+# greet("Tayyab")
+
+# Yha name PARAMETER hai.
+# "Tayyab" value hai jo name parameter mein receive hui.
+
+# 2)-
+# Multiple Parameters:
+# Function mein multiple parameters bhi ho sakte hain.
+
+# def introduce(name, age):
+#     print("My name is", name)
+#     print("I am", age, "years old")
+
+# introduce("Tayyab", 18)  
+
+# 3)-
+
+# def student_info(name, course):
+#     print("Name:", name)
+#     print("course:", course )
+
+# student_info("Tayyab", "Python")
