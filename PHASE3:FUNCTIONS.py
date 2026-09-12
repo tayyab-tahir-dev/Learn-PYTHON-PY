@@ -201,3 +201,28 @@
 #     print("course:", course)
 
 # introduce("Tayyab", 18, "Python")
+
+
+                        # <----------KEYWORD ARGUMENTS---------->
+
+
+# DEFINATION:
+# Keyword arguments: Arguments passed to a function by explicitly specifying the parameter name.
+
+# SIMPLE UNDERSTAND:
+# Keyword argument mein hum value ke saath parameter ka naam bhi likhte hain, is liye order 
+# important nahi rehta.
+# EXAMPLE:
+
+# 1).
+
+# def student(name, age, rollnum):
+#     print("Name:", name)
+#     print("Age:", age)
+#     print("Roll Num:", rollnum)
+
+# student(rollnum=2293, name="Tayyab", age=18)
+
+# EXPLANATION:
+# Yha pr position/order matter nhi krta because ython parameter ke naam dekh kar value assign 
+# karta hai, position nahi.
