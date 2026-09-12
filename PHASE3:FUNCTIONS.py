@@ -229,7 +229,7 @@
 # 1).
 
 # def student(name, age, rollnum):
-#     print(" name)
+#     print("name", name)
 #     print("Age:", age)
 #     print("Roll Num:", rollnum)
 
