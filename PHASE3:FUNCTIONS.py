@@ -125,6 +125,18 @@
 # *args kay andar jo multiple positional arguments aate hain, function ke andar woh tuple ki form mein 
 # milte hain.
 
+# *args ke andar data tuple ki form mein hota hai, isliye tuple ke ye operations *args par 
+# bhi kar sakte ho:
+
+# JASAY YEH SUB OPERATIONS:
+# def student(*args):
+#     print(args[0])          # indexing / access
+#     print(args[1:3])        # slicing
+#     print(len(args))        # length
+#     print(18 in args)       # membership
+#     print(args.count(18))   # count
+#     print(args.index(18))   # index
+
 # EXAMPLE:
 # 1).
 
