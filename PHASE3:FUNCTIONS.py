@@ -287,3 +287,130 @@
 #     print(info["user_name"])
 
 # profile(name="Tayyab", user_name="tayya9439b")
+
+
+
+                               # <----------LAMBDA---------->
+
+
+# DEFINATION
+# Lambda: A lambda is a small anonymous function written in a single expression.
+
+# SIMPLE UNDERSTAND:
+# Lambda ek chhota function hota hai jiska usually koi naam nahi hota, aur isay ek hi expression 
+# mein likha jata hai
+
+# Normal Function
+# def add(a, b):
+#     return a + b
+
+# print(add(10, 30))
+
+
+# Same thing with Lambda
+# add = lambda a, b: a + b
+
+# print(add(10, 30))
+
+
+# Lambda ka structure
+# lambda parameters: expression
+
+# EXAMPLE:
+
+# square = lambda number: number * number
+# print(square(5))
+
+# Yahan:
+
+# lambda          → lambda function banane ka keyword
+# number          → parameter
+# number * number → expression
+# result automatically return hota hai
+
+# Important Point
+
+# Lambda mein return keyword nahi likhte:
+# square = lambda x: x * x
+# x * x ka result automatically return hota hai.
+
+# Lambda kab useful hai?
+# Jab hamay bohat chhota aur simple function temporarily banana ho.
+
+# EXAMPLE:
+
+# double = lambda x: x * 2
+# print(double(10))
+
+# multiply = lambda a, b: a * b
+# print(multiply(5, 4))
+
+# cube = lambda x: x * x * x
+# print(cube(3))
+
+
+
+
+                                # <----------NESTED FUNCTION---------->
+
+
+# DEFINATION:
+# Nested Function: A function defined inside another function is called a nested function.
+
+# SIMPLE UNDERSTAND:
+# Jab hum ek function ke andar doosra function define karte hain, usay nested function kehte hain.
+
+# BASIC EXAMPLE:
+
+# def outer():
+
+#     def inner():
+#         print("Hello from inner function")
+
+#     inner()
+
+# outer()
+
+
+# Yahan:
+
+# def outer():
+# outer → outer function
+
+# Aur:
+
+# def inner():
+# inner → nested/inner function
+
+# Logic
+
+# Pehle:
+# outer()
+# outer() execute hota hai.
+
+# Uske andar:
+# inner()
+# inner() call hota hai.
+
+# Isliye "Hello from inner function" print hota hai.
+
+# EXAMPLE:
+# def student():
+
+#     def info():
+#         print("Name:", "Tayyab")
+#         print("Course:", "Python")
+
+#     info()
+
+# student()
+
+# Important Point
+
+# Inner function ko normally outer function ke bahar directly call nahi kar sakte, kyun ke woh 
+# outer function ke andar define hua hai.
+
+# Remember:
+
+# Outer function ke andar inner function define hota hai.
+# Inner function ko outer function ke andar call kar sakte hain.
