@@ -660,3 +660,47 @@
 #     max_tokens=5000,
 #     model="AI-Model"
 # )
+
+
+
+# Example 4 — Decorator + AI
+# AI function ko call karne se pehle logging:
+
+# def log_ai_call(function):
+
+#     def wrapper():
+#         print("AI function called")
+#         function()
+
+#     return wrapper
+
+
+# @log_ai_call
+# def generate_response():
+#     print("Generating AI response...")
+
+
+# generate_response()
+
+# Real AI applications mein decorators ko logging, authentication, permission checks, timing waghera ke liye 
+# use kiya ja sakta hai.
+
+# YHA EXACT KYA HO RHA HAI:
+
+                    # generate_response()
+                    #         ↓
+                    # wrapper()
+                    #         ↓
+                    # print("AI function called")
+                    #         ↓
+                    # OUTPUT:
+                    # AI function called
+                    #         ↓
+                    # function()
+                    #         ↓
+                    # original generate_response()
+                    #         ↓
+                    # print("Generating AI response...")
+                    #         ↓
+                    # OUTPUT:
+                    # Generating AI response...
