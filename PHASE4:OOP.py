@@ -57,3 +57,27 @@
 # print(student1) → student1 object ko print karega
 # print(student2) → student2 object ko print karega
 
+                             #<----------ATTRIBUTE--------->
+
+# - attribute--->
+
+# INTERVIEW DEFINATION:
+# An attribute is a variable that belongs to an object or class and stores its data.
+
+# SIMPLE UNDERSTAND:
+# Attribute woh variable hota hai jo object ya class ka data store karta hai.
+
+# EXAMPLE:
+
+# class student:
+#     pass
+
+# student1 = student()
+
+# student1.name = "Tayyab"
+# student1.age = 18
+# student1.course = "Python"
+
+# print(student1.name)
+# print(student1.age)
+# print(student1.course)
