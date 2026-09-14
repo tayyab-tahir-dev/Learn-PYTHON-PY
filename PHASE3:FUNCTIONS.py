@@ -511,3 +511,34 @@
 
 
 # task()
+
+
+                 # <----------------REAL AI EXAMPLES-------->
+
+
+# EXAMPLE 1 — AI Prompt Function:
+# NORMAL FUNCTION.
+
+
+# def  create_prompt(question):
+#     prompt = f"Answer this question clearly: {question}"
+#     return prompt
+
+# result = create_prompt("What is Python")
+# print(result)
+
+
+# YHA EXACT KYA HO RHA HAI:
+
+# "What is Python?"
+#         ↓
+#     question
+#         ↓
+#     prompt banta hai
+#         ↓
+#     return prompt
+#         ↓
+#      result
+#         ↓
+#     print(result)
+
