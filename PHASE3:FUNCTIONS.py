@@ -542,3 +542,12 @@
 #         ↓
 #     print(result)
 
+
+# Yahan:
+
+# question              → parameter
+# create_prompt(...)    → function call
+# return                → generated prompt ko bahar bhej raha hai
+
+# AI application mein aisi function ko LLM ko bhejne se pehle prompt prepare karne ke liye use kiya ja sakta 
+# hai.
