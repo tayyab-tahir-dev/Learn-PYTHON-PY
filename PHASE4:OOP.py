@@ -24,17 +24,18 @@
 
 # Core Concepts: Classes and Objects
 
-# CLASS  =  A blueprint or template for creating objects.
-# SIMPLE: 
-# Ek aisa design/structure jo objects banane ke liye use hota hai.
-
 # OOP
 #  ↓
 # Classes + Objects
 
+# CLASS  =  A blueprint or template for creating objects.
+# SIMPLE: 
+# Ek aisa design/structure jo objects banane ke liye use hota hai.
+
+
 # OBJECT =  An instance of a class containing real data.
 # SIMPLE: 
-# Blueprint se bani actual entity
+# Class ka ek actual instance jisme asal data mojood hota hai.
 
 # EXAMPLE:
 
