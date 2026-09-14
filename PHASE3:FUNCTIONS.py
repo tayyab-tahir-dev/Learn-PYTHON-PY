@@ -414,3 +414,52 @@
 
 # Outer function ke andar inner function define hota hai.
 # Inner function ko outer function ke andar call kar sakte hain.
+
+
+
+                                # <----------CLOSER---------->
+
+# DEFINATION:
+# Closure: A closure is a function that remembers and can access variables from its enclosing 
+# function even after the enclosing function has finished executing.
+
+# SIMPLE UNDERSTAND:
+# Closure mai inner function apne outer function ke variables ko yaad rakhta hai, chahe outer 
+# function ka execution khatam hi kyun na ho.
+
+# EXAMPLES:
+# 1)
+
+# def outer_function(msg):
+#     # Yeh outer function ka variable hai
+#     greeting = msg 
+
+#     def inner_function():
+#         # Inner function outer variable ko use kar raha hai
+#         print(greeting) 
+        
+#     # Outer function ne inner function ko return kar diya
+#     return inner_function
+
+# # Humne outer function ko call kiya aur result ek variable mein save kar liya
+# my_closure = outer_function("Hello Python!")
+
+# # Ab 'outer_function' khatam ho chuka hai, lekin...
+# # Jab hum 'my_closure' ko call karenge:
+# my_closure()
+
+
+# 2)
+
+# def greeting(message):
+
+#     def say():
+#         print(message)
+
+#     return say
+
+
+# hello = greeting("Hello Tayyab")
+# hello()
+
+
