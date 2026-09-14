@@ -463,3 +463,51 @@
 # hello()
 
 
+                         # <----------DECORATOR----------->
+
+# DEFINATION:
+# Decorator: A decorator is a function that modifies or extends the behavior of another function 
+# without changing its original code.
+
+# SIMPLE UNDERSTAND:
+# Decorator aik function hota hai jo doosre function ke behavior mein extra functionality add 
+# karta hai, bina us function ka original code change kiye.
+
+# SYNTAX:
+# Python mein decorator ko commonly @ ke saath likhte hain:
+
+# def decorator(function):
+
+#     def wrapper():
+#         print("Before function")
+#         function()
+#         print("After function")
+
+#     return wrapper
+
+
+# @decorator
+# def greet():
+#     print("Hello Tayyab")
+
+
+# greet()
+
+# EXMAPLE:
+# 1)
+
+# def my_decorator(function):
+
+#     def wrapper():
+#         print("Starting...")
+#         function()
+#         print("Finished...")
+
+#     return wrapper
+
+# @my_decorator
+# def task():
+#     print("Python task running")
+
+
+# task()
