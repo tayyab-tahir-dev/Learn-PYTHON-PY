@@ -551,3 +551,91 @@
 
 # AI application mein aisi function ko LLM ko bhejne se pehle prompt prepare karne ke liye use kiya ja sakta 
 # hai.
+
+
+
+# Example 2 — *args with AI:
+# Suppose multiple documents/texts ko combine karna ho:
+
+# 1):
+
+# def combine_texts(*text):
+#     return "".join(text)
+
+# result = combine_texts(
+#     "Python is a programming language.",
+#     "Python is beginner friendly.",
+#     "Python is used in AI.",
+# )
+
+# print(result)
+
+# YHA EXACT KYA HO RHA HAI:
+
+# *texts
+#    ↓
+# multiple arguments collect
+#    ↓
+# tuple
+
+# texts
+#    ↓
+# join() ko tuple do
+#    ↓
+# all texts combine
+#    ↓
+# return
+
+
+# BRIEFLY EXPLAIN HOW IT's WORKS:
+
+
+# 3 arguments function ko diye
+#         ↓
+# "Python is a programming language."
+# "Python is beginner friendly."
+# "Python is used in AI."
+#         ↓
+#        *texts
+#         ↓
+# sab arguments ek tuple mein collect
+#         ↓
+# texts = (
+#     "Python is a programming language.",
+#     "Python is beginner friendly.",
+#     "Python is used in AI."
+# )
+#         ↓
+# " ".join(texts)
+#         ↓
+# texts ke saare elements ko
+# SPACE " " ke saath combine karo
+#         ↓
+# "Python is a programming language. Python is beginner friendly. Python is used in AI."
+#         ↓
+#       return
+#         ↓
+# combined text function se bahar
+#         ↓
+#        result
+#         ↓
+# print(result)
+#         ↓
+# OUTPUT
+
+
+# 2):
+
+# def combine_documents(*documents):
+#     return "".join(documents)
+
+# results = combine_documents(
+#     "DOCUMENT:1;",
+#     "DOCUMENT:2;",
+#     "DOCUMENT:3;",
+#     "DOCUMETN:4;",
+#     "DOCUMENT:5;",
+# )
+
+# print(results)
+
