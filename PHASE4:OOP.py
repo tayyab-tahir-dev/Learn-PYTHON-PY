@@ -39,19 +39,21 @@
 
 # EXAMPLE:
 
-# class car:
+# class Student:
 #     pass
 
-# car1 = car()
-# car2 = car()
+# student1 = Student()
+# student2 = Student()
 
-# print(car1)
-# print(car2)
+# print(student1)
+# print(student2)
 
-# EXPLAINATION:
+# EXPLANATION:
 
-# class Car: → Blueprint bana
-# car1 = Car() → Car class ka actual object/instance bana
-# car2 = Car() → Car class ka doosra actual object/instance bana
-# print(car1) → car1 object ko print karega
-# print(car2) → car2 object ko print karega
+# class Student: → Student naam ki class / blueprint bana
+# pass → Class ke andar abhi koi code nahi hai
+# student1 = Student() → Student class ka pehla actual object/instance bana
+# student2 = Student() → Student class ka doosra actual object/instance bana
+# print(student1) → student1 object ko print karega
+# print(student2) → student2 object ko print karega
+
