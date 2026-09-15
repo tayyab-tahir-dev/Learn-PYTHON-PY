@@ -572,6 +572,13 @@
 
 # YHA EXACT KYA HO RHA HAI:
 
+# *texts → multiple positional values
+# texts → tuple
+# function un texts ko combine kar raha hai
+
+# AI/RAG system mein multiple text chunks ko process karne jaisi situation aa sakti hai
+
+
 # *texts
 #    ↓
 # multiple arguments collect
