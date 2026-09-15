@@ -646,3 +646,17 @@
 
 # print(results)
 
+
+
+# Example 3 — **kwargs with AI:
+# AI model ke settings pass karna:
+
+
+# def model_config(**setting):
+#     print(setting)
+
+# model_config(
+#     temperature=1.7,
+#     max_tokens=5000,
+#     model="AI-Model"
+# )
