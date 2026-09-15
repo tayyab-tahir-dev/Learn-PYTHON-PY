@@ -83,6 +83,8 @@
 # print(student1.course)
 
 
+                               # <----------METHOD---------->
+
 # - METHOD--->
 # INTERVIEW DEFINATION:
 # A method is a function defined inside a class that performs an action for an object.
