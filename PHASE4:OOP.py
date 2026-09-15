@@ -254,3 +254,97 @@
 
                                 
 
+# - METHODS--->
+# 2) CLASS:
+# INTERVIEW DEFINATION:
+# A class method is a method that works with the class itself rather than a specific object.
+
+# SIMPLE UNDERSTAND:
+# Class method kisi specific object ke bajaye poori class ke saath kaam karta hai.
+
+# Iski Pehchan kaise hoti hai?
+
+# Class method mein:
+# @classmethod
+# likha hota hai.
+# Aur iska first parameter normally:
+# cls
+
+# MAIN DIFFERENCE:
+
+# Instance Method
+# → specific object ke data ke saath kaam
+
+# Class Method
+# → class ke data/behavior ke saath kaam
+
+# EXAMPLE:
+
+# class Student:
+
+#     @classmethod
+#     def school_name(cls):
+#         print("ABC School")
+
+# Student.school_name()
+
+
+# Yahan:
+# @classmethod
+# Python ko batata hai ke school_name() class method hai.
+
+# cls kya hai:
+
+# Class Method
+#       ↓
+#      cls
+#       ↓
+#      class
+
+# cls ka matlab roughly:
+# jis class se method related hai, us class ko refer karo.
+
+# SIMPLE EXAMPLE:
+
+# class Student:
+
+#     @classmethod
+#     def show_school(cls):
+#         print("ABC School")
+
+# Student.show_school()
+
+
+# REAL AI EXAMPLE:
+
+
+# class AIModel:
+
+#     model_type = "LLM"
+
+#     @classmethod
+#     def show_model_type(cls):
+#         print(cls.model_type)
+
+
+# AIModel.show_model_type()
+
+# # BRIEFLY EXPLANATION:
+# class AIModel:
+
+#     model_type = "LLM"
+# AIModel → class
+# model_type → class attribute
+# "LLM" → uski value
+# @classmethod
+# def show_model_type(cls):
+#     print(cls.model_type)
+# @classmethod → batata hai ke show_model_type() Class Method hai.
+# cls → poori class AIModel ko refer karta hai.
+# cls.model_type → class ka model_type access karta hai.
+
+# Phir:
+
+# AIModel.show_model_type()
+# Yahan object banane ki zaroorat nahi. Direct class ke through method call ho raha hai.
+
