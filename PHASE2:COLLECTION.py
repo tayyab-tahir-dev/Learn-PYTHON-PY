@@ -504,20 +504,25 @@
 
 
 # - SLICING--->:
-# TUPLE may slicing differrnt hai yeh hamay vo items retun krti hai na kay list ki tarah delete.
+# Tuple slicing ka matlab hai tuple ke andar se kisi specific portion/items ko nikalna.
 
 # SYNTAX:
-# tuple[start:stop]
+# tuple[start:stop:step]
 # stop index include nahi hota.
 
 # EXAMPLE:
 # items = ("Laptop", "KeyBoard", "Mouse", "Mobile", "Usb", "LCD")
 
-# print(items[1:3])
+# print(items[1:5:2])
 
-# OUTPUT:
-# ('KeyBoard', 'Mouse')
 
+# list[stop:end:step]
+
+# start: included
+
+# end: exclusive 
+
+# step: default value jo ha wo 1 hoti ha, but hum issay change kar ke 2 bhe de saktay hein, 2 value denay sa yeh har next index ki value ko skip karega aur ussay next index ki value ko lega.
 
 
 # numbers = (10, 20, 30, 40, 50)
