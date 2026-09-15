@@ -81,3 +81,98 @@
 # print(student1.name)
 # print(student1.age)
 # print(student1.course)
+
+
+# - METHOD--->
+# INTERVIEW DEFINATION:
+# A method is a function defined inside a class that performs an action for an object.
+
+# SIMPLE UNDERSTAND:
+# Method aik function hota hai jo class ke andar define kiya jata hai aur object ka koi action perform karta hai.
+
+# EXAMPLE:
+
+# class Student:
+
+#     def study(self):
+#         print("Student is studying")
+
+
+# student1 = Student()
+
+# student1.study()
+
+
+
+# yahan:
+# def study(self): method hai.
+
+# Aur:
+
+# student1.study() method ko call kar raha hai.
+
+
+# EXAMPLE WITH ATTIRBUTE:
+
+
+# class student:
+
+#     def study(self):
+#         print("Student is studying")
+
+
+# student1 = student()
+
+# student1.name = "Tayyab"
+
+# print(student1.name)
+# student1.study()
+
+
+# YHA KYA HO RHA HAI: 
+
+                      # class Student
+                      #       ↓
+                      #   Blueprint
+                      #       ↓
+                      # Student()
+                      #       ↓
+                      # Actual Object
+                      #       ↓
+                      #  student1
+                      #       ↓
+                      # ┌─────────────────────┐
+                      # │ Student Object      │
+                      # │                     │
+                      # │ name = "Tayyab"     │
+                      # │                     │
+                      # │ study()             │
+                      # └─────────────────────┘
+                      #       ↓
+                      # student1.name
+                      #       ↓
+                      # "Tayyab"
+                      
+                      # student1.study()
+                      #       ↓
+                      # "Student is studying"
+
+# 🤖 AI Engineering Example
+
+              
+# class AIModel:
+
+#     def generate_response(self, prompt):
+#         # yahan future mein LLM API call ho sakti hai
+#         print("Generating response for:", prompt)
+
+
+# model = AIModel()
+
+# model.generate_response("Explain Python OOP")
+
+
+# IMPORTANT:
+
+# AI Engineering mein:
+# Real project mein print() ki jagah yahan LLM API call ho sakti hai, jo prompt ko AI model ko bhej kar response return karegi.
