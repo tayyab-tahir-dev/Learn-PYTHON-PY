@@ -178,3 +178,79 @@
 
 # AI Engineering mein:
 # Real project mein print() ki jagah yahan LLM API call ho sakti hai, jo prompt ko AI model ko bhej kar response return karegi.
+
+
+                            # <----------TYPES OF METHODS IN OOP---------->
+
+
+# - METHODS--->
+# 1) INSTANCE METHOD:
+
+# INTERVIEW DEFINATION:
+# An instance method is a method that works with the data of a specific object (instance) and takes self as its first parameter.
+
+# SIMPLE UNDERSTAND:
+# Instance method woh method hota hai jo kisi specific object ke data ke saath kaam karta hai aur uska pehla parameter self hota hai.
+
+# ISKO "INSTANCE" Q KEHTAY HAI:
+
+# Class → Blueprint
+# Object → Instance
+
+# Isliye:
+
+# Instance Method = Object ke saath kaam karne wala method
+
+
+# EXAMPLE:
+# WITH MULTIPLE OBJECTS:
+
+# class student:
+
+#     def introduce(self):
+#         print("My name is", self.name)
+
+# student1 = student()
+# student1.name = "Tayyab:"
+
+# student2 = student()
+# student2.name = "Ali:"
+
+# student1.introduce()
+# student2.introduce()
+
+
+# Isi liye instance method har object ke apne data ke saath kaam kar sakta hai.
+
+# 🤖 AI Engineering Example
+# AI project mein:
+
+# class AIModel():
+
+#     def generate_response1(self):
+#         print("Generating response by model 1....")
+
+
+#     def generate_response2(self):
+#         print("Generating response by model 2....")
+
+
+# model1 = AIModel()
+# model2 = AIModel()
+
+# model1.generate_response1()
+# model2.generate_response2()
+
+
+                                        # IMPORTANT POINTS:
+
+                                  # Instance Method
+                                  #       ↓
+                                  # Object ke saath kaam karta hai
+                                  #       ↓
+                                  # self as first parameter
+                                  #       ↓
+                                  # Object ke attributes access kar sakta hai
+
+                                
+
