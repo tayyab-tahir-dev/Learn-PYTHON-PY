@@ -261,6 +261,16 @@
 
 
 # SLICING KAY SAT MULTIPLE ITEMS REMOVE:
+# NEW LIST RETURN KRAY GI BUT UNKAY ANDAR KAY ELEMENTS KO REFFER KRTA HAI:
+
+# list[stop:end:step]
+
+# start: included
+
+# end: exclusive 
+
+# step: default value jo ha wo 1 hoti ha, but hum issay change kar ke 2 bhe de saktay hein, 2 value denay sa yeh har next index ki value ko skip karega aur ussay next index ki value ko lega.
+
 # numbers = [10, 20, 30, 40, 50, 60]
 
 # del numbers[1:4]
@@ -514,15 +524,6 @@
 # items = ("Laptop", "KeyBoard", "Mouse", "Mobile", "Usb", "LCD")
 
 # print(items[1:5:2])
-
-
-# list[stop:end:step]
-
-# start: included
-
-# end: exclusive 
-
-# step: default value jo ha wo 1 hoti ha, but hum issay change kar ke 2 bhe de saktay hein, 2 value denay sa yeh har next index ki value ko skip karega aur ussay next index ki value ko lega.
 
 
 # numbers = (10, 20, 30, 40, 50)
