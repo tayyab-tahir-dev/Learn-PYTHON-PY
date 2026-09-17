@@ -255,7 +255,7 @@
                                 
 
 # - METHODS--->
-# 2) CLASS:
+# 2) CLASS METHOD:
 # INTERVIEW DEFINATION:
 # A class method is a method that works with the class itself rather than a specific object.
 
@@ -348,3 +348,82 @@
 # AIModel.show_model_type()
 # Yahan object banane ki zaroorat nahi. Direct class ke through method call ho raha hai.
 
+
+
+# - METHODS--->
+# 3) STATIC METHOD:
+
+# INTERVIEW DEFINATION:
+# A static method is a method that does not depend on a specific object or class data.
+
+# SIMPLE UNDERSTAND:
+# Static method kisi specific object ya class ke data par depend nahi karta.
+
+# Static method kis cheez par depend karta hai?
+# Jo arguments/parameters usko diye jate hain, un par.
+
+# Iski pehchan
+# Static method ke upar:
+# @staticmethod
+
+
+# Static Method mein self aur cls nahi hota:
+
+# Instance Method → self → Object
+# Class Method    → cls  → Class
+# Static Method   → no self/cls
+
+# SIMPLE EXAMPLE:
+
+# class Calculator:
+
+#       @staticmethod
+#       def add(a, b):
+#             return a + b
+
+
+# print(Calculator.add(10, 20))
+
+
+# REAL AI EXAMPLE:
+
+# class AIHelper:
+
+#     @staticmethod
+#     def count_words(text):
+#         return len(text.split())
+
+# text = "Python is useful for AI Engineering"
+
+# print(AIHelper.count_words(text))
+
+# LOGIC:
+
+                             # "Python is useful for AI Engineering"
+                                          #    ↓
+                                    #     text.split()
+                                          #    ↓
+                         # ["Python", "is", "useful", "for", "AI", "Engineering"]
+                                          #    ↓
+                                          #  len()
+                                          #    ↓
+                                          #    6
+                                          #    ↓
+                                          # return 6
+                                          #    ↓
+                                          # print(6)
+
+# IMPORTANT:
+
+# Instance Method
+# → self
+# → object ke data ke saath kaam
+
+# Class Method
+# → cls
+# → class ke data ke saath kaam
+
+# Static Method
+# → no self
+# → no cls
+# → independent operation
