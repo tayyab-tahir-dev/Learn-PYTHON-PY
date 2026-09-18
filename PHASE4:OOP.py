@@ -441,7 +441,7 @@
 
 # INKI PEHCHAN:
 # DOUBLE UNDERSCORES: 
-# __int__
+# __init__
 
 # IMPORTANT:
 # __init__
@@ -468,7 +468,7 @@
 
 
 # 🤖 AI Engineering Example
-# AI Engineering mein hum kisi AI model ka object bana sakte ho:
+# AI Engineering mein hum kisi AI model ka object bana sakte hai:
 
 # class AIModel:
 
