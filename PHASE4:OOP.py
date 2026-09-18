@@ -543,3 +543,14 @@
 # self us object ko refer karta hai
 #         ↓
 # self.attribute us object ka attribute access karta hai
+
+
+                                      # <----------OOP 4 PILLARS---------->
+
+# - OOP 4 PILLARS--->
+# OOP ke 4 pillars woh 4 basic concepts hain jin par Object-Oriented Programming ka structure based hota hai.
+
+# 1) Inheritance
+# 2) Polymorphism
+# 3) Encapsulation
+# 4) Abstract
