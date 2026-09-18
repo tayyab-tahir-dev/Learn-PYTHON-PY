@@ -535,3 +535,11 @@
 # self.name → current object ka name attribute
 # self.age  → current object ka age attribute
 # Instance method mein self first parameter hota hai:
+
+# 🧠 One-line Logic
+
+# Object method call karta hai
+#         ↓
+# self us object ko refer karta hai
+#         ↓
+# self.attribute us object ka attribute access karta hai
