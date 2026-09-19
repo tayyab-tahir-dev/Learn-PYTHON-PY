@@ -483,3 +483,55 @@
 # print("PROVIDER =", model.provider)
 
 # Real project mein isi pattern se object ke andar model configuration, API client, settings waghera initialize ki ja sakti hain.
+
+
+
+                                      # <----------SELF---------->
+
+# - SELF-->
+
+# INTERVIEW DEFINATION:
+# self refers to the current object (instance) on which an instance method is being called.
+
+# SIMPLE UNDERSTAND:
+# self us current object ko refer karta hai jis object ke through method call kiya ja raha hota hai.
+
+# SIMPLEST EXAMPLE:
+
+# class student:
+
+#     def study(self):
+#         print("Studying")
+
+
+# student1 = student()
+# student1.study()
+
+
+# yahan:
+
+# student1.study()
+
+# student1 object ne study() method call kiya.
+
+# Isliye method ke andar:
+
+# self
+
+# student1 ko refer karega.
+
+                                            # SIMPLE:
+                                            
+                                            # student1.study()
+                                            #        ↓
+                                            #      self
+                                            #        ↓
+                                            #    student1
+
+# IMPORTANT:
+
+# self → current object
+
+# self.name → current object ka name attribute
+# self.age  → current object ka age attribute
+# Instance method mein self first parameter hota hai:
