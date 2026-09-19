@@ -427,3 +427,59 @@
 # → no self
 # → no cls
 # → independent operation
+
+
+
+                                      # <----------__init__---------->
+
+
+# INTERVIEW DEFINATION:
+# __init__ is a special method that initializes an object's attributes when the object is created.
+
+# SIMPLE UNDERSTAND:
+# __init__ aik special method hai jo object create hote waqt uske attributes ko initialize/set karta hai.
+
+# INKI PEHCHAN:
+# DOUBLE UNDERSCORES: 
+# __int__
+
+# IMPORTANT:
+# __init__
+# → special method:
+# → object creation ke waqt initialization ke liye run hota hai:
+# → object ke attributes set karta hai:
+
+
+# EXAMPLE:
+
+# class student:
+
+#     def __init__(self, name, age, course):
+#         self.name = name
+#         self.age = age
+#         self.course = course
+
+
+# student1 = student("Tayyab", 18, "Python")
+
+# print(student1.name)
+# print(student1.age)
+# print(student1.course)
+
+
+# 🤖 AI Engineering Example
+# AI Engineering mein hum kisi AI model ka object bana sakte ho:
+
+# class AIModel:
+
+#     def __init__(self, model_name, provider):
+#         self.model_name = model_name
+#         self.provider = provider
+
+
+# model = AIModel("GEMINI", "GOOGLE")
+
+# print("MODEL_NAME =", model.model_name)
+# print("PROVIDER =", model.provider)
+
+# Real project mein isi pattern se object ke andar model configuration, API client, settings waghera initialize ki ja sakti hain.
