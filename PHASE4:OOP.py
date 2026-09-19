@@ -554,3 +554,37 @@
 # 2) Polymorphism
 # 3) Encapsulation
 # 4) Abstract
+
+# 1) - Inheritance-->
+# INTERVIEW DEFINATION:
+# Inheritance is an OOP concept in which a child class inherits attributes and methods from a parent class.
+
+# SIMPLE UNDERSTAND:
+# Inheritance mein child class, parent class ke attributes aur methods ko inherit/reuse karti hai.
+
+# IMPORTANT:
+# CHILD PARENT KI CHIZAY LE SKTA HAI
+# LEKIN:
+# LEKIN PARENT CHILD KI NHI
+
+# SIMPLE EXAMPLE:
+
+# class sleeping:
+
+#     def sleep(self):
+#         print("I am sleeping")
+
+
+# class awake(sleeping):
+
+#     def woke(self):
+#        print("I am awake now")
+
+
+# awake1 = awake()
+
+# awake1.sleep()
+# awake1.woke()
+
+
+# REAL AI EXAMPLE:
