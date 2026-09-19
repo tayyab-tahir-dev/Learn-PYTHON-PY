@@ -588,3 +588,24 @@
 
 
 # REAL AI EXAMPLE:
+
+# class AIModel:
+
+#     def generate_response(self):
+#         print("GENERATING RESPONSE")
+
+
+# class GeminiModel(AIModel):
+
+#     def model_info(self):
+#         print("THIS IS GEMINI MODEL")
+
+
+# model = GeminiModel()
+
+# model.generate_response()
+# model.model_info()
+
+# Yahan GeminiModel ne AIModel ka generate_response() method inherit kiya.
+
+# AI Engineering mein inheritance useful ho sakti hai jab multiple AI models mein kuch common functionality ho aur hum us common code ko baar baar repeat nahi karna chahte.
