@@ -609,3 +609,110 @@
 # Yahan GeminiModel ne AIModel ka generate_response() method inherit kiya.
 
 # AI Engineering mein inheritance useful ho sakti hai jab multiple AI models mein kuch common functionality ho aur hum us common code ko baar baar repeat nahi karna chahte.
+
+
+
+# - SUPER-->
+
+# super()
+# SIMPLE UNDERSTAND:
+# super() ka use child class ke andar parent class ke methods ko access/call karne ke liye hota hai.
+
+# EXAMPLE:
+
+# class Animal:
+
+#     def speak(self):
+#         print("Animal is speaking")
+
+
+# class Dog(Animal):
+#      def speak(self):
+#          super().speak()
+#          print("Dog is barking")
+
+
+# dog1 = Dog()
+
+# dog1.speak()
+
+# YHA KYA HUA:
+
+# Yahan kya hua?
+
+# Dog ne speak() method ko override kiya.
+
+# def speak(self):
+
+# Ab agar hum:
+
+# dog1.speak()
+
+# karenge, to normally Dog ka speak() chalega.
+
+# Lekin:
+
+# super().speak()
+
+# ka matlab hai:
+
+# Parent class ka speak() method chalao.
+
+# Isliye pehle:
+
+# Animal is speaking
+
+# phir:
+
+# Dog is barking
+
+
+# super() with __init__
+# Ye inheritance mein bohat important hai:
+
+# class Animal:
+
+#     def __init__(self, name):
+#       self.name = name
+
+
+# class Dog(Animal):
+
+#     def __init__(self, name, breed):
+#        super().__init__(name)
+#        self.breed = breed
+
+
+# dog1 = Dog("Tommy", "German Shepherd")       
+
+# print(dog1.name)
+# print(dog1.breed)
+
+
+# LOGIC:
+
+                                    #     Dog object bana
+                                    #             ↓
+                                    #     Dog.__init__() call hua
+                                    #             ↓
+                                    #     name = "Tommy"
+                                    #     breed = "German Shepherd"
+                                    #             ↓
+                                    #     super().__init__(name)
+                                    #             ↓
+                                    #     Animal.__init__("Tommy")
+                                    #             ↓
+                                    #     self.name = "Tommy"
+                                    #             ↓
+                                    #     self.breed = "German Shepherd"
+
+
+# Important Difference
+
+# Inheritance:
+
+# Child parent se functionality inherit karta hai.
+
+# super():
+
+# Child ke andar parent ki functionality ko specifically call/access karta hai.
