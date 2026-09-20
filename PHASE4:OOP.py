@@ -716,3 +716,17 @@
 # super():
 
 # Child ke andar parent ki functionality ko specifically call/access karta hai.
+
+# Parent Class
+# Isko kaha jata hai:
+
+# Parent Class
+# Base Class
+# Super Class
+
+# Child Class
+# Isko kaha jata hai:
+
+# Child Class
+# Derived Class
+# Sub Class
