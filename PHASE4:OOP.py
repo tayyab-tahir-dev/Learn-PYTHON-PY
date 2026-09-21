@@ -730,3 +730,42 @@
 # Child Class
 # Derived Class
 # Sub Class
+
+
+
+# - Method Overriding-->
+# Method Overriding. Ye super() ke baad naturally aata hai.
+
+# Method overriding mein child class parent ke existing method ko apne tareeqe se dobara define karti hai.
+
+# SIMPLE UNDERSTAND:
+# Method ka name same, lekin code/implementation alag.
+
+# REAL AI EXAMPLE:
+
+# class AIModel:
+
+#     def generate_response(self):
+#         print("Generating a response")
+
+
+# class GeminiModel(AIModel):
+
+#     def generate_response(self):
+#          print("Generating response using Gemini")
+
+
+# class GPTModel(AIModel):
+
+#     def generate_response(self):
+#          print("Generating response using GPT")
+
+
+# ai = AIModel()
+# gemini = GeminiModel()
+# gpt = GPTModel()
+
+
+# ai.generate_response()
+# gemini.generate_response()
+# gpt.generate_response()
