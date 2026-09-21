@@ -769,3 +769,90 @@
 # ai.generate_response()
 # gemini.generate_response()
 # gpt.generate_response()
+
+
+
+
+# 2) - Polymorphism--->
+
+# INTERVIEW DEFINATION:
+# Polymorphism is the ability of different objects to respond to the same method or interface in different ways.
+
+# SIMPLE UNDERSTAND:
+# Polymorphism ka matlab hai ke different objects same method ko apne apne tareeqe se perform kar sakte hain.
+
+# SIMPLE EXAMPLE:
+
+# class Dog:
+
+#     def speak(self):
+#         print("DOG BARKS")
+
+
+# class Cat:
+
+#       def speak(self):
+#            print("CAT MEOWS")
+
+
+# dog = Dog()
+# cat = Cat()
+
+# dog.speak()
+# cat.speak()
+
+# Logic
+
+# Dono objects ke paas same method name hai:
+
+# speak()
+
+# Lekin:
+
+# dog.speak() → Dog ka behavior
+# cat.speak() → Cat ka behavior
+
+# Yani same method name, different behavior.
+
+# Isi ko polymorphism kehte hain.
+
+# Real Python Example
+
+# Hum ek function bana sakte hain:
+
+# def make_sound(animal):
+#     animal.speak()
+
+
+# make_sound(dog)
+# make_sound(cat)
+
+# Function ko farq nahi pad raha ke object Dog hai ya Cat.
+
+# Bas usay pata hai ke object ke paas speak() method hona chahiye.
+
+
+# REAL AI EXAMPLE:
+
+# class GeminiModel:
+
+#     def generate(self):
+#         print("Response from Gemini")
+
+
+# class GPTModel:
+
+#     def generate(self):
+#       print("Response from GPT")
+
+
+
+# def run_model(model):
+#     model.generate()
+
+
+# gemini = GeminiModel()
+# gpt = GPTModel()
+
+# run_model(gemini)
+# run_model(gpt)
