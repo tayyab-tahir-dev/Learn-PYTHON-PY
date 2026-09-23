@@ -914,3 +914,13 @@
 # ke through class ke andar controlled rakha gaya hai.
 
 # Note: Python mein __name strict security/private variable nahi hota; ye mainly name mangling ke through direct access ko discourage/control karta hai.
+
+
+
+# 4) - Abstraction--->
+
+# INTERVIEW DEFINATION:
+# Abstraction is the OOP concept of hiding implementation details and exposing only the essential functionality.
+
+# SIMPLE UNDERSTAND:
+# Abstraction ka matlab hai internal/complex implementation ko hide karna aur user ko sirf zaroori functionality dikhana.
