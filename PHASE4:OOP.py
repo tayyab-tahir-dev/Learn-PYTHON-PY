@@ -1053,3 +1053,43 @@
 
 # @abstractmethod:
 # → Child classes ke liye mandatory method ka rule lagana.
+
+
+# REAL AI EXAMPLE:
+
+# from abc import ABC, abstractmethod
+
+
+# class AIModel(ABC):
+
+#     @abstractmethod
+#     def generate(self, prompt):
+#         pass
+
+
+# class GeminiModel(AIModel):
+
+#       def generate(self, prompt):
+#            print("Generating response using Gemini")
+
+
+# model = GeminiModel()
+
+# model.generate("Explain Python")
+
+
+# Ab 4 Pillars Complete 🎯
+
+# Pillar	      Main Idea
+# Inheritance	Parent ki functionality reuse karna
+# Polymorphism	Same method, different behavior
+# Encapsulation	Data ko control/protect karna
+# Abstraction	Complexity hide karke essential functionality expose karna
+
+
+# Ek line mein 4 pillars:
+
+# Inheritance → Reuse
+# Polymorphism → Different behavior
+# Encapsulation → Controlled data
+# Abstraction → Hide complexity
