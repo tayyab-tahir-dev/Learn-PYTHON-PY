@@ -994,3 +994,62 @@
 # pata hona chahiye.
 
 # Ye abstraction ka basic idea hai.
+
+
+# EXAMPLE:
+
+# ABC OR @abstractionmethod
+
+# Ye abstraction ko rule dene ke liye use hote hain.
+
+# Hum keh rahe hai:
+
+# "Meri har AI model class mein generate() method zaroor hona chahiye."
+
+# JASAY:
+
+
+# from abc import ABC, abstractionmethod
+
+# class AIModel(ABC):
+
+#     @abstractionmethod
+#     def generate(self, prompt):
+#         pass
+
+
+# Yahan:
+
+# ABC → AIModel ko ek base/template class banata hai.
+
+# @abstractmethod → rule banata hai:
+
+# Jo bhi AIModel se inherit karega, usko generate() banana hi padega.
+
+
+# EXAMPLE:
+
+# class GeminiModel(AIModel):
+
+#     def generate(self, prompt):
+#         print("Gemini Response")
+
+
+# class GPTModel(AIModel):
+
+#     def generate(self, prompt):
+#         print("GPT Response")
+
+# Dono models ka generate() hai, lekin dono apne tareeqe se kaam kar rahe hain.
+
+
+# Bas ye 3 cheezen yaad rakho:
+
+# Abstraction:
+# → Complex internal implementation ko hide karna.
+
+# ABC:
+# → Base/template class banana.
+
+# @abstractmethod:
+# → Child classes ke liye mandatory method ka rule lagana.
