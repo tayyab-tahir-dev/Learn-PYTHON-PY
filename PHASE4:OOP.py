@@ -856,3 +856,19 @@
 
 # run_model(gemini)
 # run_model(gpt)
+
+
+
+# 3) - Encapsulation-->
+
+# INTERVIEW DEFINATION:
+# Encapsulation is the OOP concept of bundling data and methods together in a class and controlling access to that data.
+
+# SIMPLE UNDERSTAND:
+# Encapsulation ka matlab hai data (variables) aur us par kaam karne wale methods (functions) ko ek class mein rakhna aur data ka access control karna.
+
+# ONE LINE:
+
+# Encapsulation = Data + Methods ko class mein bundle karna + data ke access ko control karna.
+
+# SIMPLE EXAMPLE:
