@@ -872,3 +872,45 @@
 # Encapsulation = Data + Methods ko class mein bundle karna + data ke access ko control karna.
 
 # SIMPLE EXAMPLE:
+
+# class BankAccount:
+
+#     def __init__(self, balance):
+#        self.__balance = balance
+
+#     def get_balance(self):
+#        return self.__balance
+
+#     def deposit(self, amount):
+#        self.__balance += amount
+
+
+# account = BankAccount(1000)
+
+# print(account.get_balance())
+
+# account.deposit(1500)
+
+# print(account.get_balance())
+
+
+# REAL AI EXAMPLE:
+
+# class AIModel:
+
+#     def __init__(self,  api_key):
+#         self.__api_key = api_key
+
+#     def generate(self, prompt):
+#         print("GENERATING RESPONSE....")
+
+# model = AIModel("abc123")
+
+# model.generate("Hello")
+
+
+
+# self.__api_key
+# ke through class ke andar controlled rakha gaya hai.
+
+# Note: Python mein __name strict security/private variable nahi hota; ye mainly name mangling ke through direct access ko discourage/control karta hai.
