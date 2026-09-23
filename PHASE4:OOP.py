@@ -951,3 +951,46 @@
 # 1) Abstract Class: Yeh ek aisi class hoti hai jiska aap direct object (instance) nahi bana sakte. Yeh sirf ek template ya framework ka kaam karti hai.
 
 # 2) @abstractmethod: Yeh ek aisa method hota hai jiske paas sirf declaration hoti hai (koi body/logic nahi hota). Isko override karna har child class ke liye compulsory (laazmi) hota hai.
+
+
+# EXAMPLE:
+
+# class AIModel:
+
+#     def generate(self, prompt):
+#         print("Generating Response...")
+
+
+# model = AIModel()
+
+# model.generate("Hello")
+
+
+# EXPLANATION:
+
+
+# Hum sirf ye use kar rahe hai:
+
+# model.generate("Hello")
+
+# Hamay generate() ke andar kya ho raha hai, uski detail handle nahi karni:
+
+# JASAY:
+
+# def generate(self, prompt):
+#     # API call
+#     # authentication
+#     # request send
+#     # server processing
+#     # response receive
+#     # response process
+
+# Ye internal complexity hai.
+
+# Hamay sirf:
+
+# model.generate("Hello")
+
+# pata hona chahiye.
+
+# Ye abstraction ka basic idea hai.
