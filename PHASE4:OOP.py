@@ -1284,3 +1284,38 @@
 # Main benefit hai:
 # Data ko access karte waqt uske peeche logic/validation laga sakte hai, lekin bahar se woh normal attribute jaisa dikhta hai.
 
+# @score.setter ka use tab hota hai jab hum score ki value set/change karte waqt extra logic ya validation lagana chahte hain.
+
+# REAL AI EXAMPLE:
+# Suppose RAG system mein retrieved documents ka similarity score hai:
+
+# class SearchResult:
+
+#     def __init__(self, score):
+#         self._score = score
+
+#     @property
+#     def score(self):
+#         return self._score
+
+#     @score.setter
+#     def score(self, value):
+
+#         if 0 <= value <= 1:
+#             self._score = value
+
+#         else:
+#             print("Score must be between 0 and 1")
+
+
+# result = SearchResult(0.88)
+
+# print(result.score)
+
+# result.score = 0.93
+
+# print(result.score)
+
+
+# ONE-LINE LEARN:
+# @property = Method ko attribute ki tarah access karna + value par control rakhna.
