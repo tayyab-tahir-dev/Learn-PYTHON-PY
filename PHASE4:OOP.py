@@ -1097,6 +1097,8 @@
 
                                           # <----------DATACLASS---------->
 
+# - DATACLASS--->
+
 # INTERVIEW DEFINATION:
 
 # A dataclass is a Python class designed to mainly store data while automatically generating common methods such as __init__():
@@ -1136,3 +1138,41 @@
 # likh rahe hain.
 
 # Agar class mein bohat saare data fields hon, to ye code baar baar likhna padta hai.
+
+
+# WITH DATACLASS:(SIMPLE AND EASY)
+# EXAMPLE:
+
+# from dataclasses import dataclass
+
+
+# @dataclass 
+# class Student:
+#     name: str
+#     roll_num: int
+#     grade: str
+
+
+# s1 = Student("Ahmad", 18, "A+")
+# print(s1)
+
+
+# EXPLANATION:
+# YAHA:
+
+# from dataclasses import dataclass
+
+# dataclass Python ki built-in functionality hai.
+
+# OR:
+
+# @dataclass
+
+# Ye decorator hai jo Python ko batata hai:
+# Is class ko dataclass ke rules ke according handle karo.
+
+# Dataclass ka main benefit:
+
+# Data-holding classes ka boilerplate code kam karna.
+
+# Yani jo code baar baar manually likhna padta hai, dataclass usko automatically handle kar deti hai.
