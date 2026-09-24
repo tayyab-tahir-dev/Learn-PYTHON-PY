@@ -924,3 +924,30 @@
 
 # SIMPLE UNDERSTAND:
 # Abstraction ka matlab hai internal/complex implementation ko hide karna aur user ko sirf zaroori functionality dikhana.
+
+# SIMPLE REAL-WORLD EXAMPLE TO UNDERSTAND ABSTRACTION:
+
+# Example kay toor pr hum car drive karte ho.
+
+# Hum:
+
+# Start button
+# Brake
+# Accelerator
+# Steering
+
+# use karte hain.
+
+# Lekin hamay ye nahi pata hona chahiye ke engine ke andar exactly fuel injection, combustion, sensors etc. kaise kaam kar rahe hain.
+
+# Hamay interface milta hai, internal complexity hide hoti hai.
+
+# Yehi abstraction hai.
+
+# IMPORTANT:
+# Python mein Abstraction Kaise Kaam Karta Hai?
+# Python mein abstraction achieve karne ke liye hum ABC (Abstract Base Classes) module ka use karte hain. Isme do main concepts hote hain:
+
+# 1) Abstract Class: Yeh ek aisi class hoti hai jiska aap direct object (instance) nahi bana sakte. Yeh sirf ek template ya framework ka kaam karti hai.
+
+# 2) @abstractmethod: Yeh ek aisa method hota hai jiske paas sirf declaration hoti hai (koi body/logic nahi hota). Isko override karna har child class ke liye compulsory (laazmi) hota hai.
