@@ -1203,3 +1203,15 @@
 
 # Yahan DocumentChunk mainly data store kar rahi hai:
 # RAG systems mein documents/chunks ke metadata ko represent karne ke liye is type ki data structure useful ho sakti hai.
+
+
+                                       # <----------PROPERTY---------->
+
+# - @property--->
+
+# INTERVIEW DEFINATION:
+# A property allows a method to be accessed like an attribute while giving control over how its value is read or modified:
+
+# SIMPLE UNDERSTAND:
+# Python OOP mein @property ek aesa built-in decorator hai jo kisi method ko attribute (variable) ki tarah access karne ki sahulat deta hai.lekin us value ko read ya modify karne ka control method ke paas hota hai. Iski madad se hum bina brackets () lagaye kisi function ko call kar sakte hain:
+
