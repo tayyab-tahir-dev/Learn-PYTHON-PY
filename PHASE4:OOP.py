@@ -1176,3 +1176,30 @@
 # Data-holding classes ka boilerplate code kam karna.
 
 # Yani jo code baar baar manually likhna padta hai, dataclass usko automatically handle kar deti hai.
+
+
+# 🤖 REAL AI EXAMPLE:
+
+# Suppose hum kisi document ke chunks ka data store karna chahte hain:
+
+# from dataclasses import dataclass
+
+# @dataclass
+# class DocumentChunk:
+
+#     text: str
+#     page_numbber: int
+#     source: str
+
+
+# chunk = DocumentChunk(
+#     "Python is used in AI",
+#     29,
+#     "python_notes.pdf"
+# )
+
+# print(chunk)
+
+
+# Yahan DocumentChunk mainly data store kar rahi hai:
+# RAG systems mein documents/chunks ke metadata ko represent karne ke liye is type ki data structure useful ho sakti hai.
