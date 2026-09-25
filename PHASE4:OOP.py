@@ -1215,3 +1215,72 @@
 # SIMPLE UNDERSTAND:
 # Python OOP mein @property ek aesa built-in decorator hai jo kisi method ko attribute (variable) ki tarah access karne ki sahulat deta hai.lekin us value ko read ya modify karne ka control method ke paas hota hai. Iski madad se hum bina brackets () lagaye kisi function ko call kar sakte hain:
 
+# NORMAL METHPOD:
+# EXAMPLE:
+
+# class Student:
+
+#     def __init__(self, name):
+#       self.name = name
+
+#     def get_name(self):
+#        return self.name
+
+
+# student = Student("Tayyab")
+
+# print(student.get_name())
+
+# EXPLANATION:
+# YAHA
+# student.get_name()
+
+# get_name method hai, isliye () lagaye.
+
+
+# AB @property:
+# EXAMPLE:
+
+# class Student:
+
+#     def __init__(self, name):
+#       self.name = name
+
+#     @property
+#     def get_name(self):
+#        return self.name
+
+
+# student = Student("Tayyab")
+
+# print(student.get_name)
+
+# EXPLANATION:
+# YAHA
+# print(student.get_name)
+# () nahi hain.
+
+# Lekin get_name asal mein method hi hai.
+# @property ne us method ko attribute ki tarah access karne diya.
+
+
+# Encapsulation se relation
+
+# @property ko Encapsulation ke saath bohat use kiya jata hai.
+
+# Instead of simply allowing:
+
+# object.value
+
+# hum decide kar sakte hain:
+
+# value kaise read hogi
+# value kaise change hogi
+# value valid hai ya nahi
+
+
+# @property ka actual faida kya hai?
+
+# Main benefit hai:
+# Data ko access karte waqt uske peeche logic/validation laga sakte hai, lekin bahar se woh normal attribute jaisa dikhta hai.
+
