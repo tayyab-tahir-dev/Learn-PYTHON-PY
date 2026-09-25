@@ -1109,3 +1109,30 @@
 
 # Normal Python class may jab hamay data store karna hota hai, toh hamay __init__, __repr__, aur __eq__ jaise boilerplate (bar bar likhne wale) methods khud likhne parte hain. DataClass in sab cheezon ko auto-generate (khud b khud create) kar deta hai, jis se hamay bohot saara time aur code bach jata hai.
 
+# Normal Tareeqa (Without DataClass)
+
+# class Student:
+
+#     def __init__(self, name, age, course):
+#         self.name   = name
+#         self.age    = age
+#         self.course = course
+
+
+# student = Student("Tayyab", 18, "Python")
+
+# print(student.name)
+# print(student.age)
+# print(student.course)
+
+
+# YAHA HUM MANUALLY:
+
+# self.name = name
+# self.age = age
+# self.course = course
+
+
+# likh rahe hain.
+
+# Agar class mein bohat saare data fields hon, to ye code baar baar likhna padta hai.
