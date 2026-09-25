@@ -1093,3 +1093,19 @@
 # Polymorphism → Different behavior
 # Encapsulation → Controlled data
 # Abstraction → Hide complexity
+
+
+                                          # <----------DATACLASS---------->
+
+# INTERVIEW DEFINATION:
+
+# A dataclass is a Python class designed to mainly store data while automatically generating common methods such as __init__():
+
+# SIMPLE UNDERSTAND:
+
+# Python OOP may DataClass ek aisa feature hai jo hamaray code ko chota aur aasan banane ke liye use hota hai:
+
+# MORE UNDERSTANDING:
+
+# Normal Python class may jab hamay data store karna hota hai, toh hamay __init__, __repr__, aur __eq__ jaise boilerplate (bar bar likhne wale) methods khud likhne parte hain. DataClass in sab cheezon ko auto-generate (khud b khud create) kar deta hai, jis se hamay bohot saara time aur code bach jata hai.
+
