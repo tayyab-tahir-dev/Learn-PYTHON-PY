@@ -1575,6 +1575,10 @@
 # IMPORTANT:
 # Composition = "has-a" relationship.
 
+# Duniya ke bare-bare programmers ka kehna hai: "Design patterns should favor composition over class inheritance." yani jahah tak ho sake, inheritance ki jagah composition ka istemal karein kyunki yeh code ko aasan aur maintainable rakhta hai.
+
+
+
 # SIMPLEST EXAMPLE:
 
 # class Engine:
