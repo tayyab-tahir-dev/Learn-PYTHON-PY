@@ -1571,3 +1571,28 @@
 # SIMPLE UNDERSTAND:
 # Aasan lafzon mai: Composition ka matlab hai aik class ke andar doosri class ka object (instance) bator attribute (khubiyan) use karna.
 # Multiple inheritance mai aik class doosri class se direct khubiyan churati (inherit karti) hai. Lekin composition mai aik class doosri class ko apna hissa bana leti hai.
+
+# IMPORTANT:
+# Composition = "has-a" relationship.
+
+# SIMPLEST EXAMPLE:
+
+# class Engine:
+
+#     def start(self):
+#         print("Engine started")
+
+
+# class Car:
+
+#     def __init__(self):
+#         self.engine = Engine()
+
+#     def drive(self):
+#         self.engine.start()
+#         print("Car is driving")
+
+
+# car = Car()
+
+# car.drive()
