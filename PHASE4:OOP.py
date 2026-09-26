@@ -1423,3 +1423,19 @@
 # print(chunk1 == chunk2)
 
 # Ye RAG/document-processing systems mein useful ho sakta hai jab hum objects ko readable form mein display ya compare karna chaho.
+
+
+# Kuch aur Common Magic Methods
+# Abhi sabko detail mein nahi karte, bas names aur purpose yaad rakho:
+
+# | Magic Method   | Purpose                            |
+# | -------------- | ---------------------------------- |
+# | `__init__`     | Object initialize karna            |
+# | `__str__`      | `print(object)` ka readable output |
+# | `__len__`      | `len(object)`                      |
+# | `__eq__`       | `object1 == object2`               |
+# | `__lt__`       | `<`                                |
+# | `__gt__`       | `>`                                |
+# | `__add__`      | `+`                                |
+# | `__getitem__`  | `object[index]`                    |
+# | `__contains__` | `item in object`                   |
