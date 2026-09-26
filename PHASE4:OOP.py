@@ -1549,3 +1549,12 @@
 # LOG: Starting RAG pipeline
 # Retrieving documents...
 # Generating answer...
+
+
+# AI Engineering mein iska real concept:
+
+# RAG pipeline mein different responsibilities separate classes mein rakhi ja sakti hain:
+
+# DocumentRetriever → documents retrieve kare
+# Logger → process ki logging kare
+# RAGPipeline → dono functionality ko use karke complete pipeline chalaye
