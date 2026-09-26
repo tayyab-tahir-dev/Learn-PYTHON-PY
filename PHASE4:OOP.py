@@ -1443,6 +1443,7 @@
 
                                     # <----------MULTIPLE INHERITANCE---------->
 
+# - MULTIPLE INHERITANCE--->
 
 # INTERVIEW DEFINATION:
 # Multiple inheritance is an OOP feature where a child class inherits from more than one parent class.
