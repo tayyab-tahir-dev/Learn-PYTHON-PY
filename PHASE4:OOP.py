@@ -1400,3 +1400,26 @@
 # Yahan dono different objects hain, lekin humne define kiya hai ke agar unka text same hai to objects equal consider honge.
 
 
+# 🤖 REAL AI EXAMPLE:
+# Document chunks ko imagine karo
+
+# class DocumentChunk:
+
+#     def __init__(self, text, page):
+#         self.text = text     
+#         self.page = page
+
+#     def __str__(self):
+#       return f"Page {self.page}: {self.text}"
+
+#     def __eq__(self, other):
+#       return self.text == other.text and self.page == other.page
+
+
+# chunk1 = DocumentChunk("Python is a language", 5)
+# chunk2 = DocumentChunk("Python is a language", 5)
+
+# print(chunk1)
+# print(chunk1 == chunk2)
+
+# Ye RAG/document-processing systems mein useful ho sakta hai jab hum objects ko readable form mein display ya compare karna chaho.
