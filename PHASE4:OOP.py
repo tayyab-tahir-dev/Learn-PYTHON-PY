@@ -1325,3 +1325,18 @@
                                   # <----------MEGIC METHODS----------->
 
 # - MEGIC METHODS--->
+
+# INTERVIEW DEFINATION:
+# Magic methods are special methods in Python with double underscores that allow objects to work with built-in Python operations:
+
+# SIMPLE UNDERSTAND:
+# Magic methods Python ke special methods hote hain jo double underscores __ se start/end hote hain aur objects ko Python ki built-in operations ke saath kaam karne dete hain:
+
+# Magic method Python ko batata hai ke kisi object par +, len(), ==, print() waghera operation hone par kya karna hai:
+
+# ONE-LINE LEARN:
+# Magic methods Python ke special methods hain jo define karte hain ke object built-in operations aur functions ke saath kis tarah kaam karega:
+
+# (Advantages)
+# • Operator Overloading: Hum +, -, ==, <, > jaise operators ko apni marzi ke mutabiq custom classes par chala sakte hain.
+# • Clean Code: Hamara code bohot readable aur "Pythonic" lagta hai kyunki aapko b1.add_pages(b2) ki jagah seedha b1 + b2 likhne ki azadi milti ha
