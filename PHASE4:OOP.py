@@ -1466,11 +1466,31 @@
 #     def total_skills(self):
 #         return "I have my own skills too."
 
-# class Child2(Father, Mother):
-#       def total2_skills(self):
-#           return "I also have my own skills too"
 
 # # Object create karte hain
 # c = Child()
 # print(c.cricket_skill())  # Father se aaya
 # print(c.cooking_skill())  # Mother se aaya
+
+
+# ⚠️ Diamond Problem aur MRO (Method Resolution Order)
+# Multiple inheritance mai aik bara masla ata hai jise Diamond Problem kehte hain. Agar do parent classes mai same naam ka method ho, to Python kis parent ka method pehle run karega?
+# Python is masle ko hal karne ke liye MRO (Method Resolution Order) ka istemal karta hai. Python left-to-right aur bottom-to-top order follow karta hai.
+# Aap __mro__ attribute ya mro() method use kar ke order check kar sakte hain:
+
+# class A:
+#     def hello(self): 
+#         print("A")
+
+# class B:
+#     def hello(self): 
+#         print("B")
+
+# class C(A, B): # Yahan A pehle likha hai, B baad mai
+#     pass
+
+# obj = C()
+# obj.hello() # Output "A" aayega, kyunki Python pehle 'A' ko check karega
+
+# # yeh mro check kr rha hai
+# (print(C.__mro__))
