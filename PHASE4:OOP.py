@@ -1564,3 +1564,10 @@
                                        # <----------COMPOSITION---------->
 
 # - COMPOSITION--->
+
+# INTERVIEW DEFINATION:
+# composition is a fundamental object-oriented programming (OOP) design principle where a class is composed of one or more objects of other classes:
+
+# SIMPLE UNDERSTAND:
+# Aasan lafzon mai: Composition ka matlab hai aik class ke andar doosri class ka object (instance) bator attribute (khubiyan) use karna.
+# Multiple inheritance mai aik class doosri class se direct khubiyan churati (inherit karti) hai. Lekin composition mai aik class doosri class ko apna hissa bana leti hai.
