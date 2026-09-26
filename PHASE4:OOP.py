@@ -2,18 +2,16 @@
 
 # WHAT WE WILL COVER IN THIS SECTION:
 
-# 1) OOP in Python
-# 2) Swift vs Python comparison
-# 3) __init__
-# 4) self
-# 5) inheritance
-# 6) polymorphism
-# 7) abstraction
-# 8) encapsulation
-# 9) dataclass
-# 10) property
-# 11) magic methods
-
+# 1) Swift vs Python comparison
+# 2) __init__
+# 3) self
+# 4) inheritance
+# 5) polymorphism
+# 6) abstraction
+# 7) encapsulation
+# 8) dataclass
+# 9) property
+# 10) magic methods2
 # - OOP--->
 
 # INTERVIEW DEFINATION:
