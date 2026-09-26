@@ -1559,3 +1559,8 @@
 # DocumentRetriever → documents retrieve kare
 # Logger → process ki logging kare
 # RAGPipeline → dono functionality ko use karke complete pipeline chalaye
+
+
+                                       # <----------COMPOSITION---------->
+
+# - COMPOSITION--->
