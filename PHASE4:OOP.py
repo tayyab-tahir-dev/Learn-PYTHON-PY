@@ -1494,3 +1494,58 @@
 
 # # yeh mro check kr rha hai
 # (print(C.__mro__))
+
+
+# 🤖 REAL AI EXAMPLE:
+
+# RAG system mein ek class ko document retrieval aur logging dono functionality chahiye:
+
+# class DocumentRetriever:
+
+#     def retriever(self, query):
+#         print("Retrieving Documents...")
+
+
+# class Logger:
+
+#     def log(self, message):
+#         print("LOG:", message)
+
+
+# class RAGPipeline(DocumentRetriever, Logger):
+
+#       def answer(self, query):
+#           self.log("Starting RAG Piperline")
+#           self.retriever(query)
+#           print("Generating Answer...")
+
+
+
+# pipeline = RAGPipeline()
+
+# pipeline.answer("What is Python?")
+
+
+                                      # pipeline.answer()
+                                      #         ↓
+                                      # self.log("Starting RAG pipeline")
+                                      #         ↓
+                                      # Logger.log()
+                                      #         ↓
+                                      # LOG: Starting RAG pipeline
+                                      
+                                      # self.retrieve(query)
+                                      #         ↓
+                                      # DocumentRetriever.retrieve()
+                                      #         ↓
+                                      # Retrieving documents...
+                                      
+                                      # print("Generating answer...")
+                                      #         ↓
+                                      # Generating answer...
+
+# FINAL OUTPUT:
+
+# LOG: Starting RAG pipeline
+# Retrieving documents...
+# Generating answer...
