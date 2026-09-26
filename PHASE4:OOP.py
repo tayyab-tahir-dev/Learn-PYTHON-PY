@@ -1340,3 +1340,63 @@
 # (Advantages)
 # • Operator Overloading: Hum +, -, ==, <, > jaise operators ko apni marzi ke mutabiq custom classes par chala sakte hain.
 # • Clean Code: Hamara code bohot readable aur "Pythonic" lagta hai kyunki aapko b1.add_pages(b2) ki jagah seedha b1 + b2 likhne ki azadi milti ha
+
+# EXAMPLES:
+
+# 1) __str__
+# __str__ define karta hai ke object ko print() karne par readable form mein kya dikhana hai.
+
+# class User:
+
+#     def __init__(self, name):
+#       self.name = name
+
+
+#     def __str__(self):
+#       return f"User_Name: {self.name}"
+
+
+# user = User("Tayyab")
+
+# print(user)
+
+
+
+# 2) __len__
+# __len__ define karta hai ke len() function tumhare object par kya result de.
+
+# class Playlist:
+
+#     def __init__(self, songs):
+#       self.songs = songs
+
+#     def __len__(self):
+#       return len(self.songs)
+
+
+# playlist = Playlist(["Song 1", "Song 2", "Song 3"])
+
+# print(len(playlist))
+
+
+# 3) __eq__
+# __eq__ define karta hai ke == use karne par do objects ko equal kaise determine karna hai.
+
+# class Documents:
+
+#     def __init__(self, text):
+#       self.text = text
+
+#     def __eq__(self, other):
+#       return self.text == other.text
+
+
+# doc1 = Documents("Python is easy")
+# doc2 = Documents("Python is easy")
+
+# print(doc1 == doc2)
+
+
+# Yahan dono different objects hain, lekin humne define kiya hai ke agar unka text same hai to objects equal consider honge.
+
+
