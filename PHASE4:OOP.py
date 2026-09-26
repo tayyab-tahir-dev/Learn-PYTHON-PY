@@ -1600,3 +1600,39 @@
 # car = Car()
 
 # car.drive()
+
+
+# 🤖 REAL AI EXAMPLE:
+
+# class Retriever:
+
+#     def retrieve(self, query):
+#         print("Retrieving Documents")
+
+
+# class RAGPipeline:
+
+#     def __init__(self,):
+#       self.retriever = Retriever()
+
+#     def answer(self, query):
+#       self.retriever.retrieve(query)
+#       print("Generating answer")
+
+
+# rag = RAGPipeline()
+
+# rag.answer("What is python?")
+
+
+# Sabse important difference
+
+# Inheritance:
+# Child class is-a parent.
+
+# Example: Dog is an Animal.
+
+# Composition:
+# Ek class has-a doosri class.
+
+# Example: Car has an Engine.
