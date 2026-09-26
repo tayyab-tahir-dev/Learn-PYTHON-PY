@@ -1319,3 +1319,9 @@
 
 # ONE-LINE LEARN:
 # @property = Method ko attribute ki tarah access karna + value par control rakhna.
+
+
+
+                                  # <----------MEGIC METHODS----------->
+
+# - MEGIC METHODS--->
