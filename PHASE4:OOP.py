@@ -1437,3 +1437,15 @@
 # | `__add__`      | `+`                                |
 # | `__getitem__`  | `object[index]`                    |
 # | `__contains__` | `item in object`                   |
+
+
+
+
+                                    # <----------MULTIPLE INHERITANCE---------->
+
+
+# INTERVIEW DEFINATION:
+# Multiple inheritance is an OOP feature where a child class inherits from more than one parent class.
+
+# SIMPLE UNDERSTAND:
+# Multiple inheritance mein aik child class 2 ya us se zyada parent classes se attributes aur methods inherit karti hai.    
