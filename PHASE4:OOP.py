@@ -1636,3 +1636,13 @@
 # Ek class has-a doosri class.
 
 # Example: Car has an Engine.
+
+
+                                       # <----------COMPOSITION VS INHERITANCE---------->
+# - COMPOSITION VS INHERITANCE--->
+# Ye dono concepts ka purpose classes ke darmiyan relationship banana hai, lekin relationship different hota hai.
+
+# SIMPLE UNDERSTAND:
+
+# 1) INHERITANCE
+# Inheritance mein child class, parent class ki type hoti hai.
