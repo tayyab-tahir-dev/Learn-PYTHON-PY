@@ -1649,3 +1649,27 @@
 
 # COMPOSITION:
 # Jab ek class ke andar doosri class ka object ek hissa (component) ban kar aata hai. Ise "Has-A" relationship kehte hain (e.g., Car has an Engine).
+
+
+
+# 1) Inheritance (Is-A Relationship)
+# Inheritance mein hum ek parent class banate hain aur child class uski saari khoobiyan (METHODS/ATTRIBUTES) copy (REUSE) kar leti hai.
+
+# EXAMPLE:
+# # Parent Class
+# class Vehicle:
+#     def start(self):
+#         return "Vehicle start ho gayi."
+
+# # Child Class (Inherit kar rahi hai)
+# class Car(Vehicle):
+#     def drive(self):
+#         return "Car chal rahi hai."
+
+# # Istemal
+# my_car = Car()
+# print(my_car.start())  # Parent ka method chal gaya
+# print(my_car.drive())  # Child ka apna method
+
+# MEANS 
+# CAR IS A VEHICLE:
