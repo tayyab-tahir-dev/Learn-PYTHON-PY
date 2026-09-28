@@ -1746,3 +1746,41 @@
 
 # Agar sab kuch ek he file mein functions ke andar likhen, project bara hone par code difficult ho sakta hai.
 
+# REAL AI EXAMPLE:
+# OOP mei hum components ko separate classes mein organize kar sakte hain.
+
+# class Prompt:
+#     def format(self, question):
+#         return f"Answer this question: {question}"
+
+
+# class Retriever:
+#     def retrieve(self, question):
+#         print("Retrieving relevant documents")
+
+
+# class LLM:
+#     def generate(self, prompt):
+#         print("Generating response")
+
+
+# class RAGPipeline:
+#     def __init__(self):
+#         self.prompt = Prompt()
+#         self.retriever = Retriever()
+#         self.llm = LLM()
+
+#     def answer(self, question):
+#         self.retriever.retrieve(question)
+
+#         formatted_prompt = self.prompt.format(question)
+
+#         self.llm.generate(formatted_prompt)
+
+
+# rag = RAGPipeline()
+
+# rag.answer("What is Python?")
+
+
+# OOP → AI application ke components ko organized, reusable aur manageable banane mein help karti hai.
