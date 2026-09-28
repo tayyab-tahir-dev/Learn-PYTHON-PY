@@ -1645,4 +1645,6 @@
 # SIMPLE UNDERSTAND:
 
 # 1) INHERITANCE
-# Inheritance mein child class, parent class ki type hoti hai.
+#  Jab ek class doosri class ki properties aur methods ko virasat (inherit) mein leti hai. Ise "Is-A" relationship kehte hain (e.g., Car is a Vehicle).
+
+
