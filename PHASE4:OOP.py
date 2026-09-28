@@ -1702,3 +1702,30 @@
                                        # <----------OOP IS AI/LLM---------->
 
 # - OOP IN AI/LLM--->
+
+# Simple Example:
+# Suppose hum ek LLM application bana rahe hain.
+
+
+# class Prompt:
+#     def __init__(self, text):
+#         self.text = text
+
+
+#     def format(self):
+#         return f"User Prompt: {self.text}"
+
+
+# prompt = Prompt("Explain Python OOP")
+
+# print(prompt.format())
+
+
+# Yahan:
+
+# Prompt → class
+# text → attribute
+# format() → method
+# prompt → object
+
+# Matlab humne prompt ko ek object bana diya.
