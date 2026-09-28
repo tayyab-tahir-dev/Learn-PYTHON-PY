@@ -1647,7 +1647,7 @@
 # 1) INHERITANCE
 #  Jab ek class doosri class ki properties aur methods ko virasat (inherit) mein leti hai. Ise "Is-A" relationship kehte hain (e.g., Car is a Vehicle).
 
-# COMPOSITION:
+# 2) COMPOSITION:
 # Jab ek class ke andar doosri class ka object ek hissa (component) ban kar aata hai. Ise "Has-A" relationship kehte hain (e.g., Car has an Engine).
 
 
@@ -1673,3 +1673,27 @@
 
 # MEANS 
 # CAR IS A VEHICLE:
+
+
+# 2) Composition (Has-A Relationship)
+# Composition mein aap classes ko aapas mein jodne ke bajaye, ek class ke andar doosri class ka object daal dete hain.
+
+# EXAMPES:
+# class Engine:
+#     def start_engine(self):
+#         return "Engine vroom vroom kar raha hai."
+
+# class Car:
+#     def __init__(self):
+#         self.engine = Engine() # Car ke andar Engine ka object hai (Composition)
+
+#     def start_car(self):
+#         # Engine class ke method ko call kiya
+#         return self.engine.start_engine()
+
+# # Istemal
+# my_car = Car()
+# print(my_car.start_car())
+
+# MEANS:
+# CAR HAS AN ENGINE:
