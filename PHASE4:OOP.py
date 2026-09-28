@@ -1647,4 +1647,5 @@
 # 1) INHERITANCE
 #  Jab ek class doosri class ki properties aur methods ko virasat (inherit) mein leti hai. Ise "Is-A" relationship kehte hain (e.g., Car is a Vehicle).
 
-
+# COMPOSITION:
+# Jab ek class ke andar doosri class ka object ek hissa (component) ban kar aata hai. Ise "Has-A" relationship kehte hain (e.g., Car has an Engine).
