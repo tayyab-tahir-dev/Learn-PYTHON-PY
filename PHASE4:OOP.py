@@ -1789,3 +1789,72 @@
                                        # <----------OOP IN RAG---------->
 
 # - OOP IN RAG--->
+# REAI AI EXAMPLE:
+
+# class Prompt:
+#     def format(self, question):
+#         return f"Answer this question: {question}"
+
+
+# class Retriever:
+#     def retrieve(self, question):
+#         print("Retrieving relevant documents")
+#         return "Python is a programming language."
+
+
+# class LLM:
+#     def generate(self, prompt, documents):
+#         print("Generating answer")
+#         return f"Based on: {documents}\nPrompt: {prompt}"
+
+
+# class RAGPipeline:
+
+#     def __init__(self):
+#         self.prompt = Prompt()
+#         self.retriever = Retriever()
+#         self.llm = LLM()
+
+#     def answer(self, question):
+
+#         documents = self.retriever.retrieve(question)
+
+#         formatted_prompt = self.prompt.format(question)
+
+#         answer = self.llm.generate(
+#             formatted_prompt,
+#             documents
+#         )
+
+#         return answer
+
+
+# rag = RAGPipeline()
+
+# result = rag.answer("What is Python?")
+
+# print(result)
+
+
+
+# Sabse important concept
+
+# RAGPipeline khud har kaam nahi kar raha.
+
+# Instead:
+
+# Retriever    → documents retrieve karta hai
+# Prompt       → prompt prepare karta hai
+# LLM          → answer generate karta hai
+# RAGPipeline  → in sab ko manage/orchestrate karta hai
+
+# Yahi large AI applications mein OOP ka important use hai.
+
+# Simple Real-World Analogy
+
+# Socho restaurant:
+
+# Retriever    → ingredients laata hai
+# Prompt       → recipe/instructions prepare karta hai
+# LLM          → final dish/answer banata hai
+# RAGPipeline  → poori process coordinate karta hai
