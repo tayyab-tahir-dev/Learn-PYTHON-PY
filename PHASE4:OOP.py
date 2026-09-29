@@ -1729,3 +1729,20 @@
 # prompt → object
 
 # Matlab humne prompt ko ek object bana diya.
+
+
+# AI/LLM mein OOP kyun useful hai?
+# AI application mein bohat se components ho sakte hain:
+
+# Prompt
+# LLM client
+# Embedding model
+# Document loader
+# Retriever
+# Vector database
+# RAG pipeline
+# Agent
+# Tools
+
+# Agar sab kuch ek he file mein functions ke andar likhen, project bara hone par code difficult ho sakta hai.
+
