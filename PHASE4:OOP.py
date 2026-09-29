@@ -1697,3 +1697,8 @@
 
 # MEANS:
 # CAR HAS AN ENGINE:
+
+
+                                       # <----------OOP IS AI/LLM---------->
+
+# - OOP IN AI/LLM--->
