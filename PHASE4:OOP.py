@@ -1925,3 +1925,52 @@
                                          # <----------OOP IN MINI PROJECTS--------->
 
 # - OOP IN MINI PROJECT--->
+
+# Project: Simple RAG Assistant
+# Is project mein 3 main classes hongi:
+
+# DocumentRetriever → relevant document find karega
+# Prompt → prompt prepare karega
+# RAGAssistant → dono ko manage karega
+
+
+# class DocumentRetriever:
+
+#     def retrieve(self, question):
+#         print("Retrieving relevant document...")
+#         return "Python is a programming language."
+
+
+# class Prompt:
+
+#     def format(self, question, document):
+#         return f"""
+# Question: {question}
+# Context: {document}
+# Answer the question using the context.
+# """
+
+
+# class RAGAssistant:
+
+#     def __init__(self):
+#         self.retriever = DocumentRetriever()
+#         self.prompt = Prompt()
+
+#     def answer(self, question):
+
+#         document = self.retriever.retrieve(question)
+
+#         formatted_prompt = self.prompt.format(
+#             question,
+#             document
+#         )
+
+#         return formatted_prompt
+
+
+# assistant = RAGAssistant()
+
+# result = assistant.answer("What is Python?")
+
+# print(result)
