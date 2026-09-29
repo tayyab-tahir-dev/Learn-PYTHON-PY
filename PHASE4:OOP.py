@@ -1858,3 +1858,28 @@
 # Prompt       → recipe/instructions prepare karta hai
 # LLM          → final dish/answer banata hai
 # RAGPipeline  → poori process coordinate karta hai
+
+
+
+                                      # <----------OOP IN AI AGENT---------->
+
+# - OOP IN AI AGENT--->
+
+# class Weather_tool:
+
+#     def get_weather(self, city):
+#         return f"Weather in {city} is Sunny"
+
+# class AIAgent:
+
+#     def __init__(self):
+#         self.weather_tool = Weather_tool()
+
+#     def answer(self, city):
+#         weather = self.weather_tool.get_weather(city)
+#         return weather
+
+
+# agent = AIAgent()
+
+# print(agent.answer("Lahore"))
