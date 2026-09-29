@@ -1865,6 +1865,8 @@
 
 # - OOP IN AI AGENT--->
 
+# BASIC EXAMPLE:
+
 # class Weather_tool:
 
 #     def get_weather(self, city):
@@ -1883,3 +1885,17 @@
 # agent = AIAgent()
 
 # print(agent.answer("Lahore"))
+
+
+# Real AI Agent mai:
+# Ek agent ke paas multiple components ho sakte hain:
+
+# Agent
+#  ├── LLM
+#  ├── Tools
+#  ├── Memory
+#  └── Task logic
+
+# OOP mein in components ko separate classes mein organize kiya ja sakta hai.
+
+# REAL AI EXAMPLE:
