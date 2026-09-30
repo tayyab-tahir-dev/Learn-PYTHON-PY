@@ -1920,3 +1920,8 @@
 
 
 # Yahan Agent ke paas CalculatorTool hai aur Agent us tool ko use kar raha hai.
+
+ 
+                                         # <----------OOP IN MINI PROJECTS--------->
+
+# - OOP IN MINI PROJECT--->
