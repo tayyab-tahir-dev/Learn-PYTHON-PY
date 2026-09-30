@@ -302,16 +302,6 @@
 # cls ka matlab roughly:
 # jis class se method related hai, us class ko refer karo.
 
-# SIMPLE EXAMPLE:
-
-# class Student:
-
-#     @classmethod
-#     def show_school(cls):
-#         print("ABC School")
-
-# Student.show_school()
-
 
 # REAL AI EXAMPLE:
 
@@ -1974,3 +1964,24 @@
 # result = assistant.answer("What is Python?")
 
 # print(result)
+
+
+
+# - RETURN EXAMPLE:
+
+# def greet(a, b):
+#     return a + b 
+#     print("Function scope in end")
+    
+# return_value = greet(10, 20)
+# print(return_value)
+
+
+
+# def new_function(a, b):
+#     print(a + b)
+
+# final_value = new_function(20, 30)
+# print(final_value)
+
+# new_function(27, 30)
