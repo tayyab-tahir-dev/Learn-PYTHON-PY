@@ -1899,3 +1899,24 @@
 # OOP mein in components ko separate classes mein organize kiya ja sakta hai.
 
 # REAL AI EXAMPLE:
+
+# class CalculatorTool:
+
+#     def calculator(self, expression):
+#         return eval(expression)
+
+# class AIAgent:
+
+#     def __init__(self):
+#       self.calculator = CalculatorTool()
+
+#     def solve(self, expression):
+#         return self.calculator.calculator(expression)
+
+
+# agent = AIAgent()
+
+# print(agent.solve("30 + 20"))
+
+
+# Yahan Agent ke paas CalculatorTool hai aur Agent us tool ko use kar raha hai.
