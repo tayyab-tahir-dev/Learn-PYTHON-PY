@@ -113,3 +113,20 @@
 # Server error
 
 # Hum in problems ko next concepts ke through properly handle karenge.
+
+# 🧠 AI Engineer Mindset
+
+# Jab bhi real application bana rahe ho, automatically yeh socho:
+
+# "Is operation mein error aa sakta hai?"
+
+# Agar answer yes hai, to us operation ko appropriate error-handling strategy ke andar rakhna chahiye.
+
+# Examples:
+
+# File Reading       → risky
+# API Request        → risky
+# Database Query     → risky
+# JSON Parsing       → risky
+# LLM Response       → potentially risky
+# User Input         → potentially risky
