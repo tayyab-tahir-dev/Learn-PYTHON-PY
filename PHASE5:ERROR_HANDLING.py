@@ -31,3 +31,18 @@
 # JSON parsing fail ho
 # Internet/API timeout ho
 
+
+                                            # <----------TRY---------->
+
+# 1) - try --->
+
+# INTERVIEW DEFINATION:
+# try is used to wrap code that may raise an exception.
+
+# SIMPLE UNDERSTAND:
+# try ke andar hum woh code rakhte hain jisme error aane ka possibility ho.
+
+
+# Yani hum Python ko basically keh rahe hote hain:
+
+# Is code ko run karo, lekin agar ismein error aaye to usko hum properly handle karenge."\
