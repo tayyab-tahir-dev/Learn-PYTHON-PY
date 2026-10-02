@@ -231,3 +231,15 @@
 #     print("Invalid data type.")
 
 # Ab har exception ka apna handler hai.
+
+
+# BONUS EXAMPLE:
+
+# try:
+#     number = int(input("Koi number enter karein jo 10 se divide ho: "))
+#     result = 10 / number
+#     print(f"Result : {result}")
+# except ZeroDivisionError:
+#     print("Error: Aap kisi bi number ko 0 se divide nhi kar sakte!")
+# except ValueError:
+#     print("Error: Please sirf valid number enter karein, ABCD nhi!")
