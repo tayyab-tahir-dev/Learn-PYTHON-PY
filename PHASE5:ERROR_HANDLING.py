@@ -142,3 +142,13 @@
 
 # SIMPLE UNDERSTAND:
 # Agar try ke andar error aaye, to us error ko handle karne ke liye except use hota hai.
+
+
+# SYNTAX:
+
+# try:
+#     risky code
+# except:
+#     error handle karne wala code
+
+
