@@ -172,3 +172,28 @@
 # Something went wrong
 
 # Is tarah program error ki wajah se simply crash hone ke bajaye error ko handle kar sakta hai.
+
+
+# Specific Exception Handle Karna:
+# Real Python code mein sirf:
+
+# except:
+
+# likhne ke bajaye specific error handle karna better hota hai.
+# EXAMPLE:
+
+# try:
+#     age = int(input("Age: "))
+# except ValueError:
+#     print("Sirf number enter karo.")
+
+# YAHAN:
+
+# Input mai interger ki jagah aghar "abc" de day to ValueError a skta hai:
+
+# IS LIYE:
+# Hum kehtay hai.
+
+# except ValueError:
+
+# Yaani aghar ValueError aye, to yeh code run kro
