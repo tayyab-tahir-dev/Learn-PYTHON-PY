@@ -89,3 +89,27 @@
 # Potentially problematic/risky code ko identify karke usay try block mein rakhna.
 
 # Actual handling hum except krta hai.
+
+
+# REAL AI-EXAMPLE:
+
+# AI application mein hum LLM API call kar sakte hain:
+
+
+# try:
+#     response = llm.generate(prompt)
+
+#     print(response)
+
+
+# Yahan API/LLM request risky operation hai.
+
+# Possible problems:
+
+# API request fail
+# Network problem
+# Timeout
+# Invalid configuration
+# Server error
+
+# Hum in problems ko next concepts ke through properly handle karenge.
