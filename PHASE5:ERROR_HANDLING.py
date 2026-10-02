@@ -152,3 +152,23 @@
 #     error handle karne wala code
 
 
+# BASIC EXAMPLE:
+
+# try:
+#     numbers = int("abc")
+# except:
+#     print("Something went wrong")
+
+
+# YAHAN:
+# int("abc")
+
+# error generate karega.
+
+# Python try ke andar error dekhega aur phir except ke andar chala jayega.
+
+# Output:
+
+# Something went wrong
+
+# Is tarah program error ki wajah se simply crash hone ke bajaye error ko handle kar sakta hai.
