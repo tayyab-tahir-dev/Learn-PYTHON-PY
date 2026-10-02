@@ -47,3 +47,35 @@
 
 # Is code ko run karo, lekin agar ismein error aaye to usko hum properly handle karenge.
 
+# SYNTAX:
+
+# try:
+#     risky code
+
+
+# Lekin normally try ke saath except bhi hota hai:
+
+
+# try:
+#     risky code
+
+# except:
+#     error handle karne wala code
+
+
+# BASIC EXAMPLE:
+
+
+# try:
+#     number = int("abc")
+#     print(number)
+
+
+# YAHAN:
+
+# int("abc")
+
+# risky operation hai.
+
+# Python "abc" ko integer mein convert nahi kar sakta, isliye exception generate hogi.
+
