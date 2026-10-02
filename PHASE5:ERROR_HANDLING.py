@@ -213,3 +213,21 @@
 
 # except json.JSONDecodeError:
 #     print("Invalid AI response format")
+
+
+
+# MULTIPLE EXCEPTIONS:
+# Kabhi application mein different errors aa sakte hain:
+# EXAMPLE:
+
+
+# try:
+#     number = int(input("Enter Number: "))
+
+# except ValueError:
+#     print("Please enter a valid number.")
+
+# except TypeError:
+#     print("Invalid data type.")
+
+# Ab har exception ka apna handler hai.
