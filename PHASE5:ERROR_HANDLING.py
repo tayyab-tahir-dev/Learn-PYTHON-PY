@@ -136,3 +136,9 @@
                                            # <----------EXCEPT---------->
 
 # - except--->
+
+# INTERVIEW DEFINATION:
+# except is used to catch and handle an exception raised inside the try block.
+
+# SIMPLE UNDERSTAND:
+# Agar try ke andar error aaye, to us error ko handle karne ke liye except use hota hai.
