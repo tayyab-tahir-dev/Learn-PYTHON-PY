@@ -79,3 +79,13 @@
 
 # Python "abc" ko integer mein convert nahi kar sakta, isliye exception generate hogi.
 
+
+# Important
+
+# try ka kaam error ko fix karna nahi hai.
+
+# try ka kaam hai:
+
+# Potentially problematic/risky code ko identify karke usay try block mein rakhna.
+
+# Actual handling hum except krta hai.
