@@ -248,3 +248,9 @@
                                             # <----------FINALLY---------->
 
 # 3 - finally--->
+
+# INTERVIEW DEFINATION:
+# finally is a block that runs whether an exception occurs or not.
+
+# SIMPLE UNDERSTAND:
+# Error aaye ya na aaye, finally ka code run hoga.
