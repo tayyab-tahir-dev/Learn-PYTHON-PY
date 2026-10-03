@@ -196,4 +196,20 @@
 
 # except ValueError:
 
-# Yaani aghar ValueError aye, to yeh code run kro
+# Yaani aghar ValueError aye, to yeh code run kro:
+
+
+# 🤖 REAL AI-EXAMPLE:
+
+# Suppose AI application JSON response process kar rahi hai:
+
+# import json
+
+# response = '{"answer": "Python is easy"}'
+
+# try:
+#     data = json.loads(response)
+#     print(data["answer"])
+
+# except json.JSONDecodeError:
+#     print("Invalid AI response format")
