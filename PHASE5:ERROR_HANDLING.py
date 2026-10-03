@@ -293,3 +293,19 @@
 # resource close karna
 # temporary data clean karna
 # connection release karna
+
+
+# EXAMPLE WITH RETURN:
+
+# def check_finally():
+#     try:
+#         print("1. Mai try block ke andar hu.")
+#         return "TRY KA RETURN"  # Yahan se function ko khatam ho jana chahiye
+#     except:
+#         print("Mai except block kay andar hu")
+#     finally:
+#         print("2. Mai finally block hu aur mai peeche nahi hatunga!")
+
+# # Function ko call karte hain aur uska return value print karte hain
+# result = check_finally()
+# print(f"3. Function ne return kiya: {result}")
