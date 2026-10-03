@@ -135,7 +135,7 @@
 
                                            # <----------EXCEPT---------->
 
-# - except--->
+# 2) - except--->
 
 # INTERVIEW DEFINATION:
 # except is used to catch and handle an exception raised inside the try block.
