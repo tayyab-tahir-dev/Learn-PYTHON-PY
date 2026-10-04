@@ -328,3 +328,8 @@
 
 # finally:
 #     print("Transaction process finished")
+
+
+                                           # <----------raise----------->
+
+# 4) - RAISE--->
