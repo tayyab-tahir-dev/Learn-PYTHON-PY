@@ -356,3 +356,15 @@
 #     raise ValueError("Age must be 18 or above")
 
 
+# EXAMPLE WITH raise + try/except:
+
+# try:
+#     age = 15
+
+#     if age < 18:
+#         raise ValueError("Age must be 18 or above")
+
+# except ValueError:
+#     print("Invalid age")
+
+
