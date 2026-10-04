@@ -346,3 +346,13 @@
 # raise se hum Python ko batate hain: "Suno, yeh galti hai!
 
 # try-except se hum batate hain: "Agar aisi galti ho jaye, toh screen par user ko aasan lafzon mein samjha do.
+
+
+# BASIC EXAMPLE:
+
+# age = 15
+
+# if age < 18:
+#     raise ValueError("Age must be 18 or above")
+
+
