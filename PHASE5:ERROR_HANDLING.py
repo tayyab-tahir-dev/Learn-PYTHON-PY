@@ -310,3 +310,21 @@
 # # Function ko call karte hain aur uska return value print karte hain
 # result = check_finally()
 # print(f"3. Function ne return kiya: {result}")
+
+
+# SIMPLEST EXAMPLE TO UNDERSTAND FINALLY:
+# ATM EXAMPLE: 
+
+
+# try:
+#     print("Transaction start")
+
+#     number = int(input("Enter amount: "))
+
+#     print("Transaction sucessful")
+
+# except ValueError:
+#     print("Invalid amount")
+
+# finally:
+#     print("Transaction process finished")
