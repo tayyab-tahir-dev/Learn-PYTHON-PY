@@ -303,6 +303,7 @@
 #         return "TRY KA RETURN"  # Yahan se function ko khatam ho jana chahiye
 #     except:
 #         print("Mai except block kay andar hu")
+#         return "EXCEPT KA RETURN"
 #     finally:
 #         print("2. Mai finally block hu aur mai peeche nahi hatunga!")
 
