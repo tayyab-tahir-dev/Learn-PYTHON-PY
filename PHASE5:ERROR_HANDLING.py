@@ -254,3 +254,21 @@
 
 # SIMPLE UNDERSTAND:
 # Error aaye ya na aaye, finally ka code run hoga.
+
+
+# 🧠 try + except + finally
+# teenon ka role:
+
+
+# try:
+#     risky code
+
+# except ValueError:
+
+#     aghar ValueError aaye
+
+# finally:
+#     error aye ya na aye 
+#     yeh code chalega he chalega
+
+
