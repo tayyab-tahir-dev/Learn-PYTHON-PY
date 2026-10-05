@@ -368,3 +368,15 @@
 #     print("Invalid age")
 
 
+# 🤖 REAL AI-EXAMPLE:
+
+# try:
+#     prompt = ""
+
+#     if not prompt:
+#         raise ValueError("Prompt cannot be empty")
+
+#     print("Sending prompt to AI model...")
+
+# except ValueError as error:
+#     print(error)
