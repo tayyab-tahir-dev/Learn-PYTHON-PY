@@ -339,3 +339,10 @@
 
 # SIMPLE UNDERSTAND:
 # Hum khud apni condition ke basis par jaan bhooj kr error generate karta hai.
+
+
+# IMPORTANT:
+
+# raise se hum Python ko batate hain: "Suno, yeh galti hai!
+
+# try-except se hum batate hain: "Agar aisi galti ho jaye, toh screen par user ko aasan lafzon mein samjha do.
