@@ -333,3 +333,9 @@
                                            # <----------raise----------->
 
 # 4) - RAISE--->
+
+# INTERVIEW DEFINATION:
+# raise is used to manually trigger an exception in Python.
+
+# SIMPLE UNDERSTAND:
+# Hum khud apni condition ke basis par jaan bhooj kr error generate karta hai.
