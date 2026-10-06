@@ -419,3 +419,13 @@
 
 # SIMPLE UNDERSTAND:
 # Hum apni application ke specific error ke liye apna khud ka exception type banate hain.
+
+
+# class InvalidPromptError(Exception):
+#      pass
+
+# Bas itna code ek custom exception banane ke liye enough hai.
+
+# Iska matlab hai:
+# InvalidPromptError naam ki apni exception class banao.
+
