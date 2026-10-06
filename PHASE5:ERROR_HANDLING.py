@@ -380,3 +380,19 @@
 
 # except ValueError as error:
 #     print(error)
+
+
+# class InsufficientFundError(Exception):
+#     def __init__(self, message="Balance ham hai!"):
+#         self.message = message
+
+#         super().__init__(self.message)
+
+# current_balance = 500
+# withdraw_amount = 1000
+
+# if current_balance < withdraw_amount:
+#     raise InsufficientFundError()
+# else:
+#     print("Transaction successful")
+
