@@ -446,3 +446,30 @@
 
 
 
+# 🤖 Real AI Engineering Example:
+
+# Suppose hum RAG application bana rahe hai.
+# RAG system ko search karne ke liye documents chahiye.
+
+# Agar knowledge base mein koi document he nahi hai, to hum apna specific error bana sakte hai:
+
+
+# class  KnowledgeBaseEmptyError(Exception):
+#     pass
+
+
+# try:
+#     documents = []
+
+#     if not documents:
+#         raise KnowledgeBaseEmptyError("Khowledge base in empty")
+    
+#     print("Knowlegde base is ready")
+
+# except KnowledgeBaseEmptyError as error:
+#     print(error)
+
+
+# AI Engineer ke perspective se:
+
+# Jab application mein koi domain-specific problem ho jise clearly identify aur handle karna ho, custom exception useful hoti hai.
