@@ -485,3 +485,22 @@
 
 # SIMPLE UNDERSTAND:
 # Logging ka matlab hai program mein hone wali important activities, warnings aur errors ka record rakhna.
+
+
+# Logging ki zaroorat kyun hai?
+
+# Suppose hamari AI application production mein chal rahi hai.
+
+# User kehta hai:
+# "AI response nahi aa raha."
+
+# Agar code mein sirf:
+# print("Error")
+# hai, to hamaray paas baad mein proper record nahi hoga.
+
+# Logging se application record kar sakti hai:
+
+# API request failed
+# 2026-10-06 08:30:15
+
+# Phir developer investigate kar sakta hai ke problem kab aur kahan hui.
