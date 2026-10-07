@@ -519,3 +519,19 @@
 #     logging.error("Invalid number received")
 
 
+
+# Important Logging Levels:
+
+# | Level     | Meaning                            |
+# | --------- | ---------------------------------- |
+# | `DEBUG`   | Detailed information for debugging |
+# | `INFO`    | Normal important event             |
+# | `WARNING` | Possible problem                   |
+# | `ERROR`   | Error/problem                      |
+
+
+
+# logging.debug("Processing started")
+# logging.info("Document loaded")
+# logging.warning("Response is slow")
+# logging.error("API request failed")
