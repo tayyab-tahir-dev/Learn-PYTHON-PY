@@ -535,3 +535,25 @@
 # logging.info("Document loaded")
 # logging.warning("Response is slow")
 # logging.error("API request failed")
+
+
+
+# 🤖 REAL AI-EXAMPLE:
+# Suppose RAG application document process kar rahi hai:
+
+# import logging
+
+# logging.basicConfig(level=logging.INFO)
+
+# logging.info("Document processing started")
+
+# try:
+#     document = "Python AI notes"
+
+#     if not document:
+#         raise ValueError("Document is empty")
+
+#     logging.info("Document processing sucessfully")
+
+# except ValueError as error:
+#     logging.error(f"Document processing failes: {error}")
