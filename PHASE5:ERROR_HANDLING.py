@@ -473,3 +473,9 @@
 # AI Engineer ke perspective se:
 
 # Jab application mein koi domain-specific problem ho jise clearly identify aur handle karna ho, custom exception useful hoti hai.
+
+
+
+                                         # <----------LOGGING---------->
+
+# 6) - LOGGING--->
