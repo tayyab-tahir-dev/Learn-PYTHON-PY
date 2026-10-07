@@ -414,3 +414,8 @@
 
 # 5) - CUSTOM EXCEPTIONS--->
 
+# INTERVIEW DEFINATION:
+# A custom exception is a user-defined exception created for a specific application error.
+
+# SIMPLE UNDERSTAND:
+# Hum apni application ke specific error ke liye apna khud ka exception type banate hain.
