@@ -396,3 +396,15 @@
 # else:
 #     print("Transaction successful")
 
+
+# AI Engineering mein iska fayda
+
+# Tum application mein business/application rules enforce kar sakte ho.
+
+# Example:
+
+# Empty prompt
+# Invalid configuration
+# Invalid input
+# Missing required value
+# Unsupported operation
