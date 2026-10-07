@@ -479,3 +479,9 @@
                                          # <----------LOGGING---------->
 
 # 6) - LOGGING--->
+
+# INTERVIEW DEFINATION:
+# Logging is the process of recording important events, errors, and information while a program is running.
+
+# SIMPLE UNDERSTAND:
+# Logging ka matlab hai program mein hone wali important activities, warnings aur errors ka record rakhna.
