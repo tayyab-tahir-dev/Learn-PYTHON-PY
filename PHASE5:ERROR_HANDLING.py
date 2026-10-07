@@ -408,3 +408,9 @@
 # Invalid input
 # Missing required value
 # Unsupported operation
+
+
+                                           # <----------CUSTOM EXCEPTIONS---------->
+
+# 5) - CUSTOM EXCEPTIONS--->
+
