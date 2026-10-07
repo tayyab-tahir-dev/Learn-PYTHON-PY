@@ -429,3 +429,20 @@
 # Iska matlab hai:
 # InvalidPromptError naam ki apni exception class banao.
 
+
+# BASIC EXAMPLE:
+
+# class InvalidPromptError(Exception):
+#     pass
+
+
+# try:
+#     prompt = ""
+#     if not prompt:
+#         raise InvalidPromptError("Prompt cannot be empty")
+
+# except InvalidPromptError as error:
+#     print(error)
+
+
+
