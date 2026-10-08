@@ -573,3 +573,30 @@
 # except ValueError:
 #     logging.error("User entered an invalid number")
 
+
+
+# PRACTISE USING "try + except + raise + custom exception + finally + logging"
+
+import logging
+
+logging.basicConfig(level=logging.INFO)
+
+class InvalidPromptError(Exception):
+    pass
+
+logging.info("Prompt processing started")
+
+try:
+    prompt = ""
+
+    if not prompt:
+        raise InvalidPromptError("Prompt cannot be empty")
+
+except InvalidPromptError as error:
+    logging.error(f"Error: {error}")
+
+else:
+    logging.info("Prompt processing finished")
+
+finally:
+    logging.info("Prompt Processing finished")
