@@ -43,3 +43,10 @@
 
 # - TXT-->
 
+# Definition:
+# A TXT file is a plain-text file used to store readable text data.
+
+# SIMPLE UNDERSTAND:
+# TXT file aik simple file hoti hai jisme hum normal text/data store karte hain.
+
+
