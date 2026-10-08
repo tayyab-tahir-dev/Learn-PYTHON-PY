@@ -91,3 +91,19 @@
 # "learn.txt"   → file ka naam
 # "r"           → read mode
 # file          → opened file ko refer karne wala variable
+
+
+#  - "r"--> READ
+
+# r ka mtlb "READ MODE" hota hai,
+# yeh  python ko btata hai kay tumhara maqsad file se data read karna hai, na ke file ke data ko modify ya write karna.
+
+# EXAMPLE:
+
+# file = open("learn.txt", "r")
+
+# content = file.read()
+
+# print(content)
+
+# file.close()
