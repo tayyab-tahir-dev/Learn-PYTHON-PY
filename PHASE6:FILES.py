@@ -107,3 +107,10 @@
 # print(content)
 
 # file.close()
+
+
+# - with open()-->
+
+# with open() Python mein file ko safely open aur automatically close karne ka recommended tareeqa hai.
+
+# with open() file ko open karta hai aur jab uska kaam complete ho jata hai to automatically file close kar deta hai.
