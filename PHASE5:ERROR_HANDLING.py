@@ -557,3 +557,18 @@
 
 # except ValueError as error:
 #     logging.error(f"Document processing failes: {error}")
+
+
+# ADVANCED EXAMPLE:
+
+# import logging
+
+# logging.basicConfig(level=logging.INFO)
+
+# try:
+#     number = int(input("Enter a number: "))
+
+#     logging.info("Number received sucessfully")
+
+# except ValueError:
+#     logging.error("User entered an invalid number")
