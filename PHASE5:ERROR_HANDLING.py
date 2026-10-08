@@ -504,3 +504,18 @@
 # 2026-10-06 08:30:15
 
 # Phir developer investigate kar sakta hai ke problem kab aur kahan hui.
+
+
+# BASIC EXAMPLE:
+
+# import logging
+
+# logging.basicConfig(level=logging.INFO)
+
+# try:
+#     number =int("abc")
+
+# except:
+#     logging.error("Invalid number received")
+
+
