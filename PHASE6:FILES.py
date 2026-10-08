@@ -58,3 +58,25 @@
 
 # Python is a programming language.
 # AI uses Python for many applications.
+
+
+# Python mein TXT file ke saath kya kar sakte hain?
+# Basic level par 3 important kaam:
+
+# Read    → file se data lena
+# Write   → file mein data likhna
+# Append  → existing data ke end mein new data add karna
+
+# In kaam ke liye Python mein sabse important function:
+
+# open()
+
+
+# - open--->
+
+# INTERVIEW DEFINATION: 
+# open() is a built-in Python function used to open a file for reading, writing, or other file operations.
+
+# SIMPLE UNDERSTAND:
+# open() Python ko batata hai ke kis file ko access karna hai aur kis purpose ke liye.
+
