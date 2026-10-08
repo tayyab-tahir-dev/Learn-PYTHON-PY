@@ -575,28 +575,28 @@
 
 
 
-# PRACTISE USING "try + except + raise + custom exception + finally + logging"
+# FINAL PRACTISE USING "try + except + raise + custom exception + finally + logging"
 
-import logging
+# import logging
 
-logging.basicConfig(level=logging.INFO)
+# logging.basicConfig(level=logging.INFO)
 
-class InvalidPromptError(Exception):
-    pass
+# class InvalidPromptError(Exception):
+#     pass
 
-logging.info("Prompt processing started")
+# logging.info("Prompt processing started")
 
-try:
-    prompt = ""
+# try:
+#     prompt = ""
 
-    if not prompt:
-        raise InvalidPromptError("Prompt cannot be empty")
+#     if not prompt:
+#         raise InvalidPromptError("Prompt cannot be empty")
 
-except InvalidPromptError as error:
-    logging.error(f"Error: {error}")
+# except InvalidPromptError as error:
+#     logging.error(f"Error: {error}")
 
-else:
-    logging.info("Prompt processing finished")
+# else:
+#     logging.info("Prompt processing finished")
 
-finally:
-    logging.info("Prompt Processing finished")
+# finally:
+#     logging.info("Prompt Processing finished")
