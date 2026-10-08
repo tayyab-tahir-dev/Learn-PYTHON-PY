@@ -37,3 +37,9 @@
 # AI Use:
 # Documents, datasets, API data, configurations
 # aur knowledge-base data ko store/read karna.
+
+
+                                        # <----------TXT---------->
+
+# - TXT-->
+
