@@ -50,3 +50,11 @@
 # TXT file aik simple file hoti hai jisme hum normal text/data store karte hain.
 
 
+# SIMPLE Example:
+
+# knowledge.txt
+
+# File kay Andar:
+
+# Python is a programming language.
+# AI uses Python for many applications.
