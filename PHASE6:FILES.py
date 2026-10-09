@@ -80,3 +80,14 @@
 # SIMPLE UNDERSTAND:
 # open() Python ko batata hai ke kis file ko access karna hai aur kis purpose ke liye.
 
+# BASIC SYNTAX:
+# open("filename", "mode")
+
+# BASIC EXAMPLE:
+# file = open("learn.txt", "r")
+
+# YAHAN:
+
+# "learn.txt"   → file ka naam
+# "r"           → read mode
+# file          → opened file ko refer karne wala variable
