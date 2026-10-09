@@ -11,6 +11,10 @@
 
 
 
+                                         # <----------FILES---------->
+
+# 1) - Files--->
+
 # INTERVIEW DEFINATION:
 # A file is a named location on a computer used to permanently store data so that it can be accessed and used later.
 
