@@ -144,5 +144,5 @@
 
 # EXAMPLE:
 
-with open("learn.txt", "a") as file:
-    file.write("\nPYTHON IS GOOD FOR AI")
+# with open("learn.txt", "a") as file:
+#     file.write("\nPYTHON IS GOOD FOR AI")
