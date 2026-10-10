@@ -202,6 +202,10 @@
 # SIMPLE UNDERSTAND:
 # CSV aik file format hai jisme data rows aur columns ki form mein store hota hai, aur aam tor par values commas , se separate hoti hain.
 
+# Row: Data ki aik horizontal line. LEFT TO RIGHT:
+# Column: Aik category, jaise Name, Age ya Course.
+# Comma ,: Values ko separate karta hai.
+
 # EXAMPLE:
 
 # SUPPOSE YEH AIK TABLE HAI:
@@ -219,3 +223,15 @@
 # Tayyab,18,Python
 # Ali,20,AI
 # Ahmed,19,Data Science
+
+
+# CSV kyun use hoti hai?
+# CSV tab useful hoti hai jab data records ki form mein ho.
+# - Students ka record
+# - Customers ka data
+# - AI training datasets
+# - Product lists
+
+
+# Important: 
+# CSV file ka data text-based hota hai. Python se read karne par numbers bhi aam tor par strings ki form mein milte hain; zaroorat par unhein int ya float mein convert karna hota hai.
