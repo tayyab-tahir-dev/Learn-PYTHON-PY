@@ -196,3 +196,8 @@
 
 # 3) - CSV--->
 
+# INTERVIEW DEFINATION:
+# CSV (Comma-Separated Values) is a file format used to store tabular data in rows and columns.
+
+# SIMPLE UNDERSTAND:
+# CSV aik file format hai jisme data rows aur columns ki form mein store hota hai, aur aam tor par values commas , se separate hoti hain.
