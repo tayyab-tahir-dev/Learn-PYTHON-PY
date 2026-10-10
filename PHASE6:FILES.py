@@ -126,3 +126,13 @@
 # - "w"---> WRITE
 
 # "w" mode file mein data likhne ke liye use hota hai. Agar file exist nahi karti to Python use create kar deta hai. Agar file pehle se exist karti hai, to uska purana content replace ho jata hai.
+
+# EXAMPLE:
+
+# with open("learn.txt", "w") as file:
+#      file.write("LEARNING PYTHON:\n")
+#      file.write("PYTHON FOR AI ENGINEERING")
+
+
+# IMPORTAND:
+# \n ka mtlb new line:
