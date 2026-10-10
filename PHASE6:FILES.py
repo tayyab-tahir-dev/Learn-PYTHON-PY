@@ -146,3 +146,46 @@
 
 # with open("learn.txt", "a") as file:
 #     file.write("\nPYTHON IS GOOD FOR AI")
+
+
+# - readline() or readlines()--->
+
+# - readline()-->
+# Yeh aik file methods hai jo file se ek waqt mein ek line read karta hai.
+
+# EXAMPLE:
+
+# with open("learn.txt", "r") as file:
+#     line = file.readline()
+#     print(line)
+
+
+# YEH AIK TIME MAI AIK FILE READ KRTA HAI:
+
+# AGHAR DUSRI LINE BI READ KRNI HO:
+
+# with open("learn.txt", "r") as file:
+#     first_line  = file.readline()
+#     second_line = file.readline()
+
+# print(first_line)
+# print(second_line)
+
+# Important:
+# Har readline() call file mein agali line ki taraf move karti hai. Naya file open karne par reading position shuru se hoti hai.
+
+
+# - readlines()--->
+
+# readlines() file ki tamam remaining lines read karke list mein return karta hai.
+
+# EXAMPLE:
+
+# with open("learn.txt", "r") as file:
+#     lines = file.readlines()
+
+# print(lines)
+
+
+# IMPORTANT:
+# YEH LIST RETURN KARAY GA:kyun ke ye file ki har line ko list ke alag element mein store karta hai.
