@@ -136,3 +136,13 @@
 
 # IMPORTAND:
 # \n ka mtlb new line:
+
+
+# - "a"---> APPEND
+
+# a mode file ke last mein naya data add karta hai or purana data preserve/save rakhta hai.
+
+# EXAMPLE:
+
+with open("learn.txt", "a") as file:
+    file.write("\nPYTHON IS GOOD FOR AI")
