@@ -121,3 +121,8 @@
 #     documents = file.read()
 
 # print(documents)
+
+
+# - "w"---> WRITE
+
+# "w" mode file mein data likhne ke liye use hota hai. Agar file exist nahi karti to Python use create kar deta hai. Agar file pehle se exist karti hai, to uska purana content replace ho jata hai.
