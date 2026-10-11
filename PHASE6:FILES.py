@@ -201,3 +201,21 @@
 
 # SIMPLE UNDERSTAND:
 # CSV aik file format hai jisme data rows aur columns ki form mein store hota hai, aur aam tor par values commas , se separate hoti hain.
+
+# EXAMPLE:
+
+# SUPPOSE YEH AIK TABLE HAI:
+
+# students.csv
+
+# Name	    Age 	Course
+# Tayyab	18	    Python
+# Ali	    20	    AI
+# Ahmed	    19	    Data Science
+
+# YEH studnet.csv FILE MAI IS TARAH STORE KIYA JAYE GA:
+
+# Name,Age,Course
+# Tayyab,18,Python
+# Ali,20,AI
+# Ahmed,19,Data Science
