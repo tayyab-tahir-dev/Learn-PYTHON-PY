@@ -41,7 +41,7 @@
 
                                         # <----------TXT---------->
 
-# - TXT-->
+# 2) - TXT-->
 
 # Definition:
 # A TXT file is a plain-text file used to store readable text data.
@@ -160,7 +160,7 @@
 #     print(line)
 
 
-# YEH AIK TIME MAI AIK FILE READ KRTA HAI:
+# YEH AIK TIME MAI AIK LINE READ KRTA HAI:
 
 # AGHAR DUSRI LINE BI READ KRNI HO:
 
