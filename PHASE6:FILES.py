@@ -319,3 +319,19 @@
 
 # SIMPLE UNDERSTAND:
 # JSON aik text-based format hai jo structured data ko store aur applications ke darmiyan exchange karne ke liye use hota hai.
+
+# IMPORTANT:
+# Jab hamari Python application kisi AI API ko request bhejti hai, to data aksar JSON format mein bheja jata hai.
+
+# EXAMPLE:
+
+# {
+#     "app_name": "AI Assistant",
+#     "model": "GPT",
+#     "temperature": 0.7,
+#     "max_tokens": 500,
+#     "debug": True
+# }
+
+
+
