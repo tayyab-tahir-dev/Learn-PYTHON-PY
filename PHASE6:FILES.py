@@ -304,3 +304,6 @@
 #     write.writerow(["Name", "Age", "Course"])
 #     write.writerow(["Tayyab", "18", "Python"])
 #     write.writerow(["Ali", "24", "JavaScript"])
+
+
+# writer.writerow([...]) — CSV file mein ek row likhta hai.
