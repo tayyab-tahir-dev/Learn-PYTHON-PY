@@ -240,3 +240,9 @@
 
 # - csv MODULE--->
 
+# INTERVIEW DEFINATION:
+# The csv module is a built-in Python module used to read and write CSV files.
+
+# SIMPLE UNDERSTAND:
+# csv module Python ka built-in module hai jo CSV files ka data read aur write karne ke liye use hota hai.
+
