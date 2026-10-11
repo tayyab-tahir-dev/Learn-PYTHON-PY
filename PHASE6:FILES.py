@@ -335,3 +335,14 @@
 
 
 
+# DIFFERENCE:
+# JSON AND PYTHON DICTIONARY:
+# Dono similar dikhte hain, lekin kuch differences hain:
+
+# Python Dictionary	                     JSON
+# Python ke andar data structure hai:	 Data store/exchange karne ka format hai
+# Boolean True hota hai	                 Boolean true hota hai:
+# Python mein use hoti hai	             Files aur APIs mein use hota hai:
+
+
+# JSON mein true, false, null use hote hain; Python mein True, False, None.
