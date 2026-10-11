@@ -246,3 +246,44 @@
 # SIMPLE UNDERSTAND:
 # csv module Python ka built-in module hai jo CSV files ka data read aur write karne ke liye use hota hai.
 
+# EXAMPLE:
+
+# import csv
+
+# with open("learn.csv",  "r", newline="", encoding="utf-8") as file:
+#     reader = csv.reader(file)
+
+#     for row in reader:
+#         print(row)
+
+
+# OUTPUT:
+
+# ['Name', 'Age', 'Course']
+# ['Tayyab', '18', 'Python']
+# ['Ali', '20', 'AI']
+# ['Ahmed', '19', 'Data Science']
+
+
+# EXPLANATION:
+
+# import csv         — CSV module ko program mein use karne ke liye import karta hai.
+
+# newline="",        — CSV file read karte waqt newline handling ko theek
+
+# encoding="utf-8"   — text ko sahi tareeqe se read karne mein madad karta hai
+
+# csv.reader(file)   — file ka CSV data read karta hai.
+# for row in reader  — har row ko ek ek karke access karta hai.
+# print(row)         — har row ko print karta hai.
+# row                — har row ki values ki list hoti hain.
+
+
+
+# encoding="utf-8" = Unicode Transformation Format - 8-bit.
+
+# Important: 
+# CSV se read hone wali values strings hoti hain. Misal ke taur par "18" string hai, integer 18 nahi.
+
+# SAVE(encode)
+# READ(decode)
