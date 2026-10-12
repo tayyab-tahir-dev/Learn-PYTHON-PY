@@ -314,3 +314,8 @@
 
 # - json--->
 
+# INTERVIEW DEFINATION: 
+# (English): JSON (JavaScript Object Notation) is a text-based data format used to store and exchange structured data.
+
+# SIMPLE UNDERSTAND:
+# JSON aik text-based format hai jo structured data ko store aur applications ke darmiyan exchange karne ke liye use hota hai.
