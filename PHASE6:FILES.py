@@ -374,3 +374,7 @@
 # json_string = json.dumps(learn_json)
 
 # print(json_string)
+
+
+# 2) loads()
+#  JSON String ko Python Object mai convert krta hai:
