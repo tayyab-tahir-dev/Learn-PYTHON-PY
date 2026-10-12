@@ -307,3 +307,10 @@
 
 
 # writer.writerow([...]) — CSV file mein ek row likhta hai.
+
+
+
+                                           # <----------JSON---------->
+
+# - json--->
+
