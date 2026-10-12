@@ -72,7 +72,7 @@
 # open()
 
 
-# - open--->
+# - open---> (PART-1)
 
 # INTERVIEW DEFINATION: 
 # open() is a built-in Python function used to open a file for reading, writing, or other file operations.
@@ -93,7 +93,7 @@
 # file          → opened file ko refer karne wala variable
 
 
-#  - "r"--> READ
+#  - "r"--> READ (PART-2)
 
 # r ka mtlb "READ MODE" hota hai,
 # yeh  python ko btata hai kay tumhara maqsad file se data read karna hai, na ke file ke data ko modify ya write karna.
@@ -123,7 +123,7 @@
 # print(documents)
 
 
-# - "w"---> WRITE
+# - "w"---> WRITE (PART-3)
 
 # "w" mode file mein data likhne ke liye use hota hai. Agar file exist nahi karti to Python use create kar deta hai. Agar file pehle se exist karti hai, to uska purana content replace ho jata hai.
 
@@ -138,7 +138,7 @@
 # \n ka mtlb new line:
 
 
-# - "a"---> APPEND
+# - "a"---> APPEND (PART-4)
 
 # a mode file ke last mein naya data add karta hai or purana data preserve/save rakhta hai.
 
@@ -148,7 +148,7 @@
 #     file.write("\nPYTHON IS GOOD FOR AI")
 
 
-# - readline() or readlines()--->
+# - readline() or readlines()---> (PART-6)
 
 # - readline()-->
 # Yeh aik file methods hai jo file se ek waqt mein ek line read karta hai.
@@ -175,7 +175,7 @@
 # Har readline() call file mein agali line ki taraf move karti hai. Naya file open karne par reading position shuru se hoti hai.
 
 
-# - readlines()--->
+# - readlines()---> (PART-5)
 
 # readlines() file ki tamam remaining lines read karke list mein return karta hai.
 
@@ -238,7 +238,7 @@
 
 
 
-# - csv MODULE--->
+# - csv MODULE---> (PART-1)
 
 # INTERVIEW DEFINATION:
 # The csv module is a built-in Python module used to read and write CSV files.
@@ -290,5 +290,17 @@
 
 
 
-# - csv writter()--->
+# - csv writter()---> (PART-2)
+# csv.writer() CSV file mein data ko rows ki form mein likhne ke liye use hota hai.
 
+
+# EXAMPLE:
+
+# import csv
+
+# with open("learn.csv", "w", newline="", encoding="utf-8") as file:
+#     write = csv.writer(file)
+
+#     write.writerow(["Name", "Age", "Course"])
+#     write.writerow(["Tayyab", "18", "Python"])
+#     write.writerow(["Ali", "24", "JavaScript"])
