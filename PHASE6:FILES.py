@@ -312,7 +312,7 @@
 
                                            # <----------JSON---------->
 
-# - json--->
+# 4) - json--->
 
 # INTERVIEW DEFINATION: 
 # JSON (JavaScript Object Notation) is a text-based data format used to store and exchange structured data.
@@ -377,13 +377,16 @@
 
 
 # 2) loads()
-#  JSON String ko Python Object mai convert krta hai:
-# EXAMPLE:
-
 # import json
 
-# learning_json = '{"name": "Alice", "is_admin": true, "roles": ["developer", "manager"], "budget": null}'
+# # A raw JSON string
+# raw_json = '{"name": "Alice", "is_admin": true, "roles": ["developer", "manager"], "budget": null}'
 
-# python_dict = json.loads(learning_json)
+# # Convert JSON string to Python dictionary
+# python_dict = json.loads(raw_json)
 
-# print(python_dict)
+# print(python_dict)  
+
+
+# # SPECIFIC ITEM NIKALNAY KAY LIYE:
+# # print(python_dict["name"]) # OUTPUT = Alics
