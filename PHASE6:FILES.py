@@ -356,3 +356,21 @@
 
 # dumps()   AND   loads()
 
+# 1) dumps()
+# Python dictionary ko JSON formate ki string mai convert krta hai:
+
+
+# import json
+
+# # A Python dictionary
+# learn_json = {
+#     "name": "Alice",
+#     "is_admin": True,
+#     "roles": ["developer", "manager"],
+#     "budget": None
+# }
+
+# # Convert Python dict to JSON string
+# json_string = json.dumps(learn_json)
+
+# print(json_string)
