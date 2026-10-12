@@ -358,23 +358,32 @@
 
 # 1) dumps()
 # Python dictionary ko JSON formate ki string mai convert krta hai:
+# EXAMPLE:
 
+import json
 
-# import json
+# A Python dictionary
+learn_json = {
+    "name": "Alice",
+    "is_admin": True,
+    "roles": ["developer", "manager"],
+    "budget": None
+}
 
-# # A Python dictionary
-# learn_json = {
-#     "name": "Alice",
-#     "is_admin": True,
-#     "roles": ["developer", "manager"],
-#     "budget": None
-# }
+# Convert Python dict to JSON string
+json_string = json.dumps(learn_json)
 
-# # Convert Python dict to JSON string
-# json_string = json.dumps(learn_json)
-
-# print(json_string)
+print(json_string)
 
 
 # 2) loads()
 #  JSON String ko Python Object mai convert krta hai:
+# EXAMPLE:
+
+import json
+
+learning_json = '{"name": "Alice", "is_admin": true, "roles": ["developer", "manager"], "budget": null}'
+
+python_dict = json.loads(learning_json)
+
+print(python_dict)
