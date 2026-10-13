@@ -1,0 +1,9 @@
+{
+    "name": "Alice",
+    "is_admin": true,
+    "roles": [
+        "developer",
+        "manager"
+    ],
+    "budget": null
+}
