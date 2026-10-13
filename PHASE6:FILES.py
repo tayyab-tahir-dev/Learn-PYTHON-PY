@@ -397,3 +397,9 @@
 # JSON Python ka built-in module hai jo Python ke data ko JSON format STRINGS mein aur JSON data ko Python objects mein convert karta hai. 
 
 # JSON Python ka built-in module hai, aur dump(), dumps(), load(), loads() is module ke functions hain.
+
+# dump()   AND   load()
+
+# 1) dump()
+# Python ke data ko JSON file mein save karta hai.
+
