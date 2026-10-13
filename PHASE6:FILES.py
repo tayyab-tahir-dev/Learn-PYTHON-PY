@@ -390,3 +390,10 @@
 
 # # SPECIFIC ITEM NIKALNAY KAY LIYE:
 # # print(python_dict["name"]) # OUTPUT = Alics
+
+
+
+# - JSON MODULE---> (PART-2)
+# JSON Python ka built-in module hai jo Python ke data ko JSON format STRINGS mein aur JSON data ko Python objects mein convert karta hai. 
+
+# JSON Python ka built-in module hai, aur dump(), dumps(), load(), loads() is module ke functions hain.
