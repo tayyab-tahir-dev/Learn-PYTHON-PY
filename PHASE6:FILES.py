@@ -421,3 +421,6 @@
 # indent=4 ka matlab hai JSON data ko format karte waqt har level par 4 spaces ka gap dena, taake data saaf aur readable nazar aaye.
 
 
+# 2) load()
+# JSON file se data read karke Python object mein convert karta hai.
+# EXAMPLE:
