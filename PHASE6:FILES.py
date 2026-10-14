@@ -455,3 +455,20 @@
 
 # Simple understand: 
 # pathlib Python ka built-in module hai jo files aur folders ke addresses yani paths ko handle karne ke liye use hota hai.
+
+# EXAMPLE:
+
+# from pathlib import Path
+
+# file_path = Path("learn.txt")
+
+# print(file_path)
+# print(file_path.name)
+# print(file_path.suffix)
+
+# EXPLANATION:
+
+# from pathlib import Path      — pathlib se Path ko import karta hai.
+# Path("learn.json")            — file ke path ka object banata hai.
+# .name                         — file ka naam deta hai.
+# .suffix                       — file ka extension deta hai, jaise .json.
