@@ -475,3 +475,18 @@
 
 
 # - path.exists()--> (PART-1)
+# check karta hai ke diye gaye path par file ya folder mojood hai ya nahi.
+
+# EXAMPLE:
+
+# from pathlib import Path
+
+# file_path = Path("learn.json")
+
+# if file_path.exists():
+#     print("File mojood hai.")
+# else:
+#     print("File mojood nhi hai.")
+
+
+# .exists() — check karta hai ke us path par file ya folder mojood hai ya nahi.
