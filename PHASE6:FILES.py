@@ -472,3 +472,6 @@
 # Path("learn.json")            — file ke path ka object banata hai.
 # .name                         — file ka naam deta hai.
 # .suffix                       — file ka extension deta hai, jaise .json.
+
+
+# - path.exists()--> (PART-1)
