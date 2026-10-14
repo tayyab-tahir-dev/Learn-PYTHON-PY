@@ -402,4 +402,22 @@
 
 # 1) dump()
 # Python ke data ko JSON file mein save karta hai.
+# EXAMPLE:
+
+# import json
+
+# learn_json = {
+#     "name": "Alice",
+#     "is_admin": True,
+#     "roles": ["developer", "manager"],
+#     "budget": None
+# }
+
+# with open("learn.json", "w", encoding="utf-8") as file:
+#     json.dump(learn_json, file, indent=4)
+
+
+# IMPORTANT:
+# indent=4 ka matlab hai JSON data ko format karte waqt har level par 4 spaces ka gap dena, taake data saaf aur readable nazar aaye.
+
 
