@@ -424,3 +424,22 @@
 # 2) load()
 # JSON file se data read karke Python object mein convert karta hai.
 # EXAMPLE:
+
+# import json
+
+# with open("learn.json", "r", encoding="utf-8") as file:
+#     user_data = json.load(file)
+
+# print(user_data)
+# print(user_data["name"])
+# print(user_data["roles"])
+# print(user_data["budget"])
+
+
+# Charon functions ka farq
+
+# Function	        Kaam
+# json.dumps()	    Python object → JSON string
+# json.loads()	    JSON string → Python object
+# json.dump()	    Python object → JSON file
+# json.load()	    JSON file → Python object
