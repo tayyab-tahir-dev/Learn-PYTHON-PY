@@ -545,3 +545,18 @@
 
 # except:
 #     print("File nhi milli")
+
+
+
+# FUNCTIONS + FILES:
+# Function ki madad se file handle karne wala code baar baar likhne ke bajaye dobara use kar sakte hain.
+
+# EXAMPLE:
+
+# def read_knowledge():
+#     with open("learn.txt", "r", encoding="utf-8") as file:
+#         content = file.read()
+#         return content
+
+# result = read_knowledge()
+# print(result)
