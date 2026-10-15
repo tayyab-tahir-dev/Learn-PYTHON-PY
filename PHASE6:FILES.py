@@ -443,3 +443,9 @@
 # json.loads()	    JSON string → Python object
 # json.dump()	    Python object → JSON file
 # json.load()	    JSON file → Python object
+
+
+
+                                              # <----------PATHLIB---------->
+
+# 5) - pathlib---> 
