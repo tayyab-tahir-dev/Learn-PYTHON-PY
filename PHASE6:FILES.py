@@ -527,3 +527,21 @@
 
 # except FileExistsError:
 #     print("File nhi milli")
+
+
+
+# - PermissionError-->
+# tab aata hai jab program ke paas kisi file ya folder ko access karne ki required permission nahi hoti.
+
+
+# try:
+#     with open("missing_file.json", "r") as file:
+#         content = file.read()
+#         print(content)
+
+
+# except PermissionError:
+#     print("File access krne ki permission nhi hai.")
+
+# except:
+#     print("File nhi milli")
