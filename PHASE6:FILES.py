@@ -513,3 +513,17 @@
 # exists()	File ya folder mojood hai?
 # is_file()	Kya yeh file hai?
 # is_dir()	Kya yeh folder hai?
+
+
+
+
+
+# EXAMPLE WITH TRY EXCEPT:
+
+# try:
+#     with open("learn.txt", "r") as file:
+#         content = file.read()
+#         print(content)
+
+# except FileExistsError:
+#     print("File nhi milli")
