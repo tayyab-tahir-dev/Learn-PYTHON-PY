@@ -449,3 +449,9 @@
                                               # <----------PATHLIB---------->
 
 # 5) - pathlib---> 
+
+# Interview Definition:
+# pathlib is a built-in Python module used to work with file and directory paths.
+
+# Simple understand: 
+# pathlib Python ka built-in module hai jo files aur folders ke addresses yani paths ko handle karne ke liye use hota hai.
