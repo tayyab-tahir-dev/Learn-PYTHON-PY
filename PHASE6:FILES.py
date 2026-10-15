@@ -496,3 +496,20 @@
 
 # Path.is_file() check karta hai ke path kisi file ka hai ya nahi.
 # Path.is_dir() check karta hai ke path kisi folder ka hai ya nahi.
+
+
+# EXAMPLE:
+
+# from pathlib import Path
+
+# my_file = Path("learn.json")
+# my_folder = Path("learn-haha")
+
+# print(my_file.is_file())
+# print(my_folder.is_dir())
+
+
+# Method	Kya check karta hai?
+# exists()	File ya folder mojood hai?
+# is_file()	Kya yeh file hai?
+# is_dir()	Kya yeh folder hai?
