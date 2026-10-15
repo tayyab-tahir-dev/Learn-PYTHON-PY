@@ -490,3 +490,9 @@
 
 
 # .exists() — check karta hai ke us path par file ya folder mojood hai ya nahi.
+
+
+# - METHODS--> (PART-2)
+
+# Path.is_file() check karta hai ke path kisi file ka hai ya nahi.
+# Path.is_dir() check karta hai ke path kisi folder ka hai ya nahi.
