@@ -1,3 +1,6 @@
 LEARNING PYTHON:
 PYTHON FOR AI ENGINEERING: 
 PYTHON IS GOOD FOR AI
+Python is a programming language.
+RAG retrieves relevant information from documents.
+JSON stores structured data.
