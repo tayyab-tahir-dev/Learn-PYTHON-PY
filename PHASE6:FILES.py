@@ -560,3 +560,30 @@
 
 # result = read_knowledge()
 # print(result)
+
+
+
+# Real AI Project: Knowledge File Reader
+# EXAMPLE:
+
+
+# from pathlib import Path
+
+# def document_reader():
+#     file_path = Path("learn.txt")
+
+#     try:
+#         if file_path.is_file():
+#             content = file_path.read_text(encoding="utf-8")
+#             return content
+       
+#         else: return "khowledge file nhi milli."
+
+#     except PermissionError:
+#         return "File access karne ki permission nhi hai."
+
+
+# result = document_reader()
+
+# print("AI KNOWLEDGE")
+# print(result)
