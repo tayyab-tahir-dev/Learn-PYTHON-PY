@@ -34,3 +34,9 @@
                                        # <----------IMPORT---------->
 
 # 2) - import--->
+
+# DEFINATION:
+# import is a Python statement used to make a module available for use in another Python file.
+
+# SIMPLE UNDERSTAND:
+# import aik Python statement hai jo humein kisi module ka code apne program mein use karne deta hai.
