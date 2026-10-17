@@ -15,3 +15,9 @@
 
 # 1) - MODULE --->
 
+# INTERVIEW DEFINATION:
+# A module is a Python file containing code such as variables, functions, and classes.
+
+# SIMPLE UNDERSTAND:
+# Module aik Python file hoti hai jismein variables, functions aur classes ka code ho sakta hai.jinhein hum doosri Python files mein reuse kar sakte hain.
+
