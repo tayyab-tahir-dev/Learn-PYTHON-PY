@@ -40,3 +40,8 @@
 
 # SIMPLE UNDERSTAND:
 # import aik Python statement hai jo humein kisi module ka code apne program mein use karne deta hai.
+
+# EXAMPLE:
+
+# def read_documents():
+#     return "Python is used in AI."
