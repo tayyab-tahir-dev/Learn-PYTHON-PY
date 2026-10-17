@@ -21,3 +21,8 @@
 # SIMPLE UNDERSTAND:
 # Module aik Python file hoti hai jismein variables, functions aur classes ka code ho sakta hai.jinhein hum doosri Python files mein reuse kar sakte hain.
 
+# EXAMPLE:
+
+# def read_document():
+#     return "Python is used in AI."
+
