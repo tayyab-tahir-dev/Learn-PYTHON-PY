@@ -50,3 +50,4 @@
 # - import---> (PART-2)
 
 # 1) from ... import
+# Module ke andar se kisi specific function, variable ya class ko import karta hai.
