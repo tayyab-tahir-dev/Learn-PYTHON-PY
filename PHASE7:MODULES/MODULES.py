@@ -56,3 +56,7 @@
 
 # def greet(): 
 #     return "Python is good in AIEngineering"
+
+
+# - import---> (PART-3)
+# as (Alias)
