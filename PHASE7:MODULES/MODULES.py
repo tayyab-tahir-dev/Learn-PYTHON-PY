@@ -45,3 +45,8 @@
 
 # def read_documents():
 #     return "Python is used in AI."
+
+
+# - import---> (PART-2)
+
+# 1) from ... import
