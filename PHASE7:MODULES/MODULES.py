@@ -51,3 +51,8 @@
 
 # 1) from ... import
 # Module ke andar se kisi specific function, variable ya class ko import karta hai.
+
+# EXAMPLE:
+
+# def greet(): 
+#     return "Python is good in AIEngineering"
