@@ -38,3 +38,7 @@
 
 # result = he.documet_reader()
 # print(result)
+
+
+# (PART-4)
+# if __name__ == "__main__"
