@@ -8,7 +8,7 @@
 # print(result)
 
 
-# (PART-1) 
+# (PART-2) 
 # from ... import
 
 # EXAMPLE:
@@ -29,7 +29,7 @@
 # Module ka naam visible rehta hai	                                                    Imported function ko directly access karte hain
 
 
-# (part-2)
+# (part-3)
 # as (alias)
 
 # EXAMPLE:
@@ -40,7 +40,7 @@
 # print(result)
 
 
-# (PART-3)
+# (PART-4)
 # if __name__ == "__main__"
 
 # EXAMPLE:
@@ -48,11 +48,3 @@
 # import MODULES
 
 # print("MODULE 2 FILE CODE RUNNING.")
-
-
-# EXPLANATION:
-# Agar yeh file directly run ho, tab "Hello Python" print karo.
-
-# Agar yeh file kisi doosri file se import ho, to is if ke andar wala code execute nahi hoga.
-
-# Yaad rakhne wali baat: __name__ Python ka special variable hai, aur "__main__" ek string hai.
