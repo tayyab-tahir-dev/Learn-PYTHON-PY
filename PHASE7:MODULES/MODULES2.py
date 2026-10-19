@@ -48,3 +48,11 @@
 # import MODULES
 
 # print("MODULE 2 FILE CODE RUNNING.")
+
+
+# EXPLANATION:
+# Agar yeh file directly run ho, tab "Hello Python" print karo.
+
+# Agar yeh file kisi doosri file se import ho, to is if ke andar wala code execute nahi hoga.
+
+# Yaad rakhne wali baat: __name__ Python ka special variable hai, aur "__main__" ek string hai.
