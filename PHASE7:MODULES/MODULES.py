@@ -71,3 +71,5 @@
 
 # - import---> (PART-4)
 # 3) if __name__ == "__main__"
+
+# Iska matlab hai ke kuch code sirf tab chale jab hum Python file ko directly run karay. Agar koi doosri file usay import kare, to woh specific code nahi chalega.
