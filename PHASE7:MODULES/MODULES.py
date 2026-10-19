@@ -62,3 +62,8 @@
 # as (Alias)
 
 # as ki madad se hum imported module ya function ko aik doosra naam de sakte hain, jise alias kehte hain.
+
+# EXAMPLE:
+
+# def documet_reader():
+#     return "HELLO WORLD"
