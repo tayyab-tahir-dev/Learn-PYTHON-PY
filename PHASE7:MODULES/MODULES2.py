@@ -52,3 +52,9 @@
 
 # (PART-5)
 # Importing Variables:
+
+# EXAMPLE:
+
+# from MODULES import document_name
+
+# print(document_name)

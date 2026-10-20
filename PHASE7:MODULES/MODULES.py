@@ -97,3 +97,6 @@
 
 # Kisi doosri Python file mein banaye gaye variable ko apni file mein use karna variable import karna kehlata hai.
 
+# EXAMPLE"
+
+# document_name = "AI_notes.pdf"
