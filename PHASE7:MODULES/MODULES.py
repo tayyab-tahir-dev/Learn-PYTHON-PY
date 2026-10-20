@@ -139,3 +139,7 @@
 # - Module: Python file, jaise config.py.
 # - Top-level code: Woh code jo function ya class ke bahar likha ho.
 # - Execute: Code ko chalana.
+
+# EXAMPLE:
+
+# print("HELLO FROM FIRST FILE.")
