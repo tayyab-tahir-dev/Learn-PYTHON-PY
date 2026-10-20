@@ -84,5 +84,4 @@
 
 
 # (PART-8)
-# Module Cacting:
-
+# Module Caching:
