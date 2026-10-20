@@ -81,3 +81,8 @@
 
 # reader = DocumentReader()
 # print(reader.read())
+
+
+# (PART-8)
+# Module Cacting:
+
