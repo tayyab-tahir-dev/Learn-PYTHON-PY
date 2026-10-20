@@ -90,3 +90,7 @@
 # Agar yeh file kisi doosri file se import ho, to is if ke andar wala code execute nahi hoga.
 
 # Yaad rakhne wali baat: __name__ Python ka special variable hai, aur "__main__" ek string hai.
+
+
+# - import---> (PART-5)
+# Importing Variables:
