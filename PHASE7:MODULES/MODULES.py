@@ -104,3 +104,5 @@
 
 # - import---> (PART-6)
 # Importing Functions
+
+# Ek hi Python file se aik se zyada functions, variables ya classes ko ek hi statement mein import karna.
