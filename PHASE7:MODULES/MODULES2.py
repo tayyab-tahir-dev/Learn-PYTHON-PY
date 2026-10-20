@@ -74,3 +74,10 @@
 
 # (PART-7)
 # Importing a Class:
+
+# EXAMPLE:
+
+# from MODULES import DocumentReader
+
+# reader = DocumentReader()
+# print(reader.read())
