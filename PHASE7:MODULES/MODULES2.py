@@ -27,3 +27,14 @@
 # import document_reader                                                                from document_reader import read_document
 # Function ko document_reader.read_document() se call karte hain	                    Function ko read_document() se call karte hain
 # Module ka naam visible rehta hai	                                                    Imported function ko directly access karte hain
+
+
+# (part-3)
+# as (alias)
+
+# EXAMPLE:
+
+# import MODULES as he
+
+# result = he.documet_reader()
+# print(result)
