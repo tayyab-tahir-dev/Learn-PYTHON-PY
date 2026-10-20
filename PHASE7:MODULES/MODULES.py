@@ -94,3 +94,6 @@
 
 # - import---> (PART-5)
 # Importing Variables:
+
+# Kisi doosri Python file mein banaye gaye variable ko apni file mein use karna variable import karna kehlata hai.
+
