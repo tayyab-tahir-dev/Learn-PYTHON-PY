@@ -67,3 +67,7 @@
 
 # def documet_reader():
 #     return "HELLO WORLD"
+
+
+# - import---> (PART-4)
+# 3) if __name__ == "__main__"
