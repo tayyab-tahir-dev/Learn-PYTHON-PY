@@ -49,7 +49,7 @@
 
 # - import---> (PART-2)
 
-# 1) from ... import
+# from ... import
 # Module ke andar se kisi specific function, variable ya class ko import karta hai.
 
 # EXAMPLE:
@@ -59,7 +59,7 @@
 
 
 # - import---> (PART-3)
-# 2) as (Alias)
+# as (Alias)
 
 # as ki madad se hum imported module ya function ko aik doosra naam de sakte hain, jise alias kehte hain.
 
@@ -70,7 +70,7 @@
 
 
 # - import---> (PART-4)
-# 3) if __name__ == "__main__"
+# if __name__ == "__main__"
 
 # Iska matlab hai ke kuch code sirf tab chale jab hum Python file ko directly run karay. Agar koi doosri file usay import kare, to woh specific code nahi chalega.
 
