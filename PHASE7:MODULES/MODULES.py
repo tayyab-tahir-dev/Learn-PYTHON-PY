@@ -157,3 +157,6 @@
 # 2. path (Path): Kisi file ya folder ki location ka address.
 
 # Example: "/home/tayyab/project/main.py" ek file ka path hai.
+
+# EXAMPLE:
+# ON SECOND FILE MODULES2.py
