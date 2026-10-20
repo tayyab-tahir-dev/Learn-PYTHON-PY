@@ -1,5 +1,5 @@
 # 2) - import--->
-# EXAMLE:
+# EXAMPLE:
 
 
 # import MODULES
@@ -8,7 +8,7 @@
 # print(result)
 
 
-# (PART-2) 
+# (PART-1) 
 # from ... import
 
 # EXAMPLE:
@@ -29,7 +29,7 @@
 # Module ka naam visible rehta hai	                                                    Imported function ko directly access karte hain
 
 
-# (part-3)
+# (part-2)
 # as (alias)
 
 # EXAMPLE:
@@ -40,5 +40,11 @@
 # print(result)
 
 
-# (PART-4)
+# (PART-3)
 # if __name__ == "__main__"
+
+# EXAMPLE:
+
+# import MODULES
+
+# print("MODULE 2 FILE CODE RUNNING.")
