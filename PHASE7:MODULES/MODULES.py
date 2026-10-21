@@ -195,3 +195,9 @@
                                         # <----------PACKAGE---------->
 
 # 3) - Package--->
+
+# INTERVIEW DEFINATION:
+# A package is a way to organize related Python modules into a directory structure.
+
+# SIMPLE UNDERSTAND:
+# Package aik folder hota hai jisme related Python modules ko organize kiya jata hai, taake project ka code manage aur reuse karna asaan ho.
