@@ -126,3 +126,8 @@
 # class DocumentReader:
 #     def read(self):
 #         return "Document read sucessfully."
+
+
+# - import---> (PART-8)
+# Module Cacting
+
