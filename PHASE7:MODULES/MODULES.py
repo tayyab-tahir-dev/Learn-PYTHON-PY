@@ -175,3 +175,17 @@
 # To error aa sakta hai, kyun ke module ka naam galat likha hai.
 
 # is liye file ka name sahi likho.
+
+
+# 2. Naming Conflict
+# Naming conflict ka matlab hai ke hamari file ka naam kisi Python ke built-in ya standard-library module ke naam se takra raha ho.
+
+# Misal ke taur par, agar hum apni file ka naam random.py rakh dete hai:
+
+# import random
+
+# print(random.randint(1, 10))
+
+# Python hamari apni random.py file ko import kar sakta hai, standard-library wale random module ki jagah. Is se unexpected errors aa sakte hain.
+
+# Best way: Apni files ke naam random.py, json.py, ya sys.py jaise common module names na rakho.
