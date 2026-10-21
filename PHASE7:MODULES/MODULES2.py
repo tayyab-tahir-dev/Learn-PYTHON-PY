@@ -95,3 +95,9 @@
 
 
 # (PART-9)
+# sys.path:
+
+# EXAMPLE:
+# import sys
+
+# print(sys.path)
