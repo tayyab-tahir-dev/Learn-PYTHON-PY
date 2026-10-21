@@ -100,3 +100,7 @@
 # EXAMPLE"
 
 # document_name = "AI_notes.pdf"
+
+
+# - import---> (PART-6)
+# Importing Functions

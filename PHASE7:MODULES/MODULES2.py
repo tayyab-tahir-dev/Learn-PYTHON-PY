@@ -58,3 +58,8 @@
 # from MODULES import document_name
 
 # print(document_name)
+
+
+# (PART-6)
+# Importing Functions:
+
