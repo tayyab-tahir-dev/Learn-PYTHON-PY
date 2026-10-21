@@ -129,5 +129,13 @@
 
 
 # - import---> (PART-8)
-# Module Cacting
+# Module Caching
 
+# Python aik module ko pehli baar load karne ke baad usay cache mein rakhta hai, taake dobara import karne par uska top-level code baar baar execute na ho.
+
+
+# Har technical word ka matlab
+# - Cache: Pehle se load ki hui cheez ko temporarily save rakhna.
+# - Module: Python file, jaise config.py.
+# - Top-level code: Woh code jo function ya class ke bahar likha ho.
+# - Execute: Code ko chalana.
