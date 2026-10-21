@@ -120,3 +120,9 @@
 # Importing a Class
 
 # Kisi doosri Python file mein banayi gayi class ko apni file mein use karna class import karna kehlata hai.
+
+# EXAMPLE:
+
+# class DocumentReader:
+#     def read(self):
+#         return "Document read sucessfully."
