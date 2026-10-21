@@ -211,3 +211,18 @@
 #     ├── document_reader.py   ← Module
 #     ├── text_cleaner.py      ← Module
 #     └── chunker.py           ← Module
+
+
+# Module aur Package mein difference:
+
+
+# Module = Python file
+
+# Example: AI_App.py
+# Is file mein functions, variables aur classes ho sakti hain.
+
+
+# Package = related modules ka folder
+
+# Example: document_tools
+# Is folder mein multiple Python files organize ki ja sakti hain.
