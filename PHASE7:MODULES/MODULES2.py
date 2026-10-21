@@ -85,3 +85,10 @@
 
 # (PART-8)
 # Module Caching:
+
+# EXAMPLE:
+
+# import MODULES
+# import MODULES
+
+# print("HELLO FROM SECOND FILE.")
