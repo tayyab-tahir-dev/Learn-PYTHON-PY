@@ -232,3 +232,4 @@
 # - Package---> (PART-2)
 # __init__.py IN Package:
 
+# Python mein commonly package folder ke andar __init__.py file rakhi jati hai.
