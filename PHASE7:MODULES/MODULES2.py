@@ -70,3 +70,7 @@
 # print(model_name)
 # print(chunk_size)
 # print(get_config())
+
+
+# (PART-7)
+# Importing a Class:

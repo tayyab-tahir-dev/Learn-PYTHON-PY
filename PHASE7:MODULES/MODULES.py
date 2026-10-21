@@ -114,3 +114,7 @@
 
 # def get_config():
 #     return "Configuration Loaded"
+
+
+# - import---> (PART-7)
+# Importing a Class
