@@ -218,7 +218,8 @@
 
 # Module = Python file
 
-# Example: AI_App.py
+# Example: 
+# AI_App.py
 # Is file mein functions, variables aur classes ho sakti hain.
 
 
