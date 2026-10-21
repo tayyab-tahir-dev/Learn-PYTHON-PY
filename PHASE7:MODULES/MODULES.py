@@ -118,3 +118,5 @@
 
 # - import---> (PART-7)
 # Importing a Class
+
+# Kisi doosri Python file mein banayi gayi class ko apni file mein use karna class import karna kehlata hai.
