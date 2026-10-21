@@ -164,3 +164,14 @@
 
 # - import--->  (PART-10)
 # Common Import Errors aur Naming Conflicts
+
+# Jab Python ko required module nahi milta ya woh usay sahi tarah load nahi kar pata, to import error aa sakta hai.
+
+# 1. ModuleNotFoundError
+# Agar hamari file ka naam document_reader.py hai, lekin hum likhay:
+
+# import documentreader
+
+# To error aa sakta hai, kyun ke module ka naam galat likha hai.
+
+# is liye file ka name sahi likho.
