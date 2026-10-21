@@ -63,3 +63,10 @@
 # (PART-6)
 # Importing Functions:
 
+# EXAMPLE:
+
+# from MODULES import model_name, chunk_size, get_config
+
+# print(model_name)
+# print(chunk_size)
+# print(get_config())
