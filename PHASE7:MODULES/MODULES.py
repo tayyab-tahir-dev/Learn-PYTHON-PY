@@ -147,3 +147,13 @@
 
 # - import---> (PART-9)
 # sys.path
+
+# sys.path un locations ki list hai jahan Python kisi module ko dhoondta hai jab hum import likhtay hai.
+
+# 1. sys (System Module): Python ka built-in module jo Python interpreter aur system ke saath related information aur functions provide karta hai.
+
+# Example: sys.version se Python ke version ki information milti hai.
+
+# 2. path (Path): Kisi file ya folder ki location ka address.
+
+# Example: "/home/tayyab/project/main.py" ek file ka path hai.
