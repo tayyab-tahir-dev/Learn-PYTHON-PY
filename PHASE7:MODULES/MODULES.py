@@ -201,3 +201,13 @@
 
 # SIMPLE UNDERSTAND:
 # Package aik folder hota hai jisme related Python modules ko organize kiya jata hai, taake project ka code manage aur reuse karna asaan ho.
+
+
+# ai_project/                  ← Main project folder
+# │
+# ├── main.py                  ← Module
+# │
+# └── document_tools/          ← Package
+#     ├── document_reader.py   ← Module
+#     ├── text_cleaner.py      ← Module
+#     └── chunker.py           ← Module
