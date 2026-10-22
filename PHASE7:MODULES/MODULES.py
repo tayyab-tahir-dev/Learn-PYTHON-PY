@@ -240,3 +240,14 @@
 #     __init__.py
 #     document_reader.py
 #     text_cleaner.py
+
+
+# EXPLANATIONS:
+
+# __init__.py ka naam double underscores se shuru aur khatam hota hai.
+# 1) - __init__ — initialization se related naam.
+# 2) - .py — Python file ki extension.
+# 3) - Is file ko package initialization ke liye use kiya ja sakta hai.
+# 4) - Modern Python mein kuch packages __init__.py ke baghair bhi kaam kar sakte hain, lekin abhi hum regular package structure seekh rahe hain.
+
+# Filhal sirf itna samjho: package related modules ko organize karta hai, aur __init__.py us package ka initialization point ho sakta hai.
