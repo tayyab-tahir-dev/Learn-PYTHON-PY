@@ -227,3 +227,8 @@
 
 # Example: document_tools
 # Is folder mein multiple Python files organize ki ja sakti hain.
+
+
+# - Package---> (PART-2)
+# __init__.py IN Package:
+
