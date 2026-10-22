@@ -233,3 +233,10 @@
 # __init__.py IN Package:
 
 # Python mein commonly package folder ke andar __init__.py file rakhi jati hai.
+
+# STRUCTURE:
+
+# document_tools/
+#     __init__.py
+#     document_reader.py
+#     text_cleaner.py
