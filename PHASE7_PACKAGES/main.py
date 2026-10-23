@@ -67,3 +67,10 @@
 
 # Absolute Import vs Relative Import
 # Python mein package ke andar modules import karne ke do common tareeqe hain.
+
+# EXAMPLE:
+
+# 1. Absolute import
+# from document_tools.document_reader import read_document
+
+# Yahan hum package ka naam document_tools likh kar import karte hai.
