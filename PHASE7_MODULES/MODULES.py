@@ -322,3 +322,11 @@
 
 # Example:
 # Agar hum apne AI project mein Gemini API use karna chahay, to uski library install karne ke liye pip use kar sakte hai.
+
+# python -m pip install google-genai
+
+# Yeh command hamaray active virtual environment mein library install karegi.
+
+# - python -m pip — Python ke through pip chalata hai.
+# - install — package install karta hai.
+# - google-genai — package ka naam hai.
