@@ -265,3 +265,12 @@
 
 # SIMPLE UNDERSTAND:
 # Virtual environment aik project ka alag Python environment hota hai, jahan us project ki libraries aur packages ko doosre projects se alag manage kar sakte hain.
+
+# Iski zaroorat kyun hoti hai?
+
+# Misaal ke taur par hum do AI projects bana rahe hai:
+
+# - Project A: requests library ka version 2 use karta hai.
+# - Project B: kisi doosre version par depend karta hai.
+
+# Virtual environments dono projects ki dependencies ko alag rakhne mein madad karte hain, taake aik project ki library doosre project ko affect na kare.
