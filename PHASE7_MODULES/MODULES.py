@@ -342,3 +342,9 @@
 
 # - pip---> (PART-3)
 # pip freeze
+
+# INTERVIEW DEFINATION:
+# pip freeze displays the installed Python packages and their versions.
+
+# SIMPLE UNDERSTAND:
+# Yeh hamay Python environment mein installed packages aur unke versions ki list dikhata hai.
