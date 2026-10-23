@@ -334,3 +334,7 @@
 
 # - pip---> (PART-2)
 # pip package install karne ke baad kya hota hai?
+
+# pip install requests — library install karta hai.
+
+# import requests — library ko Python code mein use karne ke liye import karta hai.
