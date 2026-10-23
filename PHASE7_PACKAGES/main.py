@@ -71,6 +71,15 @@
 # EXAMPLE:
 
 # 1. Absolute import
+
 # from document_tools.document_reader import read_document
 
 # Yahan hum package ka naam document_tools likh kar import karte hai.
+
+# 2. Relative import
+
+# from .document_reader import read_document
+
+# Yahan . ka matlab hai current package ke andar se document_reader module import karna.
+
+# Relative import ko aam tor par package ke andar modules mein use kiya jata hai. Agar hum main.py ko directly run kar rahe hau, to us mein absolute import zyada seedha tareeqa hai.
