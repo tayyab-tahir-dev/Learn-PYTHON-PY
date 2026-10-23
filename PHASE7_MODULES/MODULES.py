@@ -338,3 +338,7 @@
 # pip install requests — library install karta hai.
 
 # import requests — library ko Python code mein use karne ke liye import karta hai.
+
+
+# - pip---> (PART-3)
+# pip freeze
