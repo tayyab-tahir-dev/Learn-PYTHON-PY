@@ -64,3 +64,6 @@
 
 
 # - PACKAGES---> (PART-4)
+
+# Absolute Import vs Relative Import
+# Python mein package ke andar modules import karne ke do common tareeqe hain.
