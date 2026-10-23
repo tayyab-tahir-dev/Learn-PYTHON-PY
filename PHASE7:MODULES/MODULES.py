@@ -259,3 +259,9 @@
                                      # <----------VIRTUAL ENVIROMANT---------->
 
 # 4) - Virtual Enviroment--->
+
+# INTERVIEW DEFINATION: 
+# A virtual environment is an isolated Python environment for a project, where its installed packages can be managed separately.
+
+# SIMPLE UNDERSTAND:
+# Virtual environment aik project ka alag Python environment hota hai, jahan us project ki libraries aur packages ko doosre projects se alag manage kar sakte hain.
