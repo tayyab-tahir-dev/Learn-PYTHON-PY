@@ -330,3 +330,7 @@
 # - python -m pip — Python ke through pip chalata hai.
 # - install — package install karta hai.
 # - google-genai — package ka naam hai.
+
+
+# - pip---> (PART-2)
+# pip package install karne ke baad kya hota hai?
