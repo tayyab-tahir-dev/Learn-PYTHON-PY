@@ -381,3 +381,7 @@
 # pip freeze — installed packages ki list dikhata hai.
 
 # requirements.txt — packages ki list ko file mein rakhta hai, taake project ki dependencies share ki ja saken.
+
+
+# - pip---> (PART-5)
+# uv
