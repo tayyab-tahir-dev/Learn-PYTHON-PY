@@ -468,3 +468,9 @@
 # pip install — packages install karne ke liye.
 # -r — kisi file se requirements read karne ka option.
 # requirements.txt — woh file jismein package names aur versions likhe hote hain.
+
+
+
+                                         # <----------POETRY---------->
+
+# 7) - portry--->
