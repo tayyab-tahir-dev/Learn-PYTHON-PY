@@ -455,3 +455,16 @@
 # pip — package installation commands ka interface.
 # install — package install karne ka action.
 # requests — install hone wali library ka naam.
+
+
+# uv pip install -r requirements.txt
+# Is command se requirements.txt file mein likhi hui required libraries install hoti hain.
+
+# uv pip install -r requirements.txt
+
+
+# Is command ka kaam:
+# uv — Python project management tool.
+# pip install — packages install karne ke liye.
+# -r — kisi file se requirements read karne ka option.
+# requirements.txt — woh file jismein package names aur versions likhe hote hain.
