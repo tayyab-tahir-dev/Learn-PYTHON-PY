@@ -312,3 +312,13 @@
                                         # <----------PIP---------->
 
 # - pip--->
+# In Python, pip primarily stands for "Pip Installs Packages".
+
+# INTERVIEW DEFINATION
+# pip is Python’s package installer, used to install and manage external Python libraries.
+
+# SIMPLE UNDERSTAND: 
+# pip aik tool hai jis se hum Python mein doosron ki banayi hui libraries install karte hain.
+
+# Example:
+# Agar hum apne AI project mein Gemini API use karna chahay, to uski library install karne ke liye pip use kar sakte hai.
