@@ -405,3 +405,15 @@
 
 # - uv---> (PART-2)
 # pip vs uv commands
+
+
+# Dono se Python packages install kar sakte hi, lekin commands thori different hain.
+
+# Kaam	pip	uv
+# Package install karna	python -m pip install requests	                      uv pip install requests
+# Installed packages dekhna	python -m pip list	                              uv pip list
+# Requirements file se install	python -m pip install -r requirements.txt  	  uv pip install -r requirements.txt
+
+
+
+# MTLB AGHAR HAMARAY SYSTEM MAI uv INSTALL HAI TO Pip KI COMMAND BI RUN HO JAYE GI:
