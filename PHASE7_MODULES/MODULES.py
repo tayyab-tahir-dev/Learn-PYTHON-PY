@@ -398,3 +398,5 @@
 # Python packages install karta hai.	      Packages install kar sakta hai aur virtual environments bhi manage karta hai.
 # Package management ke liye use hota hai.	  Kai Python project-management tasks aik hi tool se kar sakta hai.
 
+# AI Engineering mein faida: 
+# Jab hum RAG ya AI application banaye ge, to hamay multiple libraries install aur manage karni hongi. uv yeh kaam efficiently karne mein madad karta hai.
