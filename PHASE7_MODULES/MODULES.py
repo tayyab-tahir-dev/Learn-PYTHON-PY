@@ -307,3 +307,8 @@
 # 4) Deactivate kene ke liye:
 
 # deactivate
+
+
+                                        # <----------PIP---------->
+
+# - pip--->
