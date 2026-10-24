@@ -440,3 +440,6 @@
 # - .venv — virtual environment ka folder.
 # - bin — Linux par environment ke executable programs ka folder.
 # - activate — environment activate karne wali script.
+
+
+# uv pip install kya hai:
