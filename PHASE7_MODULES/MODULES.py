@@ -401,3 +401,7 @@
 
 # AI Engineering mein faida: 
 # Jab hum RAG ya AI application banaye ge, to hamay multiple libraries install aur manage karni hongi. uv yeh kaam efficiently karne mein madad karta hai.
+
+
+# - uv---> (PART-2)
+# pip vs uv commands
