@@ -475,3 +475,9 @@
 
 # 7) - portry--->
 # Poetry aik tool hai jo Python project ki required libraries aur project settings ko manage karta hai.
+
+
+# Poetry ka faida kya hai?
+# Jab tum AI project banao ge, jaise RAG application, to usmein multiple libraries hongi. Poetry un libraries aur unke versions ko manage karne mein madad karta hai.
+
+
