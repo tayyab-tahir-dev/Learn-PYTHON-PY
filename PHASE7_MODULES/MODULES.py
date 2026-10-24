@@ -481,3 +481,7 @@
 # Jab tum AI project banao ge, jaise RAG application, to usmein multiple libraries hongi. Poetry un libraries aur unke versions ko manage karne mein madad karta hai.
 
 
+# Poetry mein do important files hain:
+
+# - pyproject.toml — project ki configuration aur dependencies define karne ke liye.
+# - poetry.lock — dependencies ke exact resolved versions record karne ke liye.
