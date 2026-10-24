@@ -274,3 +274,36 @@
 # - Project B: kisi doosre version par depend karta hai.
 
 # Virtual environments dono projects ki dependencies ko alag rakhne mein madad karte hain, taake aik project ki library doosre project ko affect na kare.
+
+
+# HOW TO MAKE AND ACTIVATE VIRTUAL ENVIROMENT:
+
+# 1) JIS FOLDER MAI  VE BANAHA HAI USKAY  OPEN WITH  INTEGRATED TERMINAL MAI OPEN KRO:
+# YEH COMMAND RUN KRO:
+
+# python3 -m venv .venv
+
+# Command ka matlab:
+# - python3 — Python 3 interpreter.
+# - -m — Python module ko program ki tarah run karna.
+# - venv — Python ka built-in module jo virtual environment banata hai.
+# - .venv — us folder ka naam jahan environment banega.
+
+
+# 2) Environment activate karne ke liye:
+# YEH COMMAND CHALAO:
+
+# source .venv/bin/activate
+
+# Activation ke baad terminal prompt ke start mein aam tor par (.venv) nazar aayega.
+
+# 3) Check karne ke liye:
+# YEH COMMAND RUN KRO:
+
+# which python
+
+# OUTPUT US FILE KI TARAF HOGA:
+
+# 4) Deactivate kene ke liye:
+
+# deactivate
