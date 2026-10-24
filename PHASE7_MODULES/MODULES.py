@@ -383,8 +383,9 @@
 # requirements.txt — packages ki list ko file mein rakhta hai, taake project ki dependencies share ki ja saken.
 
 
-# - pip---> (PART-5)
-# uv
+                                            # <----------UV---------->
+
+# 6) - uv--->
 
 # INTERVIEW DEFINATION: 
 # uv is a fast Python tool used to manage packages, dependencies, and virtual environments.
