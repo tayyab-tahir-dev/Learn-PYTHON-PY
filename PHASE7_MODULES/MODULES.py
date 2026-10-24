@@ -348,3 +348,17 @@
 
 # SIMPLE UNDERSTAND:
 # Yeh hamay Python environment mein installed packages aur unke versions ki list dikhata hai.
+
+# EXAMPLE OUTPUT:
+
+# google-genai==1.20.0
+# requests==2.32.4
+
+
+# google-genai — package ka naam.
+# == — installed version ko show karta hai.
+# 1.20.0 — package ka version number hai.
+
+
+# AI project mein iska faida: 
+# Tumhein pata chal sakta hai ke project mein kaun si libraries aur unke kaun se versions installed hain.
