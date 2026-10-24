@@ -443,3 +443,15 @@
 
 
 # uv pip install kya hai:
+# Is command se hum uv ki madad se apne Python environment mein libraries install karte hain.
+
+# uv pip install requests
+
+
+
+# COMMAND KA KAAM:
+
+# uv — Python package aur project management tool.
+# pip — package installation commands ka interface.
+# install — package install karne ka action.
+# requests — install hone wali library ka naam.
