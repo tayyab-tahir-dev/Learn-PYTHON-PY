@@ -496,3 +496,4 @@
 
 
 # - pyproject.toml---> (PART-2)
+# Python project mein pyproject.toml ek configuration file hoti hai jo project ki settings aur dependencies ki information rakhti hai.
