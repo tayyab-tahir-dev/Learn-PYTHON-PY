@@ -495,5 +495,18 @@
 # Poetry   dependencies aur project configuration manage karta hai.
 
 
+# SOME IMPORTAND COMMANDS 
+
+# 1. python -m venv .venv — current folder mein .venv naam ka virtual environment banati hai.
+# 2. source .venv/bin/activate — virtual environment activate karti hai.
+# 3. deactivate — active virtual environment ko deactivate karti hai.
+# 4. python -m pip install requests — requests library install karti hai.
+# 5. python -m pip list — tumhare current Python environment mein installed packages aur unke versions ki list dikhati hai.
+# 6. python -m pip freeze — installed packages aur unke versions ko package==version format mein dikhata hai. Is output ko requirements.txt mein save bhi kar sakte ho.
+# Command 5 aur 6 mein farq:
+# - pip list — packages ko readable table ki form mein dikhata hai.
+# - pip freeze — packages ko requirements.txt jaisay format mein dikhata hai.
+
+
 # - pyproject.toml---> (PART-2)
 # Python project mein pyproject.toml ek configuration file hoti hai jo project ki settings aur dependencies ki information rakhti hai.
