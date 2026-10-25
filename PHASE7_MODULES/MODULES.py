@@ -599,3 +599,46 @@
 # poetry lock	                            Dependency versions resolve karke lock file banana/update karna
 # poetry install	                        Required dependencies install karna
 # poetry add	                            Nayi dependency add karna aur project ko update karna
+
+
+# Poetry workflow
+# 1. pyproject.toml
+
+# Yeh project ki configuration file hoti hai. Ismein project ki information aur dependencies define ki ja sakti hain.
+
+# 2. poetry.lock
+
+# Yeh file dependencies ke exact resolved versions record karti hai, taake project install karte waqt compatible versions dobara use ho sakein.
+
+# 3. poetry add requests
+
+# Yeh command project mein requests library add karti hai aur Poetry ki dependency files update karti hai.
+
+# 4. poetry install
+
+# Yeh command project ki required libraries install karti hai. Agar poetry.lock maujood ho, to Poetry usmein recorded versions use karta hai.
+
+# 5. poetry init
+
+# Yeh command tumhein sawalon ke zariye project ki configuration file banane mein madad deti hai.
+
+# 6. poetry lock
+
+# Yeh command dependencies ke compatible versions resolve karke poetry.lock file banati ya update karti hai.
+
+
+# Ab poore Phase 7 ka final recap
+
+# Concept	                                          Kaam
+
+# Module	                                          Python ki ek .py file
+# Package	                                          Related Python modules ko organize karne ka tareeqa
+# import	                                          Doosre module ka code use karna
+# __name__	                                          Module ka naam batane wala special variable
+# venv	                                              Project ke liye alag Python environment
+# pip	                                              Python libraries install aur manage karna
+# requirements.txt	                                  Required libraries aur unke versions ki list
+# uv	                                              Python projects aur packages manage karne ka tool
+# pyproject.toml	                                  Project configuration aur dependencies ki information
+# poetry.lock	                                      Dependencies ke exact resolved versions ka record
+# Poetry	                                          Project dependencies aur environment manage karne ka tool
