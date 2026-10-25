@@ -421,3 +421,13 @@
 
 # - uv---> (PART-3)
 # uv se virtual environment banana:
+
+# uv venv
+
+# Is command ka matlab:
+# - uv — Python project manage karne wala tool.
+# - venv — virtual environment banane ka command.
+# - .venv — default environment folder ka naam
+
+
+
