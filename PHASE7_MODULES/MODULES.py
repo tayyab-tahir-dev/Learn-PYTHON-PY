@@ -366,3 +366,5 @@
 
 # - pip---> (PART-4)
 # requirements.txt
+
+# Yeh aik text file hoti hai jismein project ke liye zaroori Python libraries aur unke versions likhe hote hain.
