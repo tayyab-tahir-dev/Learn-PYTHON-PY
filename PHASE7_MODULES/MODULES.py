@@ -510,3 +510,14 @@
 
 # - pyproject.toml---> (PART-2)
 # Python project mein pyproject.toml ek configuration file hoti hai jo project ki settings aur dependencies ki information rakhti hai.
+
+# IS NAME KA MTLB:
+
+# py
+# Python ko refer karta hai.
+
+# project
+# Hamara Python project.
+
+# .toml
+# File format ka extension hai. TOML ka full form Tom's Obvious, Minimal Language ha
