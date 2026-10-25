@@ -474,3 +474,4 @@
                                          # <----------POETRY---------->
 
 # 7) - portry--->
+# Poetry aik tool hai jo Python project ki required libraries aur project settings ko manage karta hai.
