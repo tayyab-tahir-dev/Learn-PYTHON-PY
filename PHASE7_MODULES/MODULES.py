@@ -485,3 +485,11 @@
 
 # - pyproject.toml — project ki configuration aur dependencies define karne ke liye.
 # - poetry.lock — dependencies ke exact resolved versions record karne ke liye.
+
+
+
+# BOTH IN ONE LINE
+
+# pip      packages install karta hai.
+# uv       packages aur environments manage kar sakta hai.
+# Poetry   dependencies aur project configuration manage karta hai.
