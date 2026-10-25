@@ -385,3 +385,10 @@
 
 # - pip---> (PART-5)
 # uv
+
+# INTERVIEW DEFINATION: 
+# uv is a fast Python tool used to manage packages, dependencies, and virtual environments.
+
+# SIMPLE UNDERSTAND:
+# uv aik tool hai jo Python packages install karne aur virtual environments manage karne mein madad karta hai.
+
