@@ -431,3 +431,12 @@
 
 
 
+# FOR ACTIVATE uv 
+
+# source .venv/bin/activate
+
+# Is command ka matlab:
+# - source — script ko current terminal session mein run karta hai.
+# - .venv — virtual environment ka folder.
+# - bin — Linux par environment ke executable programs ka folder.
+# - activate — environment activate karne wali script.
