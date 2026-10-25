@@ -417,3 +417,7 @@
 
 
 # MTLB AGHAR HAMARAY SYSTEM MAI uv INSTALL HAI TO Pip KI COMMAND BI RUN HO JAYE GI:
+
+
+# - uv---> (PART-3)
+# uv se virtual environment banana:
