@@ -521,3 +521,16 @@
 
 # .toml
 # File format ka extension hai. TOML ka full form Tom's Obvious, Minimal Language ha
+
+
+# Is file mein kya likha hota hai?
+# Example :
+
+# [project]
+# name = "my-ai-project"
+# version = "0.1.0"
+# requires-python = ">=3.11"
+# dependencies = [
+#     "requests",
+# ]
+
