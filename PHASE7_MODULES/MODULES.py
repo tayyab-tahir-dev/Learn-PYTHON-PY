@@ -368,3 +368,16 @@
 # requirements.txt
 
 # Yeh aik text file hoti hai jismein project ke liye zaroori Python libraries aur unke versions likhe hote hain.
+
+# EXAMPLE:
+
+# google-genai==1.20.0
+# requests==2.32.4
+
+
+
+# BOTH IN ONE LINE:
+
+# pip freeze — installed packages ki list dikhata hai.
+
+# requirements.txt — packages ki list ko file mein rakhta hai, taake project ki dependencies share ki ja saken.
