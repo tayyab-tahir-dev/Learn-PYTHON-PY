@@ -592,3 +592,10 @@
 
 
 # Important: poetry.lock ko manually edit karne ke bajaye Poetry se manage karna behtar hai.
+
+
+# File/Command                            	Kaam
+# pyproject.toml	                        Project ki settings aur dependency requirements
+# poetry lock	                            Dependency versions resolve karke lock file banana/update karna
+# poetry install	                        Required dependencies install karna
+# poetry add	                            Nayi dependency add karna aur project ko update karna
