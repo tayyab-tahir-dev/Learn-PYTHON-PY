@@ -539,3 +539,28 @@
 
 # - poetry.lock---> (PART-3)
 # Yeh file project ki installed hone wali dependencies ke exact versions record karti hai, taake project dobara setup karte waqt compatible package versions use kiye ja saken.
+
+
+# - poetry commands---> (PART-4)
+
+# poetry init
+
+# Yeh command humse project ki information aur dependencies ke baare mein sawal karti hai, phir pyproject.toml banane mein madad deti hai.
+
+
+# COMMAND KA WORK:
+
+# Project ki configuration set karna.
+# Dependencies define karne mein madad dena.
+# pyproject.toml file create karna.
+
+
+
+# poetry add
+# Is command se hum apne project mein koi Python library add karte hai.
+
+# poetry add requests
+
+# Yeh Poetry project mein requests dependency add karta hai aur dependencies ko resolve karke lock file create ya update kar sakta hai.
+
+# Important: Yeh commands Poetry ke workflow ke liye hain. Tumhare existing venv aur pip workflow mein inki zaroorat nahi.
