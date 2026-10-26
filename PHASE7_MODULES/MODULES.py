@@ -409,7 +409,8 @@
 
 # Dono se Python packages install kar sakte hi, lekin commands thori different hain.
 
-# Kaam	pip	uv
+# Kaam	
+# pip                                                        	              uv
 # Package install karna	python -m pip install requests	                      uv pip install requests
 # Installed packages dekhna	python -m pip list	                              uv pip list
 # Requirements file se install	python -m pip install -r requirements.txt  	  uv pip install -r requirements.txt
@@ -537,3 +538,4 @@
 
 
 # - poetry.lock---> (PART-3)
+# Yeh file project ki installed hone wali dependencies ke exact versions record karti hai, taake project dobara setup karte waqt compatible package versions use kiye ja saken.
