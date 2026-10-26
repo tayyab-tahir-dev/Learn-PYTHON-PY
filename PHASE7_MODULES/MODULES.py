@@ -564,3 +564,31 @@
 # Yeh Poetry project mein requests dependency add karta hai aur dependencies ko resolve karke lock file create ya update kar sakta hai.
 
 # Important: Yeh commands Poetry ke workflow ke liye hain. Tumhare existing venv aur pip workflow mein inki zaroorat nahi.
+
+
+# - D\B poetry install and poetry lock
+# - poetry install---> 
+# Yeh command project ki required libraries install karti hai. Agar poetry.lock maujood ho, to Poetry usmein recorded versions ko use karta hai.
+
+# poetry install
+
+# Kab use hoti hai?
+# - Jab tum existing Poetry project setup kar rahe ho.
+# - Jab project ki required libraries apne environment mein install karni hon.
+
+# - poetry lock--->
+# Yeh command dependencies ke compatible versions resolve karke poetry.lock file generate ya update karti hai.
+
+# poetry lock
+
+# Is command ka main focus dependencies ke versions lock karna hai, libraries install karna nahi.
+
+
+# Dono mein farq
+
+# poetry install	                                                    poetry lock
+# Dependencies install karti hai.	                                    Dependency versions resolve karti hai.
+# Lock file ko installation ke liye use karti hai, agar available ho.	Lock file generate ya update karti hai.
+
+
+# Important: poetry.lock ko manually edit karne ke bajaye Poetry se manage karna behtar hai.
