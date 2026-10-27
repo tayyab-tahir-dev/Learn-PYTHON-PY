@@ -115,3 +115,9 @@
                                         # <----------DICTIONARY  COMPREHENSION---------->
 
 # 2) - Dictionary Comprehension--->
+
+# INTERVIEW DEFINATION:
+# Dictionary comprehension is a concise way to create a dictionary by generating key-value pairs from an iterable, optionally applying a condition.
+
+# SIMPLE UNDERSTAND:
+# Dictionary comprehension Python mein ek short tareeqa hai jisse hum key:value pairs ki madad se nayi dictionary bana sakte hain, aur zaroorat par condition bhi laga sakte hain.
