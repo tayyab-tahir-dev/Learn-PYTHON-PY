@@ -28,3 +28,17 @@
 
 # SIMPLE UNDERSTAND:
 # List comprehension Python mein nayi list banane ka short aur readable tareeqa hai, jisme hum existing items par operation kar sakte hain aur condition laga kar kuch items select kar sakte hain.
+
+
+# BASIC SYNTAX:
+
+# new-list = [expression for item in iterable]
+
+# Har part ka matlab:
+# - new_list: Nayi list jisme results store honge.
+# - []: Square brackets — list banane ke liye.
+# - expression: Har item par kya operation karna hai.
+# - for: Items ko ek ek karke process karta hai.
+# - item: Current item ka temporary variable.
+# - in: Batata hai ke items kis collection se lene hain.
+# - iterable: Aisi cheez jiske items ek ek karke access kiye ja sakte hain, jaise list ya tuple.
