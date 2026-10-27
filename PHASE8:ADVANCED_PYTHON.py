@@ -21,7 +21,7 @@
 
                                         # <----------LIST COMPREHENSION---------->
 
-# - List Comprehension--->
+# - 1) List Comprehension--->
 
 # INTERVIEW DEFINATION:
 # List comprehension is a concise way to create a new list by applying an expression to items from an iterable, optionally filtering those items with a condition.
