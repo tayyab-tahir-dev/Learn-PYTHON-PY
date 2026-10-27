@@ -16,3 +16,9 @@
 # 12)NamedTuple
 # 13)Dataclass
 # 14)Slots
+
+
+
+                                        # <----------LIST COMPREHENSION---------->
+
+# - List Comprehension--->
