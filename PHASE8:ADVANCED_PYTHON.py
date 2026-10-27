@@ -22,3 +22,9 @@
                                         # <----------LIST COMPREHENSION---------->
 
 # - List Comprehension--->
+
+# INTERVIEW DEFINATION:
+# List comprehension is a concise way to create a new list by applying an expression to items from an iterable, optionally filtering those items with a condition.
+
+# SIMPLE UNDERSTAND:
+# List comprehension Python mein nayi list banane ka short aur readable tareeqa hai, jisme hum existing items par operation kar sakte hain aur condition laga kar kuch items select kar sakte hain.
