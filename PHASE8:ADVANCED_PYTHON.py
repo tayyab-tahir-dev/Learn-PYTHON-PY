@@ -42,3 +42,18 @@
 # - item: Current item ka temporary variable.
 # - in: Batata hai ke items kis collection se lene hain.
 # - iterable: Aisi cheez jiske items ek ek karke access kiye ja sakte hain, jaise list ya tuple.
+
+
+# SIMPLE UNDERSTAND:
+
+# numbers = [1, 2, 3, 4, 5,]
+
+# square = [number **2 for number in numbers]
+
+# print(square)
+
+
+
+# - number ** 2 har number ka square nikalta hai.
+# - for number in numbers numbers ko ek ek karke leta hai.
+# - squares mein results ki nayi list banti hai.
