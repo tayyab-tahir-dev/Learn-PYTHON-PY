@@ -57,3 +57,10 @@
 # - number ** 2 har number ka square nikalta hai.
 # - for number in numbers numbers ko ek ek karke leta hai.
 # - squares mein results ki nayi list banti hai.
+
+
+
+# Condition ke saath List Comprehension
+# SYNTAX:
+
+# new_list = [expression for item in iterable if condition]
