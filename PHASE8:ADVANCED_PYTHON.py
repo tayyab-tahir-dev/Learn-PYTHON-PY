@@ -149,3 +149,19 @@
 # }
 
 # print(squares)
+
+
+
+# BASIC EXAMPLE:
+# Conditon ke saath
+# Sirf even numbers ki dictionary banaana:
+
+# numbers = [1, 2, 3, 4, 5, 6]
+
+# even_square = {
+#     number: number ** 2
+#     for number in numbers
+#     if number % 2 == 0
+# }
+
+# print(even_square)
