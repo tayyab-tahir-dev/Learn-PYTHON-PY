@@ -136,3 +136,16 @@
 # for — items ko ek ek karke process karta hai.
 # item — current item.
 # iterable — jaise list ya tuple, jiske items process honge.
+
+
+# BASIC EXAMPLE:
+# numbers ke squares
+
+# numbers = [1, 2, 3, 4, 5, 6]
+
+# squares = {
+#     number: number ** 2
+#     for number in numbers
+# }
+
+# print(squares)
