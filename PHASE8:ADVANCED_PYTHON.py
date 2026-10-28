@@ -306,3 +306,9 @@
                                             # <----------ITERATORS---------->
 
 # 5) - iterators--->
+
+# INTERVIEW DEFINATION:
+# An iterator is an object that returns one item at a time when requested and remembers its current position.
+
+# SIMPLE UNDERSTAND:
+# Iterator aisa object hai jo request karne par ek waqt mein ek item deta hai aur apni current position yaad rakhta hai.
