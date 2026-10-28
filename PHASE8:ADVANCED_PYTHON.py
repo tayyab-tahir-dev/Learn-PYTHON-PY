@@ -312,3 +312,31 @@
 
 # SIMPLE UNDERSTAND:
 # Iterator aisa object hai jo request karne par ek waqt mein ek item deta hai aur apni current position yaad rakhta hai.
+
+
+# BASIC EXAMPLE:
+
+# numbers = [10, 20, 30, 40, 50]
+
+# iterator = iter(numbers)
+
+# print(next(iterator))
+# print(next(iterator))
+# print(next(iterator))
+# print(next(iterator))
+# print(next(iterator))
+
+
+# Har keyword ka matlab:
+
+# - numbers — list hai jismein 3 numbers hain.
+# - iter() — list se iterator object banata hai.
+# - iterator — us iterator object ko store karta hai.
+# - next() — iterator se agla item nikalta hai.
+
+
+# Important: List khud iterable hai, jabke iter(numbers) se milne wala object iterator hai.
+
+
+# - Iterable: Aisi cheez jiske items par loop chala sakte hain, jaise list, tuple aur string.
+# - Iterator: Aisa object jo next() se ek-ek item deta hai.
