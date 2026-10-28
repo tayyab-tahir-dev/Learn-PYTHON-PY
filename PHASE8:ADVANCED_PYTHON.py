@@ -216,3 +216,29 @@
 # }
 
 # print(unique_numbers)
+
+
+
+# Yahan kya hua?
+
+# - numbers list mein 2 aur 3 do-do baar hain.
+# - for number in numbers har number ko leta hai.
+# - Set duplicate values ko sirf ek baar rakhta hai.
+# - Is liye result mein har number ek hi baar hai.
+
+# IMPORTANT: Set ki values unique hoti hain, aur unka output order zaroori nahi ke list jaisa ho.
+
+
+# BASIC EXAMPLE:
+# Condition ke saath
+# Sirf even numbers ka set:
+
+# numbers = [1, 2, 2, 3, 4, 4, 5, 5, 6, 7, 8]
+
+# unique_even_numbers = {
+#     number 
+#     for number in numbers
+#     if number % 2 == 0
+# }
+
+# print(unique_even_numbers)
