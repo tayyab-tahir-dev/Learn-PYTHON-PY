@@ -121,3 +121,18 @@
 
 # SIMPLE UNDERSTAND:
 # Dictionary comprehension Python mein ek short tareeqa hai jisse hum key:value pairs ki madad se nayi dictionary bana sakte hain, aur zaroorat par condition bhi laga sakte hain.
+
+
+# BASIC SYNTAX:
+
+# new_dict = {key: value for item in iterable}
+
+
+
+# {} — dictionary banane ke liye.
+# key — dictionary mein unique identifier.
+# : — key aur value ko separate karta hai.
+# value — key ke saath store hone wala data.
+# for — items ko ek ek karke process karta hai.
+# item — current item.
+# iterable — jaise list ya tuple, jiske items process honge.
