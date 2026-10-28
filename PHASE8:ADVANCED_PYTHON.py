@@ -44,7 +44,7 @@
 # - iterable: Aisi cheez jiske items ek ek karke access kiye ja sakte hain, jaise list ya tuple.
 
 
-# BASIC EXAMPLE:
+# 1) BASIC EXAMPLE:
 
 # numbers = [1, 2, 3, 4, 5,]
 
@@ -66,7 +66,7 @@
 # new_list = [expression for item in iterable if condition]
 
 
-# BASIC EXAMPLE:
+# 2) BASIC EXAMPLE:
 
 # numbers = [1, 2, 3, 4, 5, 6]
 
@@ -82,3 +82,30 @@
 # - % remainder nikalta hai.
 # - number % 2 == 0 check karta hai ke number 2 se divide hone par remainder zero hai ya nahi.
 # - if condition false hone par us number ko nayi list mein include nahi kiya jata.
+
+
+# 3) AI EXAMPLE:
+# Maan lo hamare paas documents ke text chunks hain aur hum empty chunks ko remove karna chahte hai.
+
+
+# chunks = [    
+#     "Python is useful for AI.     ",
+#     "",
+#     "      Embeddings represent text as vectors.",
+#     "   ",
+#     "RAG retrieves relevant documents."
+# ]
+
+# clean_chunks = [
+#     chunk.strip()
+#     for chunk in chunks
+#     if chunk.strip()
+# ]
+
+# print(clean_chunks)
+
+
+
+# strip() text ke start aur end se whitespace remove karta hai.
+# if chunk.strip() empty ya whitespace-only text ko reject karta hai.
+# clean_chunks mein cleaned, non-empty text store hota hai.
