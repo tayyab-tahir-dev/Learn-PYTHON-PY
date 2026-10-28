@@ -300,3 +300,9 @@
 
 # for document in read_documents():
 #     print(document)
+
+
+
+                                            # <----------ITERATORS---------->
+
+# 5) - iterators--->
