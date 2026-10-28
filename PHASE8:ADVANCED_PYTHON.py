@@ -254,3 +254,38 @@
 
 # SIMPLE UNDERSTAND:
 # Generator Python ka ek special mechanism hai jo values ko ek-ek karke tab produce karta hai jab unki zaroorat hoti hai, bajaye iske ke saari values ek saath bana le.
+
+
+# BASIC EXAMPLE:
+
+# def generate_numbers():
+#     yield 1
+#     yield 2
+#     yield "How are you"
+
+# numbers = generate_numbers()
+
+# print(next(numbers))
+# print(next(numbers))
+# print(next(numbers))
+
+
+# Har keyword ka matlab
+
+# - def — function banata hai.
+# - generate_numbers — function ka naam hai.
+# - yield — ek value produce karta hai aur function ki current state ko temporarily save kar deta hai.
+# - numbers — generator object ko store karta hai.
+# - next() — generator se agli value nikalta hai.
+
+# Important: Normal function mein return value de kar function ko khatam kar deta hai. Generator mein yield value deta hai aur function ko pause kar deta hai; agli next() call par woh wahin se continue karta hai.
+
+
+
+# (Why use it?)
+
+# 1. Memory Bachati Hai (Memory Efficient):
+# Agar aapko 1 Lakh numbers par kaam karna hai, toh normal function 1 Lakh numbers ki list banakar memory (RAM) bhar dega. yield ek waqt mai sirf ek number generate karta hai, isliye memory bohot kam istemal hoti hai.
+
+# 2. Time Bachata Hai:
+# Aapko saara data tayyar hone ka intezar nahi karna parta, pehli value aate hi aap uspar kaam shuru kar sakte hain
