@@ -198,3 +198,9 @@
                                           # <----------SET COMPREHENSION---------->
 
 # 3) - Set Comprehension--->
+
+# INTERVIEW DEFINATION:
+# Set comprehension is a concise way to create a set from an iterable using an expression and an optional condition.
+
+# SIMPLE UNDERSTAND:
+# Set comprehension ek short tareeqa hai jis se hum kisi iterable se expression aur optional condition use karke naya set banate hain.
