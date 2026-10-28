@@ -165,3 +165,30 @@
 # }
 
 # print(even_square)
+
+
+
+# AI EXAMPLE:
+# Maan lo hamari AI document-processing project mein har document ka naam aur uske text ki length record karni hai.
+
+# documents = {
+#     "python.txt": "Python is useful for AI",
+#     "rag.txt": "RAG retrieves relevant documents",
+#     "ai.txt": "AI processes information"
+# }
+
+# document_length = {
+#     name: len(text)
+#     for name, text in documents.items()
+# }
+
+# print(document_length)
+
+
+# Is example mein:
+# - .items() dictionary ke key-value pairs deta hai.
+# - name mein document ka naam aata hai.
+# - text mein uska content aata hai.
+# - len(text) characters ki tadaad count karta hai.
+
+# Ye document metadata aur text-processing pipelines mein useful ho sakta hai.
