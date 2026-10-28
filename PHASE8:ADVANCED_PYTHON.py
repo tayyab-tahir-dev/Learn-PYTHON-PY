@@ -44,7 +44,7 @@
 # - iterable: Aisi cheez jiske items ek ek karke access kiye ja sakte hain, jaise list ya tuple.
 
 
-# SIMPLE UNDERSTAND:
+# BASIC EXAMPLE:
 
 # numbers = [1, 2, 3, 4, 5,]
 
@@ -64,3 +64,21 @@
 # SYNTAX:
 
 # new_list = [expression for item in iterable if condition]
+
+
+# BASIC EXAMPLE:
+
+# numbers = [1, 2, 3, 4, 5, 6]
+
+# even_numbers = [
+#     number for number in numbers
+#     if number % 2 == 0
+# ]
+
+# print(even_numbers)
+
+
+# Yahan:
+# - % remainder nikalta hai.
+# - number % 2 == 0 check karta hai ke number 2 se divide hone par remainder zero hai ya nahi.
+# - if condition false hone par us number ko nayi list mein include nahi kiya jata.
