@@ -192,3 +192,9 @@
 # - len(text) characters ki tadaad count karta hai.
 
 # Ye document metadata aur text-processing pipelines mein useful ho sakta hai.
+
+
+
+                                          # <----------SET COMPREHENSION---------->
+
+# 3) - Set Comprehension--->
