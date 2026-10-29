@@ -289,3 +289,14 @@
 
 # 2. Time Bachata Hai:
 # Aapko saara data tayyar hone ka intezar nahi karna parta, pehli value aate hi aap uspar kaam shuru kar sakte hain
+
+
+# AI EXAMPLE:
+
+# def read_documents():
+#     yield "Python document" 
+#     yield "RAG document"
+#     yield "AI document"
+
+# for document in read_documents():
+#     print(document)
