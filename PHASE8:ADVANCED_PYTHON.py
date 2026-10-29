@@ -242,3 +242,9 @@
 # }
 
 # print(unique_even_numbers)
+
+
+
+                                         # <----------GENERATORS---------->
+
+# 4) - Generator--->
