@@ -204,3 +204,15 @@
 
 # SIMPLE UNDERSTAND:
 # Set comprehension ek short tareeqa hai jis se hum kisi iterable se expression aur optional condition use karke naya set banate hain.
+
+
+# BASIC EXAMPLE:
+
+# numbers = [1, 2, 2, 3, 3, 4, 5, 5]
+
+# unique_numbers = {
+#     number
+#     for number in  numbers
+# }
+
+# print(unique_numbers)
