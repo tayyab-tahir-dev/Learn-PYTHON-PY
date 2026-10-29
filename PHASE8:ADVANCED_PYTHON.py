@@ -364,3 +364,5 @@
 
 # SIMPLE UNDERSTAND:
 # Context manager aisa mechanism hai jo kisi resource ko use karne se pehle setup aur kaam khatam hone par cleanup manage karta hai.
+
+
