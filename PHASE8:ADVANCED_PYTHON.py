@@ -316,23 +316,18 @@
 
 # BASIC EXAMPLE:
 
-# numbers = [10, 20, 30, 40, 50]
+# Yeh ek normal list hai (Iterable)
+# meri_list = ["Amna", "Ali", "Zain"]
 
-# iterator = iter(numbers)
+# # Isko iterator banate hain
+# mera_iterator = iter(meri_list)
 
-# print(next(iterator))
-# print(next(iterator))
-# print(next(iterator))
-# print(next(iterator))
-# print(next(iterator))
+# # Ab ek ek karke items nikalte hain
+# print(next(mera_iterator))  # Output: Amna
+# print(next(mera_iterator))  # Output: Ali
+# print(next(mera_iterator))  # Output: Zain
 
-
-# Har keyword ka matlab:
-
-# - numbers — list hai jismein 3 numbers hain.
-# - iter() — list se iterator object banata hai.
-# - iterator — us iterator object ko store karta hai.
-# - next() — iterator se agla item nikalta hai.
+# Agar aap dobara next() chalayein ge toh error aayega: StopIteration
 
 
 # Important: List khud iterable hai, jabke iter(numbers) se milne wala object iterator hai.
