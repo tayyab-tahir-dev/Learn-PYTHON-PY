@@ -340,3 +340,19 @@
 
 # - Iterable: Aisi cheez jiske items par loop chala sakte hain, jaise list, tuple aur string.
 # - Iterator: Aisa object jo next() se ek-ek item deta hai.
+
+
+# IMPORTANT:
+# Aghar iterator khatam ho jaye to?
+
+# Teesri next() call par StopIteration error aayega, kyun ke list ke dono items pehle hi mil chuke hain.
+
+
+
+# Generators aur Iterators mein difference:
+
+# Generator	                                    Iterator
+
+# Values produce karne ka ek tareeqa hai.       	Values ko ek-ek karke access karne wala object hai.
+# Aksar yield se banta hai.	                    iter() ya custom iterator class se mil sakta hai.
+# Generator khud iterator hota hai.	            Har iterator generator nahi hota.
