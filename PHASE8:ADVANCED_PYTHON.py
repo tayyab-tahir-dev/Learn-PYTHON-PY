@@ -248,3 +248,9 @@
                                          # <----------GENERATORS---------->
 
 # 4) - Generator--->
+
+# INTERVIEW DEFINATION:
+# A generator is a special type of iterator that produces values one at a time, only when requested.
+
+# SIMPLE UNDERSTAND:
+# Generator Python ka ek special mechanism hai jo values ko ek-ek karke tab produce karta hai jab unki zaroorat hoti hai, bajaye iske ke saari values ek saath bana le.
