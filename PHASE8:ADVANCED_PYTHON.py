@@ -366,3 +366,12 @@
 # Context manager aisa mechanism hai jo kisi resource ko use karne se pehle setup aur kaam khatam hone par cleanup manage karta hai.
 
 
+# BASIC EXAMPLE:
+
+# with open("learn.txt", "r") as file:
+#     content = file.read()
+
+# print(content)
+
+
+# Jab with block se execution bahar nikalti hai, file automatically close ho jati hai — chahe block normally khatam ho ya uske andar exception aaye.
