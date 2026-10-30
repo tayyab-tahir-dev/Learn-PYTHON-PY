@@ -351,3 +351,15 @@
 # Values produce karne ka ek tareeqa hai.       	Values ko ek-ek karke access karne wala object hai.
 # Aksar yield se banta hai.	                    iter() ya custom iterator class se mil sakta hai.
 # Generator khud iterator hota hai.	            Har iterator generator nahi hota.
+
+
+
+                                       # <----------CONTEXT MANAGES---------->
+
+# 6) - Context Manager--->
+
+# INTERVIEW DEFINATION:
+# A context manager is an object that manages the setup and cleanup of a resource, typically using Python's with statement.
+
+# SIMPLE UNDERSTAND:
+# Context manager aisa mechanism hai jo kisi resource ko use karne se pehle setup aur kaam khatam hone par cleanup manage karta hai.
