@@ -374,3 +374,8 @@
 
 
 # Jab with block se execution bahar nikalti hai, file automatically close ho jati hai — chahe block normally khatam ho ya uske andar exception aaye.
+
+
+
+
+# ---Context Manager Protocol — __enter__() aur __exit__()
