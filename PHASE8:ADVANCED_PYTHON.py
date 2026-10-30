@@ -379,3 +379,9 @@
 
 
 # ---Context Manager Protocol — __enter__() aur __exit__()
+
+
+# Python mein custom context manager banane ke liye hum aam tor par do special methods use karte hain.
+
+# - __enter__() — context shuru hone par execute hota hai.
+# - __exit__() — context se bahar nikalte waqt execute hota hai, including exception ki situation mein.
