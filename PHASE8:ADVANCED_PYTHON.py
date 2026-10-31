@@ -415,3 +415,8 @@
 
 
 # best practice ye hai ke exception ko bina wajah suppress nahi karna chahiye. Humein error ko properly handle karna chahiye.
+
+
+
+
+# ---Function-based Context Manager — @contextmanager
