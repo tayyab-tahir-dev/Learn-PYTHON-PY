@@ -422,3 +422,40 @@
 # ---Function-based Context Manager — @contextmanager
 
 # Python mein contextmanager ek aisa tool hai jo resources (jaise files, database connections, ya network sockets) ko safely manage karne ke liye use hota hai.
+
+
+# BASIC EXAMPLE:
+
+# from contextlib import contextmanager
+
+# @contextmanager
+# def my_context():
+#     print("Setup")
+#     try:
+#         yield "Resource ready"
+#     finally:
+#         print("Cleanup")
+
+
+# with my_context() as resource:
+#     print(resource)
+
+
+
+# Is pattern mein yield ke pehle wala code setup hota hai aur yield ke baad wala code cleanup hota hai. try/finally ensure karta hai ke cleanup block exit karte waqt chale.
+
+
+
+# Context Managers — final revision
+
+# Concept	                              Yaad rakhne wali baat
+# with	                                  Resource ka setup aur cleanup manage karta hai
+# __enter__()	                          Context start hone par chalta hai
+# __exit__()	                          Context se bahar nikalte waqt chalta hai
+# exc_type	                              Exception ki type
+# exc_value	                              Exception ki information
+# traceback	                              Error ki execution details
+# try/finally	                          Cleanup ko reliably execute karne ka pattern
+# @contextmanager	                      Generator function se context manager banata hai
+# yield	                                  Context ke andar control aur value deta hai
+# async with	                          Asynchronous resources manage karta hai
