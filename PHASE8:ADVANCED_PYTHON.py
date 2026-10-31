@@ -386,3 +386,20 @@
 
 # - __enter__() — context shuru hone par execute hota hai.
 # - __exit__() — context se bahar nikalte waqt execute hota hai, including exception ki situation mein.
+
+
+# EXAMPLE:
+# Apna context manager banana
+
+
+# class MyContext:
+#     def __enter__(self):
+#         print("Context started")
+#         return self
+
+#     def __exit__(self, exc_type, exc, tb):
+#         print("Context ended")
+
+
+# with MyContext() as obj:
+#     print("Inside context")
