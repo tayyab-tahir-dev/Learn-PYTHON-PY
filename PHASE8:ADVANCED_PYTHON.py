@@ -403,3 +403,15 @@
 
 # with MyContext() as obj:
 #     print("Inside context")
+
+
+
+# return True aur return False mein difference:
+
+# __exit__() agar exception ke waqt True return kare, to woh exception suppress ho sakta hai. Agar False ya None return kare, to exception normally aage propagate hota hai.
+
+# Warning: 
+# Har exception ko chup kar dena achhi practice nahi. Is se program ke asli errors chhup sakte hain.
+
+
+# best practice ye hai ke exception ko bina wajah suppress nahi karna chahiye. Humein error ko properly handle karna chahiye.
