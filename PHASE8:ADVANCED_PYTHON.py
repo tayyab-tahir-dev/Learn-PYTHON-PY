@@ -420,3 +420,5 @@
 
 
 # ---Function-based Context Manager — @contextmanager
+
+# Python mein contextmanager ek aisa tool hai jo resources (jaise files, database connections, ya network sockets) ko safely manage karne ke liye use hota hai.
