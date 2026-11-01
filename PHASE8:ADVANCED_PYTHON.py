@@ -472,3 +472,8 @@
 
 # SIMPLE UNDERSTAND:
 # Decorator ek function hota hai jo kisi doosre function ya class ke original code ko directly change kiye baghair uske behavior mein additional functionality add karta hai.
+
+
+# IMPORTANT:
+# Function bhi Python mein object hota hai
+# Python mein functions ko variables ki tarah doosre variables mein store kar sakte hain.
