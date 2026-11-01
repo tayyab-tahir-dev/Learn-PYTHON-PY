@@ -459,3 +459,10 @@
 # @contextmanager	                      Generator function se context manager banata hai
 # yield	                                  Context ke andar control aur value deta hai
 # async with	                          Asynchronous resources manage karta hai
+
+
+
+
+                                         # <----------DECORATORS---------->
+
+# 7) - Decorators--->
