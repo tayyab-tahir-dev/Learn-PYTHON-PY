@@ -541,3 +541,40 @@
 
 
 # Yahan func ek parameter hai jo greet function ka reference receive karta hai.
+
+
+
+# EXAMPLE WITH *args / **kwargs:
+
+# def my_decorator(func):
+
+#     def wrapper(*args, **kwargs):
+
+#         print("Before Function")
+
+#         func(*args, **kwargs)
+
+#         print("After Fucntion")
+
+#     return wrapper
+
+
+# @my_decorator
+# def greet(name):
+#     print(f"Hello {name}")
+
+# greet("Tayyab")
+
+
+
+# *args ka matlab
+
+# - args positional arguments ko collect karta hai.
+# - * un arguments ko tuple ki form mein collect karta hai.
+# - Is se wrapper multiple positional arguments accept kar sakta hai.
+
+# **kwargs ka matlab
+
+# - kwargs keyword arguments ko collect karta hai.
+# - ** un arguments ko dictionary ki form mein collect karta hai.
+# - Is se wrapper named arguments accept kar sakta hai.
