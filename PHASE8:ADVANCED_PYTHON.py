@@ -501,3 +501,29 @@
 
 
 # Yahan function execute ho jata hai aur uska return value my_function mein store hota hai.
+
+
+
+# 2) Higher-Order Function:
+
+# INTERVIEW DEFINATION:
+# A function that takes another function as an argument or returns a function.
+
+# SIMPLE UNDERSTAND:
+# Aisa function jo kisi doosre function ko argument mein receive kare ya function return kare.
+
+
+
+# EXAMPLE:
+
+# def greet():
+#     print("Hello!")
+
+# def execute_function(func):
+#     func()
+
+# execute_function(greet)
+
+
+
+# Yahan func ek parameter hai jo greet function ka reference receive karta hai.
