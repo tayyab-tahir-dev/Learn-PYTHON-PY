@@ -477,3 +477,27 @@
 # IMPORTANT:
 # Function bhi Python mein object hota hai
 # Python mein functions ko variables ki tarah doosre variables mein store kar sakte hain.
+
+
+# 2 IMPORTANT CONCEPTS:
+
+# <----------FIRST CLASS FUNCTION / HIGHER-ORDER FUNCTION---------->
+
+
+# 1) First-Class Function:
+
+# INTERVIEW DEFINATION:
+# A function that can be treated like any other object, such as being assigned to a variable or passed as an argument.
+
+# SIMPLE UNDERSTAND:
+# Aisa function jise hum kisi variable mein assign kar sakte hain aur doosre function ko argument ke taur par pass kar sakte hain.
+
+
+
+# EXAMPLE:
+
+# my_function = greet()
+
+
+
+# Yahan function execute ho jata hai aur uska return value my_function mein store hota hai.
