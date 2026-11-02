@@ -663,3 +663,10 @@
                                           # <----------TYPE-HINTS---------->
 
 # 8) - Type-Hints--->
+
+
+# INTERVIEW DEFINATION:
+# Type hints specify the expected data types of variables, function parameters, and return values.
+
+# SIMPLE UNDERSTAND:
+# Type hints Python mein batate hain ke kisi variable mein, function ke parameter mein, ya function ke return mein kis type ka data expected hai.
