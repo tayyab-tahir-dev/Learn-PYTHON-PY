@@ -702,3 +702,24 @@
 
 # - Function ko kis type ka input chahiye.
 # - Function kis type ka output return karega.
+
+
+# BASIC EXAMPLE:
+
+# def calculate_total(price: float, quantity: int) -> float:
+#     return price * quantity
+
+# # call
+
+# total = calculate_total(99.5, 3)
+
+# print(total)
+
+
+
+# Is code mein:
+
+# - price: float — price mein float value expected hai.
+# - quantity: int — quantity mein integer expected hai.
+# - -> float — function se float value return hone ki expectation hai.
+# - -> — return type hint likhne ka syntax hai.
