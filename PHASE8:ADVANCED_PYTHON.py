@@ -723,3 +723,12 @@
 # - quantity: int — quantity mein integer expected hai.
 # - -> float — function se float value return hone ki expectation hai.
 # - -> — return type hint likhne ka syntax hai.
+
+
+
+# IMPORTANT:
+# : input parameters ka expected type batata hai, jabke -> return value ka expected type batata hai.
+
+
+# None Return Type
+# Agar function koi value return nahi karta, sirf kaam karta hai, toh -> None use karte hain.
