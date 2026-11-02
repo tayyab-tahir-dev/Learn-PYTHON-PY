@@ -670,3 +670,22 @@
 
 # SIMPLE UNDERSTAND:
 # Type hints Python mein batate hain ke kisi variable mein, function ke parameter mein, ya function ke return mein kis type ka data expected hai.
+
+
+# SOME BASIC EXAMPLES:
+
+# name: str = "Tayyab"
+# age: int = 18
+# price: float = 99.5
+# is_active: bool = True
+
+# YAHAN:
+
+# name ke liye str expected hai.
+# age ke liye int expected hai.
+# price ke liye float expected hai.
+# is_active ke liye bool expected hai.
+
+
+# IMPORTANT:
+# Python type hints lagane se variable ka type forcefully restrict nahi hota. Python normally runtime par isko enforce nahi karta.
