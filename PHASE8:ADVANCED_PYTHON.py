@@ -623,3 +623,36 @@
 
 
 
+
+# - Multiple Decorators--->
+# Python mein ek function par multiple decorators bhi laga sakte hain.
+
+# EXAMPLE:
+
+# def decorator_one(func):
+
+#     def wrapper():
+#         print("Decorator One - Start")
+#         func()
+#         print("Decorator One - End")
+
+#     return wrapper
+
+
+# def decorator_two(func):
+
+#     def wrapper():
+#         print("Decorator Two - Start")
+#         func()
+#         print("Decorator Two - End")
+
+#     return wrapper
+
+
+# @decorator_one
+# @decorator_two
+# def greet():
+#     print("Hello!")
+
+
+# greet()
