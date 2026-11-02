@@ -466,3 +466,9 @@
                                          # <----------DECORATORS---------->
 
 # 7) - Decorators--->
+
+# INTERVIEW DEFINATION:
+# A decorator is a function that modifies or extends the behavior of another function or class without directly changing its original code.
+
+# SIMPLE UNDERSTAND:
+# Decorator ek function hota hai jo kisi doosre function ya class ke original code ko directly change kiye baghair uske behavior mein additional functionality add karta hai.
