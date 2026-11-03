@@ -761,3 +761,21 @@
 
 
 # - Type Hints — Part 2: Optional and Union--->
+
+# Union
+
+# Union ka matlab hai ke kisi variable ya function parameter mein ek se zyada data types accept ho sakte hain.
+
+# EXAMPLE:
+
+
+# def get_user_id(user_id: int | str) -> None:
+#     print(user_id)
+
+# get_user_id(101)
+# get_user_id("USER-101")
+
+
+# Yahan int | str ka matlab hai:
+# - int value accept ho sakti hai.
+# - str value bhi accept ho sakti hai.
