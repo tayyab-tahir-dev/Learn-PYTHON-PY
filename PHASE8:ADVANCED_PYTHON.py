@@ -578,3 +578,48 @@
 # - kwargs keyword arguments ko collect karta hai.
 # - ** un arguments ko dictionary ki form mein collect karta hai.
 # - Is se wrapper named arguments accept kar sakta hai.
+
+
+
+
+# - functools.wraps--->
+
+# functools.wraps ek decorator hai jo wrapper function ko original function ka naam, docstring aur metadata preserve karne mein help karta hai.
+# functools Python ki standard library ka built-in module hai.
+
+# EXAMPLE:
+
+# from functools import wraps
+
+
+# def my_decorator(func):
+
+#     @wraps(func)
+#     def wrapper(*args, **kwargs):
+#         return func(*args, **kwargs)
+
+#     return wrapper
+
+
+# @my_decorator
+# def greet():
+#     """This function greets the user."""
+#     print("Hello!")
+
+
+# print(greet.__name__)
+# print(greet.__doc__)
+
+
+
+# wraps kya karta hai?
+# @wraps(func) wrapper ko original function ki important metadata preserve karne mein madad karta hai.
+
+# Metadata ka matlab function ke baare mein information, jaise:
+# - __name__ — function ka naam.
+# - __doc__ — function ki documentation.
+# - __module__ — function kis module mein define hua.
+# - __wrapped__ — original wrapped function tak access.
+
+
+
