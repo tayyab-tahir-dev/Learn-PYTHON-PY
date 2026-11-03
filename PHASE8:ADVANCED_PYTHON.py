@@ -695,3 +695,10 @@
 # print(age)
 
 # Yeh code phir bhi run ho sakta hai, halaanke humne int likha hai aur value str hai.
+
+
+# - FUNCTION TYPE HINTS--->
+# Type hints functions mein bohat useful hain, kyun ke hum specify kar sakte hain:
+
+# - Function ko kis type ka input chahiye.
+# - Function kis type ka output return karega.
