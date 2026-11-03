@@ -793,3 +793,19 @@
 
 # get_username("Tayyab")
 # get_username(None)
+
+
+# - Any in Python Type Hints--->
+
+# Any ka matlab hai ke variable ya parameter mein kisi bhi data type ki value aa sakti hai.
+
+# EXAMPLE:
+
+# from typing import Any
+
+# value: Any = 100
+
+# value = "Tayyab"
+# value = 10.5
+# value = True
+# value = [1, 2, 3, 4, 5]
