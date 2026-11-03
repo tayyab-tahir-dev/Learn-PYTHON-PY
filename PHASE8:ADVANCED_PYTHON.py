@@ -779,3 +779,17 @@
 # Yahan int | str ka matlab hai:
 # - int value accept ho sakti hai.
 # - str value bhi accept ho sakti hai.
+
+
+# Optional
+
+# Optional ka matlab hai ke value kisi specified type ki ho sakti hai ya phir None bhi ho sakti hai.
+
+# EXAMPLE:
+
+
+# def get_username(username: str | None) -> None:
+#     print(username)
+
+# get_username("Tayyab")
+# get_username(None)
