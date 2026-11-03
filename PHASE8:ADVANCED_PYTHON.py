@@ -736,3 +736,23 @@
 
 # - Collection Type Hints--->
 # Ab list, dictionary, tuple aur set ke andar ke data types bhi specify kar sakte hain.
+
+# EXAMPLE:
+
+# names: list[str] = ["Tayyab", "Ali", "Ahamd"]
+
+# scores: dict[str, int] = {
+#     "Tayyab": 90,
+#     "Ali": 34
+# }
+
+# numbers: set[int] = {1, 2, 3, 4, 5}
+
+# coordinates: tuple[float, float] = (10.4, 39.9)
+
+
+# CODE KA MTLB:
+
+# list[str] ka matlab hai list ke andar strings expected hain.
+
+# dict[str, int] ka matlab hai dictionary ki keys strings aur values integers expected hain.
