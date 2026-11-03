@@ -732,3 +732,7 @@
 
 # None Return Type
 # Agar function koi value return nahi karta, sirf kaam karta hai, toh -> None use karte hain.
+
+
+# - Collection Type Hints--->
+# Ab list, dictionary, tuple aur set ke andar ke data types bhi specify kar sakte hain.
