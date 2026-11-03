@@ -756,3 +756,8 @@
 # list[str] ka matlab hai list ke andar strings expected hain.
 
 # dict[str, int] ka matlab hai dictionary ki keys strings aur values integers expected hain.
+
+
+
+
+# - Type Hints — Part 2: Optional and Union--->
