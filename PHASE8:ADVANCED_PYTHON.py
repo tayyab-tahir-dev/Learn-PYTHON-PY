@@ -809,3 +809,32 @@
 # value = 10.5
 # value = True
 # value = [1, 2, 3, 4, 5]
+
+
+
+# - Callable IN Type Hints--->
+
+# Callable batata hai ke kisi variable ya function parameter mein aisa object expected hai jise function ki tarah call kiya ja sake.
+
+# EXAMPLE:
+
+# from typing import Callable
+
+# def greet(name: str) -> str:
+#     return f"Hello {name}"
+
+# def execute_function(func: callable) -> None:
+#     result = func("Tayyab")
+#     print(result)
+
+# execute_function(greet)
+
+
+# CODE KA MTLB:
+
+# - func: Callable — yahan function expected hai.
+# - greet — humne function pass kiya hai.
+# - func("Tayyab") — passed function ko call kiya ja raha hai.
+# Important: greet aur greet() mein difference hai:
+# - greet function ko refer karta hai.
+# - greet() function ko execute karta hai.
