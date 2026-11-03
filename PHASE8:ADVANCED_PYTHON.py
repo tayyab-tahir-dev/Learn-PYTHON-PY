@@ -689,3 +689,9 @@
 
 # IMPORTANT:
 # Python type hints lagane se variable ka type forcefully restrict nahi hota. Python normally runtime par isko enforce nahi karta.
+
+
+# age: int = "Eighteen"
+# print(age)
+
+# Yeh code phir bhi run ho sakta hai, halaanke humne int likha hai aur value str hai.
