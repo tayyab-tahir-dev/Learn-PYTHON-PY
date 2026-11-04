@@ -957,3 +957,23 @@
 # - Literal--->
 
 # Literal ki help se hum define karte hain ke kisi variable ya function parameter mein sirf kuch specific values hi allowed hongi.
+
+
+# BASIC EXAMPLE:
+
+# from typing import Literal
+
+# Status = Literal["pending", "completed", "failed"]
+
+# status: Status = "pending"
+
+
+# status: Status = "completed"  # Valid
+# status: Status = "failed"     # Valid
+# status: Status = "running"    # Type checker error
+
+
+# Yahan:
+# - Literal — specific allowed values define karta hai.
+# - Status — humara custom type alias hai.
+# - "pending", "completed", "failed" — sirf yeh 3 values allowed hain.
