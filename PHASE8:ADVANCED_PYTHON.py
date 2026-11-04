@@ -846,3 +846,5 @@
 
 
 # - TypeDict IN Type Hints--->
+
+# TypedDict ki help se hum define karte hain ke dictionary mein kaunsi keys honi chahiye aur har key ki value kis data type ki honi chahiye.
