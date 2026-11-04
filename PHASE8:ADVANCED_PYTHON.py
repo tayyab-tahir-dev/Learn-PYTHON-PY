@@ -899,3 +899,29 @@
 # TypeVar ki madad se hum aisa reusable function ya code bana sakte hain jo different data types ke saath kaam kare, aur input aur output ka type connection bhi maintain rakhe.
 
 # ISKO Type Variable BI KEHTE HAI:
+
+# BASIC EXAMPLE:
+
+
+# from typing import TypeVar
+
+# T = TypeVar("T")
+
+# def get_value(Value: T) -> T:
+#     return Value
+
+
+# print(get_value("Tayyab"))
+# print(get_value(100))
+# print(get_value(10.5))
+
+
+# CODE KA MTLB:
+
+# - TypeVar — generic type variable banane ke liye use hota hai.
+# - T — humne apne generic type variable ka naam rakha hai.
+# - TypeVar("T") — type variable declare karta hai.
+# - value: T — input ka type T hoga.
+# - -> T — return ka type bhi wahi T hoga.
+
+# Important: T koi Python built-in data type nahi hai. Yeh humara generic type variable hai.
