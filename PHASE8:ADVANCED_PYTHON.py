@@ -895,3 +895,7 @@
 
 
 # - TypeVar IN Python--->
+
+# TypeVar ki madad se hum aisa reusable function ya code bana sakte hain jo different data types ke saath kaam kare, aur input aur output ka type connection bhi maintain rakhe.
+
+# ISKO Type Variable BI KEHTE HAI:
