@@ -994,3 +994,29 @@
 
 # set_status("active")
 # set_status("inactive")
+
+
+# AI EXAMPLE:
+# Suppose tumhara AI application different models ke saath kaam karta hai aur user ko sirf supported model names select karne dena chahta hai.
+
+# from typing import Literal
+
+# ModelName = Literal[
+#     "gemini",
+#     "deepseek",
+#     "gpt"
+# ]
+
+# def select_model(model: ModelName) -> None:
+#     print(f"Selected Model: {model}")
+
+
+# select_model("deepseek")
+
+
+# Agar koi unsupported model name de:
+
+# select_model("unknown-model")
+
+
+# Type checker isay flag karega.
