@@ -866,3 +866,28 @@
 # }
 
 # print(student)
+
+
+
+# FUNCTION WITH TypeDict:
+# EXAMPLE:
+
+# from typing import TypedDict
+
+# class Student(TypedDict):
+#     name: str
+#     age:int
+#     course: str
+
+
+# def display_student(student: Student) -> None:
+#     print(student["name"])
+#     print(student["age"])
+#     print(student["course"])
+
+
+# display_student({
+#     "name": "Tayyab",
+#     "age": 18,
+#     "course": "Python"
+# })
