@@ -842,3 +842,7 @@
 # Important: greet aur greet() mein difference hai:
 # - greet function ko refer karta hai.
 # - greet() function ko execute karta hai.
+
+
+
+# - TypeDict IN Type Hints--->
