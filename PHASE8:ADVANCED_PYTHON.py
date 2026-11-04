@@ -835,10 +835,6 @@
 # - func: Callable — yahan function expected hai.
 # - greet — humne function pass kiya hai.
 # - func("Tayyab") — passed function ko call kiya ja raha hai.
-# Important: greet aur greet() mein difference hai:
-# - greet function ko refer karta hai.
-# - greet() function ko execute karta hai.
-
 
 
 # IMPORTANT:
