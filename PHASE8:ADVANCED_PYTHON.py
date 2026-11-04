@@ -1020,3 +1020,7 @@
 
 
 # Type checker isay flag karega.
+
+
+
+# - TypeAlias--->
