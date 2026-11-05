@@ -1024,3 +1024,4 @@
 
 
 # - TypeAlias--->
+# TypeAlias ki madad se hum kisi existing ya complex type hint ko ek naam de sakte hain, taake usay baar baar likhne ki zaroorat na pade.
