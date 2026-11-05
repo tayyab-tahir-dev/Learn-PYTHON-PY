@@ -955,3 +955,5 @@
 
 
 # - Literal--->
+
+# Literal ki help se hum define karte hain ke kisi variable ya function parameter mein sirf kuch specific values hi allowed hongi.
