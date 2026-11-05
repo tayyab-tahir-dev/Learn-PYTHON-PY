@@ -1144,3 +1144,9 @@
 
 
 # - @runtime_checkable--->
+
+# INTERVIEW DEFINATION:
+# @runtime_checkable allows a Protocol to be checked at runtime using isinstance() and issubclass() (with certain restrictions).
+
+# SIMPLE UNDERSTAND:
+# Is decorator ki madad se hum check kar sakte hain ke koi object runtime par Protocol ke required attributes aur methods rakhta hai ya nahi.
