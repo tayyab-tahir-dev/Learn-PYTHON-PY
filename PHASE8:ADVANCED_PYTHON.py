@@ -1051,3 +1051,10 @@
                                           # <----------PROTOCOL---------->
 
 # 9) - protocol--->
+
+# INTERVIEW DEFINATION:
+# A Protocol defines a set of methods and attributes that a class is expected to provide, without requiring that class to inherit from the Protocol.
+
+# SIMPLE UNDERSTAND:
+# Protocol ek aisa structure define karta hai jo batata hai ke kisi class ke andar kaun se methods aur attributes hone chahiye.
+# Iske liye class ka Protocol se inherit karna zaroori nahi hota. Bas us class mein required methods aur attributes hone chahiye.
