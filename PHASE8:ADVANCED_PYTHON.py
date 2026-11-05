@@ -1044,3 +1044,10 @@
 # 1. Long type hints ko short banana.
 # 2. Code ko readable banana.
 # 3. Ek hi type ko multiple jagah reuse karna.
+
+
+
+
+                                          # <----------PROTOCOL---------->
+
+# 9) - protocol--->
