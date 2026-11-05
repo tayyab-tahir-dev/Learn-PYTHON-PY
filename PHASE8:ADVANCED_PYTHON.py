@@ -1190,3 +1190,37 @@
 
 # print(isinstance(pdf, Readable))
 # print(isinstance(image, Readable))
+
+
+# 2) issubclass()
+
+# Yeh check karta hai ke koi class doosri class ki subclass hai ya nahi.
+
+
+# EXAMPLE:
+
+# from typing import Protocol, runtime_checkable
+
+# @runtime_checkable
+# class Readable(Protocol):
+#     def read(self) -> str:
+#         ...
+
+
+# class PDFDocument:
+#     def read(self) -> str:
+#         return "Reading PDF"
+
+# class ImageDocument:
+#     def display(self) -> None:
+#         print("Displayed image")
+
+
+# print(issubclass(PDFDocument, Readable))     # True
+# print(issubclass(ImageDocument, Readable))   # False
+
+
+
+# Function	          Kya check karta hai?
+# isinstance()	      Object kisi class/Protocol ke structure ko satisfy karta hai?
+# issubclass()	      Class kisi class/Protocol ke structure ko satisfy karti hai?
