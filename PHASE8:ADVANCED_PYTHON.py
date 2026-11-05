@@ -1107,3 +1107,35 @@
 
 # Yaad rakho:
 # yeh checking primarily static type checker karta hai, Python automatically har function call par Protocol enforce nahi karta.
+
+
+# AI EXAMPLE:
+
+# from typing import Protocol
+
+# # 1. Humne ek Protocol define kiya
+# class Flyable(Protocol):
+#     def fly(self) -> None:
+#         ...  # Iska matlab hai khali body (ellipsis)
+
+# # 2. Yeh ek function hai jo sirf 'Flyable' objects accept karega
+# def make_it_fly(obj: Flyable):
+#     obj.fly()
+
+# # 3. Alag alag classes banayi jo 'Flyable' se inherit NAHI kar raheen
+# class Airplane:
+#     def fly(self) -> None:
+#         print("Airplane is flying with engines!")
+
+# class Bird:
+#     def fly(self) -> None:
+#         print("Bird is flapping wings!")
+
+# class Car:
+#     def drive(self) -> None:
+#         print("Car drives on the road.")
+
+# # 4. Ab check karte hain
+# make_it_fly(Airplane())  # ✅ Bilkul theek chalega
+# make_it_fly(Bird())      # ✅ Yeh bhi chalega
+# # make_it_fly(Car())     # ❌ Type checker yahan error dega, kyunke Car mein fly() nahi hai!
