@@ -1139,3 +1139,8 @@
 # make_it_fly(Airplane())  # ✅ Bilkul theek chalega
 # make_it_fly(Bird())      # ✅ Yeh bhi chalega
 # # make_it_fly(Car())     # ❌ Type checker yahan error dega, kyunke Car mein fly() nahi hai!
+
+
+
+
+# - @runtime_checkable--->
