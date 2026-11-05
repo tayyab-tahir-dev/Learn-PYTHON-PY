@@ -1025,3 +1025,22 @@
 
 # - TypeAlias--->
 # TypeAlias ki madad se hum kisi existing ya complex type hint ko ek naam de sakte hain, taake usay baar baar likhne ki zaroorat na pade.
+
+# REAL-WORLD EXAMPLE:
+
+# from typing import TypeAlias
+
+# DocumentList: TypeAlias = list[str]
+
+# document: DocumentList = [
+#     "Python",
+#     "AI",
+#     "Machine Learning"
+# ]
+
+
+# TypeAlias ka faida:
+
+# 1. Long type hints ko short banana.
+# 2. Code ko readable banana.
+# 3. Ek hi type ko multiple jagah reuse karna.
