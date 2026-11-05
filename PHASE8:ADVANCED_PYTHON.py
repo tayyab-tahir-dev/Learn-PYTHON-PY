@@ -848,3 +848,21 @@
 # - TypeDict IN Type Hints--->
 
 # TypedDict ki help se hum define karte hain ke dictionary mein kaunsi keys honi chahiye aur har key ki value kis data type ki honi chahiye.
+
+
+# BASIC EXAMPLE:
+
+# from typing import TypedDict
+
+# class Student(TypedDict):
+#     name: str
+#     age: int
+#     course: str
+
+# student: Student = {
+#     "name": "Tayyab",
+#     "age": 18,
+#     "course": "Python"
+# }
+
+# print(student)
