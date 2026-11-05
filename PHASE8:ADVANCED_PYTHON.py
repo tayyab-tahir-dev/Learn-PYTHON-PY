@@ -1058,3 +1058,38 @@
 # SIMPLE UNDERSTAND:
 # Protocol ek aisa structure define karta hai jo batata hai ke kisi class ke andar kaun se methods aur attributes hone chahiye.
 # Iske liye class ka Protocol se inherit karna zaroori nahi hota. Bas us class mein required methods aur attributes hone chahiye.
+
+
+# BASIC EXAMPLE:
+
+# from typing import Protocol
+
+
+# class Readable(Protocol):
+
+#     def read(self) -> str:
+#         ...
+
+
+# class PDFDocument:
+
+#     def read(self) -> str:
+#         return "Reading PDF"
+
+
+# class WordDocument:
+
+#     def read(self) -> str:
+#         return "Reading Word Document"
+
+
+# def process_document(document: Readable) -> None:
+#     content = document.read()
+#     print(content)
+
+
+# pdf = PDFDocument()
+# word = WordDocument()
+
+# process_document(pdf)
+# process_document(word)
