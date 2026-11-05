@@ -925,3 +925,29 @@
 # - -> T — return ka type bhi wahi T hoga.
 
 # Important: T koi Python built-in data type nahi hai. Yeh humara generic type variable hai.
+
+
+
+
+# AI EXAMPLE:
+
+# from typing import TypeVar
+# T = TypeVar("T")
+
+# def get_first_item(item: list[T]) -> T:
+#     return item[0]
+
+
+# documents: list[str] = ["Python", "RAG", "AI"]
+# scores: list[int] = [90, 60, 79]
+
+# document = get_first_item(documents)
+# score = get_first_item(scores)
+
+# print(document)
+# print(score)
+
+# # AGHAR SUB ITEMS DEKHNI HAI TO:
+
+# print(documents)
+# print(scores)
