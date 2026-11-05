@@ -1150,3 +1150,43 @@
 
 # SIMPLE UNDERSTAND:
 # Is decorator ki madad se hum check kar sakte hain ke koi object runtime par Protocol ke required attributes aur methods rakhta hai ya nahi.
+
+# ISME 2 CHIZE HAI:
+
+# 1) isinstance() → Object ko check karta hai.
+# 2) issubclass() → Class ko check karta hai.
+
+# 1) isinstance():
+
+#  Check karta hai ke koi object kisi specific class ka instance (object) hai ya nahi.
+
+
+# EXAMPLE:
+
+
+# from typing import Protocol, runtime_checkable
+
+
+# @runtime_checkable
+# class Readable(Protocol):
+
+#     def read(self) -> str:
+#         ...
+
+
+# class PDFDocument:
+
+#     def read(self) -> str:
+#         return "Reading PDF"
+
+# class ImageDocument:
+
+#     def display(self) -> None:
+#         print("Displayed image")
+
+
+# pdf = PDFDocument()
+# image = ImageDocument()
+
+# print(isinstance(pdf, Readable))
+# print(isinstance(image, Readable))
