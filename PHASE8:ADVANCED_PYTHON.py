@@ -977,3 +977,20 @@
 # - Literal — specific allowed values define karta hai.
 # - Status — humara custom type alias hai.
 # - "pending", "completed", "failed" — sirf yeh 3 values allowed hain.
+
+
+
+# Function Mai Literal:
+
+
+# from typing import Literal
+
+# def set_status(
+#     status: Literal["active", "inactive"]
+# ) -> None:
+
+#     print(f"Status {status}")
+
+
+# set_status("active")
+# set_status("inactive")
