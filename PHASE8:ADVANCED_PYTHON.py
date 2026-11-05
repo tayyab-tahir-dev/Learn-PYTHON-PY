@@ -1093,3 +1093,17 @@
 
 # process_document(pdf)
 # process_document(word)
+
+
+
+# Protocol kaise kaam karta hai
+
+# Ismein check kiya jata hai ke object ke andar required methods aur attributes hain ya nahi, na ke uski parent class kaun si hai.
+
+# Yani:
+
+# - Required read() method available hai: type checker object ko compatible samajh sakta hai.
+# - Required read() method available nahi: type checker error report kar sakta hai.
+
+# Yaad rakho:
+# yeh checking primarily static type checker karta hai, Python automatically har function call par Protocol enforce nahi karta.
